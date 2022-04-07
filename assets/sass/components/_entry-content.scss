@@ -1,0 +1,51 @@
+.entry-content {
+    p {
+        font-size: 16px;
+        line-height: 1.3;
+        color: $black2;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        font-family: $font-main;
+        font-size: 32px;
+        line-height: 1.3;
+        letter-spacing: -0.01em;
+        color: $black2;
+        margin-bottom: 20px;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 1.2;
+        color: $black2;
+        font-weight: 500;
+        margin-right: 30px;
+    }
+
+
+    @include mq($tablet-l) {
+        h3 {
+            font-size: 28px;
+        }
+    }
+
+    @include mq($tablet) {
+        h3 {
+            font-size: 24px;
+        }
+    }
+
+    @include mq($tablet-xs) {
+        h3 {
+            margin-bottom: 30px;
+        }
+    }
+
+    @include mq($phone) {
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+}

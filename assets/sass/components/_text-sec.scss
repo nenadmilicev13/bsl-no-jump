@@ -1,0 +1,18 @@
+.text-sec {
+	margin-bottom: 100px;
+
+	.text-sec__title {
+		color: $white;
+		text-align: center;
+		font-size: 42px;
+		margin-bottom: 297px;
+	}
+
+
+	@include mq($phone) {
+		.text-sec__title {
+			font-size: 29px;
+			margin-bottom: 100px;
+		}
+	}
+}

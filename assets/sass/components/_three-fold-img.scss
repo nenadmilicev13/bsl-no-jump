@@ -1,0 +1,54 @@
+.three-fold-img__wrap {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+
+    @include mq($phone) {
+        display: block;
+    }
+}
+
+.three-fold-img__item-left {
+    display: flex;
+    flex: 44%;
+    max-width: 44%;
+
+    img {
+        width: 100%;
+        max-height: 720px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    @include mq($phone) {
+        display: block;
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.three-fold-img__item-right {
+    flex: 56%;
+    max-width: 56%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    img {
+        max-height: 340px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    @include mq($phone) {
+        flex: 100%;
+        max-width: 100%;
+        display: block;
+
+        img {
+            margin-bottom: 20px;
+        }
+    }
+}

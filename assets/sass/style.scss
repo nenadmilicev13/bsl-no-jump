@@ -1,0 +1,89 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Reset and Variables
+# Helpers
+# Bootstrap
+# Base
+# Parts
+# Components / Templates
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Reset and Variables
+--------------------------------------------------------------*/
+@import 'config/reset';
+@import 'base/fonts';
+@import 'config/variables';
+@import 'base/icon-font';
+
+/*--------------------------------------------------------------
+# Helpers
+--------------------------------------------------------------*/
+@import 'helpers/mixins';
+@import 'helpers/helpers';
+@import 'helpers/print';
+
+/*--------------------------------------------------------------
+# Bootstrap
+--------------------------------------------------------------*/
+// @import 'bootstrap/bootstrap-grid';
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import 'base/typography';
+@import 'base/base';
+@import 'base/layout';
+@import 'base/animations';
+
+/*--------------------------------------------------------------
+# Parts
+--------------------------------------------------------------*/
+@import 'parts/buttons';
+@import 'parts/links';
+@import 'parts/forms';
+@import 'parts/media';
+
+/*--------------------------------------------------------------
+# Components / Templates
+--------------------------------------------------------------*/
+@import 'components/banner';
+@import 'components/header';
+@import 'components/entry-content';
+@import 'components/section-head';
+@import 'components/cards';
+@import 'components/testimonials';
+@import 'components/video';
+@import 'components/text-sec';
+@import 'components/brands-slider';
+@import 'components/services';
+@import 'components/about';
+@import 'components/footer';
+@import 'components/cta';
+@import 'components/team';
+@import 'components/half-sec';
+@import 'components/brands-all';
+@import 'components/services-index';
+@import 'components/services-single';
+@import 'components/cursor';
+@import 'components/contact';
+@import 'components/insights';
+@import 'components/menu-btn';
+@import 'components/single-work';
+@import 'components/text-left-img-right';
+@import 'components/image-sec';
+@import 'components/related-works';
+@import 'components/logo-carousel';
+@import 'components/three-fold-img';
+@import 'components/text-top-img-bottom';
+@import 'components/half-image';
+@import 'components/small-image';
+@import 'components/four-sm-images';
+@import 'components/carousel';
+
+
+
+
+
+

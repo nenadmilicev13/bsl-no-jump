@@ -1,0 +1,38 @@
+.section-head__pretitle {
+    font-size: 14px;
+    line-height: 1.07;
+    font-weight: 400;
+    margin-bottom: 40px;
+    display: block;
+    color: $grey;
+
+    @include mq($phone-xs) {
+        margin-bottom: 20px;
+    }
+}
+
+.section-head__title {
+    font-size: 42px;
+    line-height: 1.14;
+    letter-spacing: -0.01em;
+    color: $black2;
+    font-weight: 400;
+
+    @include mq($tablet-l) {
+        font-size: 35px;
+    }
+
+    @include mq($phone-xxs) {
+        font-size: 30px;
+    }
+}
+
+.section-head__title--white {
+    color: $white;
+}
+
+#section-head__title--sm {
+    font-size: 32px;
+    max-width: 315px;
+    // font-weight: 500;
+}

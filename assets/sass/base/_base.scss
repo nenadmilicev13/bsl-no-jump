@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------
+## Base Layout
+--------------------------------------------------------------*/
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	@include font-smoothing(antialiased);
+	height: 100%;
+	font-family: $font-main;
+}
+
+html {
+	box-sizing: border-box;
+	scroll-snap-type: y proximity;
+	// box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.page-template-services-index {
+	// background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
+	background-color: $snow;
+
+}
+
+.home {
+	// background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
+	background: $snow;
+
+	.main-content {
+		opacity: 0;
+	}
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+
+.page-id-34 {
+	background-color: $white;
+}

@@ -1,0 +1,53 @@
+.video-sec {
+    position: relative;
+    z-index: 999;
+    margin-top: 200px;
+
+    @include mq($tablet-l) {
+        margin-bottom: 0;
+    }
+
+    @include mq($phone) {
+        padding-bottom: 10px;
+        margin: -1px;
+        padding: 19px 0 23px;
+    }
+}
+
+.video-sec__play {
+    @include center;
+    z-index: 1000;
+
+    img {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+}
+
+.video-sec__hidden {
+    @include center;
+    z-index: 9999;
+    display: none;
+}
+
+.vimeo-wrapper {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+    display: block;
+    border: none;
+}
+
+.vimeo-wrapper iframe {
+    width: 90vw;
+    height: 36.25vw;
+    // min-height: 92vh;
+    min-width: 177.77vh;
+    @include center;
+}

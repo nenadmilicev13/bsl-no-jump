@@ -1,0 +1,74 @@
+.brands__slider-wrapper {
+	transition-delay: 600ms;
+
+	// @include mq($phone-s) {
+    //     margin-top: 150px;
+    // }
+
+	// @include mq($phone-xs) {
+	// 	margin-top: 120px;
+	// }
+}
+
+.brands__slider-row {
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	max-width: 100%;
+}
+
+.brands__slider {
+	display: flex;
+	flex-shrink: 0;
+	animation: infinite-slide 60000ms linear infinite;
+	transform: translate3d(0, 0, 0);
+	will-change: transform;
+	padding-bottom: 70px;
+	transition: 1s ease;
+	
+	.brands__slider-row:nth-of-type(2n) & {
+		animation: infinite-slide-revert 50000ms linear infinite;
+	}
+
+	.brands__slider-row:nth-of-type(3n) & {
+		animation: infinite-slide 30000ms linear infinite;
+	}
+
+	@include mq($phone) {
+        padding-bottom: 40px;
+    }
+}
+
+@keyframes infinite-slide {
+	0% {
+	  transform: translateX(0%);
+	}
+	100% {
+	  transform: translateX(-100%);
+	  /*The width of the page needs to be taken into consideration*/
+	}
+}
+
+@keyframes infinite-slide-revert {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(0);
+		/*The width of the page needs to be taken into consideration*/
+	}
+}
+
+
+.brands__slider-img {
+
+	img {
+		opacity: 0.4;
+	}
+
+	@include mq($phone-s) {
+        img {
+			max-width: 160px;
+		}
+    }
+}

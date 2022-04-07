@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+## Buttons
+--------------------------------------------------------------*/
+.btn {
+    display: inline-block;
+    transition: $dur $ease;
+    font-size: 16px;
+    padding: 10px 25px;
+    text-align: center;
+    font-family: $font-main;
+    outline: none;
+    color: $black2;
+    border: 1px solid $black2;
+    border-radius: 25px;
+    font-weight: 500;
+    background-color: transparent;
+
+    &:active,
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        background-color: $black2;
+        color: $white;
+    }
+
+    @include mq($phone) {
+        padding: 9px 18px;
+    }
+
+    @include mq($phone-xs) {
+        font-size: 14px;
+    }
+}
+
+.btn--black {
+    background-color: $black;
+    color: $white;
+
+    &:hover {
+        background-color: transparent;
+        color: $black2;
+    }
+}
+
+.btn-white {
+    display: inline-block;
+    transition: $dur $ease;
+    font-size: 16px;
+    text-align: center;
+    font-family: $font-main;
+    outline: none;
+    color: $white;
+    font-weight: 500;
+    position: relative;
+
+   &::before {
+       content: '';
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 0;
+       height: 2px;
+       background-color: $white;
+       transform-origin: left;
+       transition: 600ms $ease; 
+   }
+
+   &:hover::before {
+       width: 100%;
+   }
+
+    @include mq($phone-xs) {
+        font-size: 14px;
+    }
+}

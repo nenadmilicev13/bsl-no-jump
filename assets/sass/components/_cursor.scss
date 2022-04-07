@@ -1,0 +1,52 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  contain: layout style size;
+  pointer-events: none;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -24px;
+    left: -24px;
+    display: block;
+    width: 48px;
+    height: 48px;
+    transform: scale(0.2);
+    background: $black;
+    border-radius: 100%;
+  }
+  .cursor-media {
+    display: block;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 100%;
+    transform: scale(0);
+    margin: -175px 0 0 -175px;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+      // left: 50%;
+      // transform: translateX(-50%);
+      position: absolute;
+      object-fit: cover;
+      display: block;
+    }
+  }
+  @include mq($tablet) {
+    display: none;
+  }
+}
+
+  .hover-js {
+    cursor: none;
+
+    @include mq($tablet) {
+      cursor: inherit;
+    }
+  }
+  

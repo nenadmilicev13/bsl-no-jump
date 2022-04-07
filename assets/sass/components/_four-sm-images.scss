@@ -1,0 +1,24 @@
+.four-sm-images {
+    padding: 120px 0;
+}
+
+.four-sm-images__container {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.four-sm-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-right: 40px;
+    flex-shrink: 1;
+
+    img {
+        width: 100%;
+    }
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}

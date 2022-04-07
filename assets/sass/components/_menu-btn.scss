@@ -1,0 +1,60 @@
+.menu-btn {
+	display: none;
+	position: absolute;
+	z-index: 110;
+	top: 45px;
+	right: 25px;
+	width: 30px;
+	height: 14px;
+	transition: $dur $ease;
+
+	&::after,
+	span {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		background-color: $black;
+		transition: transform $dur $ease;
+		left: 0;
+		top: 50%;
+		transform-origin: center;
+	}
+
+	&::after {
+		content: '';
+		transform: translateY(5px);
+	}
+
+	span {
+		transform: translateY(-5px);
+	}
+
+	&.open {
+		display: block;
+
+		&::after,
+		span {
+			background-color: $white;
+			transition: transform $dur $ease;
+		}
+
+		&::after {
+			transform: translateY(0) rotate(-45deg);
+		}
+
+		span {
+			transform: translateY(0) rotate(45deg);
+		}
+	}
+
+	@include mq($phone) {
+        display: block;
+		top: 39px;
+		right: 30px;
+	}
+}
+
+.noscroll {
+	overflow-y: hidden;
+}

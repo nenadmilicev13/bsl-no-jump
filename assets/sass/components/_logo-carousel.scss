@@ -1,0 +1,11 @@
+.logo-carousel {
+    padding-bottom: 250px;
+
+    img {
+        width: 100%;
+    }
+
+    @include mq($phone) {
+        padding-bottom: 50px;
+    }
+}

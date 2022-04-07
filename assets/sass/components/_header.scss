@@ -1,0 +1,228 @@
+.header {
+    height: 83px;
+    background-color: $snow;
+    position: relative;
+    padding: 40px 0 60px;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer__mail,
+    .footer__container-right {
+        display: none;
+    }
+
+    @include mq($phone) {
+        display: block;
+        padding: 33px 0 60px;
+
+        .footer__mail,
+        .footer__container-right {
+            display: block;
+        }
+    }
+}
+
+.header-scroll {
+    overflow: auto;
+}
+
+.js-header-open {
+    background-color: $black2;
+    height: 100vh;
+    transition: 300ms ease-in-out;
+    
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+
+   
+    @include mq($lap-large-1) {
+        max-width: 1400px;
+    }
+
+    @include mq($lap-large) {
+        max-width: 1250px;
+    }
+
+    @include mq($lap-small) {
+        max-width: 1167px;
+    }
+
+    @include mq($tablet-l) {
+        max-width: 1087px;
+    }
+
+    @include mq($tablet-s) {
+        max-width: 1000px;
+    }
+
+    @include mq($tablet) {
+        max-width: 1000px;
+        padding: 0 25px;
+    }
+
+    @include mq($phone) {
+        max-width: 923px;
+        padding: 0 15px;
+        display: block;
+        
+    }
+}
+
+.header__nav {
+    display: block;
+    position: relative;
+
+    @include mq($phone) {
+        margin-top: 130px;
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+.primary-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    li {
+        padding-right: 30px;
+
+        &:last-of-type {
+            padding-right: 0;
+        }
+    }
+
+    a {
+        color: $black2;
+        font-size: 17px;
+        line-height: 1.18;
+        transition: $dur $ease;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: $black2;
+            transform-origin: left;
+            transition: 600ms ease;
+        }
+    }
+
+    @include mq(1024, min) {
+        a {
+            &:hover {
+                &::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @include mq($tablet) {
+        li {
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+
+    @include mq($phone) {
+        display: block;
+        overflow: hidden;
+
+        .star-here {
+            display: none;
+        }
+
+        li {
+            padding-right: 0;
+            a {
+                font-size: 40px;
+                margin-bottom: 20px;
+                display: block;
+                color: $white;
+            }
+        }
+    }
+}
+
+.star-here {
+    a {
+        background-color: $black;
+        color: $white;
+        padding: 10px 15px;
+        border-radius: 25px;
+
+        &::after {
+            content: none;
+        }
+    }
+}
+
+.current-menu-item {
+	a {
+		color: $grey;
+	}
+
+    &.star-here {
+        a {
+            color: $white;
+        }
+    }
+
+    @include mq(1024, min) {
+        a {
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-color: $black2;
+                transform-origin: left;
+                transition: 600ms ease;
+            }
+        }
+    }
+
+    @include mq(1024, min) {
+        &#menu-item-13 {
+            a {
+                &::after {
+                    content: none;
+                }
+            }
+           
+        }
+    }
+}
+
+.header-media {
+    .social-media-icon {
+        &::before {
+            color: $white;
+        }
+    }
+}
+
+.header__logo-open {
+	svg path {
+		fill: $white;
+	}
+}

@@ -1,0 +1,151 @@
+.cta {
+    background-color: $white;
+    padding: 130px 0 0;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 1px;
+        background-color: $grey;
+    }
+
+
+    @include mq($tablet) {
+        padding: 130px 0 0;
+    }
+
+    @include mq($phone-s) {
+        padding: 80px 0 40px;
+    }
+}
+
+.cta--home {
+    margin-top: 600px;
+
+    @include mq($phone) {
+        margin-top: 400px;
+    }
+}
+
+.cta__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    // border-bottom: 1px solid $grey;
+    padding-bottom: 30px;
+
+    @include mq($phone) {
+        flex-direction: column;
+    }
+}
+
+.cta__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    @include mq($tablet) {
+        flex-direction: column;
+    }
+}
+
+.cta__wrap,
+.cta__right {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+    @include mq($tablet) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.cta__right {
+    img {
+        margin-left: auto;
+    }
+
+    @include mq($tablet) {
+        img {
+            width: 60%;
+            margin: 100px auto;
+        }
+    }
+
+    @include mq($phone) {
+        img {
+            width: 70%;
+            margin: 50px auto 0;
+        }
+    }
+}
+
+.cta__title {
+    font-size: 42px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    color: $black2;
+    max-width: 411px;
+
+    a {
+        color: $blue-stone;
+        text-decoration: underline;
+        transition: $dur $ease;
+    }
+
+    @include mq($tablet-l) {
+        max-width: 330px;
+        font-size: 32px;
+    }
+
+    // @include mq($tablet) {
+    //     font-size: 50px;
+    //     max-width: 600px;
+    //     margin: 0 auto;
+    // }
+
+    // @include mq($tablet-s) {
+    //     font-size: 45px;
+    // }
+
+    // @include mq($tablet) {
+    //     max-width: 460px;
+    // }
+
+    // @include mq($phone) {
+    //     font-size: 38px;
+    // }
+
+    // @include mq($phone-s) {
+    //     max-width: 463px;
+    // }
+
+    &:hover {
+        a {
+            color: rgba(14, 108, 98, 0.5);
+        }
+    }
+}
+
+////////// services cta///////////@at-root
+
+// .cta-2 {
+//      padding: 100px 0 200px;
+// }
+
+// .cta-2__title {
+//     text-align: center;
+//     max-width: 560px;
+//     margin: 0 auto;
+// }
+
+// .cta-2__btn {
+//     text-align: center;
+//     margin-top: 60px;
+// }

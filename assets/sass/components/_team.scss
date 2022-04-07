@@ -1,0 +1,103 @@
+.team {
+    padding: 150px 0;
+    background-color: $black2;
+
+    .section-head__title {
+        max-width: 730px;
+        margin-left: auto;
+        opacity: 0;
+    }
+
+    @include mq($tablet-s) {
+        padding: 140px 0 80px;
+    }
+
+    @include mq($phone-s) {
+        padding: 80px 0 40px;
+
+        .section-head__title {
+            font-size: 25px;
+        }
+    }
+}
+
+.team__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+
+    @include mq($phone-s) {
+        margin-top: 100px;
+        justify-content: space-between;
+    }
+}
+
+.team-item {
+    flex: 0 0 23%;
+    max-width: 23%;
+    margin-bottom: 60px;
+    margin-right: 20px;
+
+    @include mq($tablet) {
+        margin-right: 15px;
+    }
+
+    @include mq($tablet-s) {
+        margin-right: 15px;
+    }
+
+    @include mq($tablet) {
+        flex: 0 0 31%;
+        max-width: 31%;
+    }
+
+    @include mq($phone) {
+        flex: 0 0 47%;
+        max-width: 47%;
+        margin-right: 0;
+    }
+
+    @include mq($phone-xs) {
+        margin-bottom: 40px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.team-item__img {
+    position: relative;
+
+    img {
+        border-radius: 30px;
+        width: 100%;
+    }
+}
+
+.team-item__info {
+    margin-top: 20px;
+}
+
+.time-item__name {
+    font-size: 20px;
+    color: $white;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+
+    @include mq($phone-s) {
+       font-size: 17px;
+    }
+}
+
+.time-item-position {
+    font-size: 16px;
+    line-height: 1.37;
+    font-weight: 500;
+    color: $grey;
+    display: block;
+
+    @include mq($phone-s) {
+        font-size: 14px;
+     }
+}

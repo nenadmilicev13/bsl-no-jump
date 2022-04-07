@@ -1,0 +1,89 @@
+/*--------------------------------------------------------------
+## Layout
+--------------------------------------------------------------*/
+
+.wrapper {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    @include mq($lap-large-1) {
+        max-width: 1400px;
+    }
+
+    @include mq($lap-large) {
+        max-width: 1250px;
+    }
+
+    @include mq($lap-small) {
+        max-width: 1167px;
+    }
+
+    @include mq($tablet-l) {
+        max-width: 1087px;
+    }
+
+    @include mq($tablet-s) {
+        max-width: 1000px;
+    }
+
+    @include mq($tablet) {
+        max-width: 1000px;
+        padding: 0 25px;
+    }
+
+    @include mq($phone) {
+        max-width: 923px;
+        padding: 0 15px;
+    }
+
+    // @include mq($phone-s) {
+    //     max-width: 653px;
+    //     // padding: 0 15px;
+    // }
+
+    // @include mq($phone-s) {
+    //    padding: 0 30px;
+    // }
+}
+
+.wrapper--sm {
+    max-width: 1400px;
+
+    @include mq($lap-large) {
+        max-width: 1200px;
+    }
+
+    @include mq($lap-small) {
+        max-width: 1134px;
+    }
+
+    @include mq($tablet-l) {
+        max-width: 1000px;
+    }
+
+    @include mq($phone) {
+        max-width: 919px;
+    }
+
+    @include mq($phone-s) {
+        max-width: 700px;
+    }
+}
+
+.wrapper--s {
+    max-width: 1176px;
+
+    @include mq($tablet) {
+        padding: 0 30px;
+    }
+
+    @include mq($phone) {
+        padding: 0 30px;
+    }
+
+    // @include mq($phone-xs) {
+    //     padding: 0 15px;
+    // }
+}

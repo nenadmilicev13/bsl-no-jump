@@ -1,0 +1,587 @@
+.banner-head {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 22%;
+    background-color: $white;
+
+    @include mq($phone) {
+      content: none;
+    }
+  }
+
+  @include mq($phone) {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+.banner-head__spot {
+  position: absolute;
+  right: 0;
+  top: 8%;
+
+  path {
+    transition: $dur $ease;
+  }
+}
+
+.banner-head--full {
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: $black2;
+  }
+}
+
+.banner-head--text {
+  padding-bottom: 160px;
+
+  &::after {
+    content: none;
+  }
+
+  @include mq($phone) {
+    padding-bottom: 90px;
+  }
+}
+
+/// Work Single Banner//////////////////
+
+.banner-head__image {
+  background-color: $snow;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: $dark-green;
+  }
+
+  @include mq($phone-s) {
+    padding-top: 30px;
+
+    &::before {
+      content: '';
+      height: 104px;
+    }
+  }
+}
+
+.banner-head__image--black {
+  &::before {
+    content: '';
+    background-color: $black;
+  }
+}
+
+.banner-head__image--blue {
+  &::before {
+    content: '';
+    background-color: $blue;
+  }
+}
+
+.banner-head__image--fallow {
+  &::before {
+    content: '';
+    background-color: $fallow;
+  }
+}
+
+.banner-head__image-wrap {
+  img {
+    width: 100%;
+    max-height: 760px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/// banner-studio ///@at-root
+.banner__img {
+  z-index: 1;
+  position: relative;
+  margin-top: 140px;
+
+  img {
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  @include mq($phone-s) {
+    margin-top: 66px;
+  }
+}
+
+.banner-head__content {
+  max-width: 918px;
+  padding-top: 140px;
+
+  @include mq($tablet-l) {
+    max-width: 835px;
+  }
+
+  @include mq($tablet) {
+    max-width: 677px;
+  }
+
+  @include mq($phone) {
+    max-width: 596px;
+    padding-top: 50px;
+  }
+}
+
+.banner-head__content--full {
+  max-width: 1100px;
+
+  @include mq($tablet) {
+    max-width: 700px;
+  }
+}
+
+.banner-head__content--sm {
+  max-width: 770px;
+}
+
+.banner-head__content--flex {
+  display: flex;
+  max-width: 100%;
+  align-items: end;
+}
+
+.banner-head__content-left {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.banner-head__title {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.083;
+  letter-spacing: -0.015em;
+  color: $black2;
+  margin-bottom: 40px;
+
+  @include mq($tablet-l) {
+    font-size: 60px;
+  }
+
+  @include mq($tablet) {
+    font-size: 55px;
+  }
+
+  @include mq($phone-s) {
+    font-size: 40px;
+  }
+}
+
+.banner-head__subtitle {
+  font-size: 28px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: $black2;
+  max-width: 700px;
+
+  @include mq($tablet-s) {
+    font-size: 23px;
+  }
+
+  @include mq($tablet-xs) {
+    max-width: 605px;
+  }
+
+  @include mq($phone) {
+    font-size: 20px;
+  }
+
+  @include mq($phone-xs) {
+    font-size: 19px;
+  }
+}
+
+.banner-head__subtitle--sm {
+  font-size: 20px;
+
+  @include mq($phone-xs) {
+    font-size: 17px;
+  }
+}
+
+.banner-desc {
+  font-size: 20px;
+  max-width: 480px;
+
+  @include mq($phone) {
+    font-size: 16px;
+  }
+}
+
+// Type effect
+//////////////////////////////////@include
+.typing-container {
+  position: relative;
+  align-items: center;
+
+  @include mq($phone-s) {
+    max-width: 500px;
+  }
+
+  @include mq($phone-xs) {
+    max-width: 100%;
+  }
+}
+
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  background-color: $white;
+  margin-left: 8px;
+  animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.sentence {
+  @include mq($phone-xs) {
+    height: 100px;
+  }
+}
+
+.demo-gallery {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    flex-shrink: 0;
+    max-width: 6%;
+    flex: 0 0 6%;
+  }
+}
+
+.df {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $black;
+  color: $white;
+}
+
+.demo-wrapper {
+  overflow-x: hidden;
+  padding: 300px 0 100px;
+}
+
+.wrapper-logo {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 200%;
+
+  img {
+    opacity: 0.5;
+  }
+}
+
+.wrapper-logo__reversed {
+  flex-direction: row-reverse;
+}
+
+.demo-gallery:not(.last) {
+  padding-bottom: 1rem;
+}
+
+.demo-text {
+  height: 100vh;
+
+  .text {
+    font-size: clamp(8rem, 15vw, 16rem);
+    line-height: 1;
+    font-weight: 900;
+  }
+}
+
+//////////////////////@include
+// .services-m {
+//   margin-top: 600px;
+
+//   @include mq($phone) {
+//     margin-top: 400px;
+//   }
+// }
+
+////////////////////////////@at-root scrolling-text
+
+.container__wrap {
+  background-color: $black2;
+}
+
+.container,
+.spacer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: $white;
+  font-size: 42px;
+  line-height: 1.13;
+  visibility: hidden;
+}
+
+.container {
+  opacity: 0;
+  height: 400px;
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+
+
+  @include mq($phone) {
+    font-size: 29px;
+    max-width: 320px;
+    height: 300px;
+    // padding: 0 5px;
+  }
+}
+
+////////////////////@at-root
+
+.fade-in {
+  opacity: 0;
+  font-size: 20px;
+  color: $grey;
+}
+
+
+.philosophie {
+  position: relative;
+  background-color: $black;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.philosophie__wrap {
+  position: relative;
+
+  &::after {
+    content: 'Our Process';
+    position: absolute;
+    bottom: 26%;
+    color: $grey;
+    max-width: 54px;
+    left: 5%;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  @include mq($tablet) {
+    &::after {
+      top: 20%;
+      left: 20%;
+    }
+  }
+
+  @include mq($phone) {
+    &::after {
+      top: 5%;
+      left: 7%;
+    }
+  }
+}
+
+#philosophie--white {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
+  // padding-top: 70px;
+
+  .point {
+    height: 92vh;
+    justify-content: space-between;
+  }
+
+  @include mq($phone) {
+    .point {
+      height: 93vh;
+      justify-content: space-around;
+    }
+  }
+}
+
+.indicator {
+  width: 100%;
+  background-color: #adadad;
+  flex-grow: 1;
+  margin: 2px 0;
+}
+
+.philosophie .point {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: calc(100% - 60px);
+
+  @include mq($tablet) {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  @include mq($phone) {
+    flex-direction: column-reverse;
+    padding: 150px 0;
+    font-size: 20px;
+  }
+}
+
+.philosophie .wrapper {
+  height: 100vh;
+}
+
+.point article {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+
+  @include mq($tablet-l) {
+    flex-basis: 45%;
+  }
+
+  @include mq($tablet) {
+    flex-basis: auto;
+  }
+
+  @include mq($phone) {
+    flex-basis: 35%;
+  }
+}
+
+.point article p {
+  font-size: 32px;
+  line-height: 1.31;
+  color: $white;
+  max-width: 450px;
+
+  @include mq($tablet-l) {
+    padding-left: 53px;
+  }
+
+  @include mq($tablet) {
+    padding-left: 0;
+    max-width: 560px;
+    font-size: 21px;
+  }
+
+  @include mq($phone) {
+    margin-top: 80px;
+  }
+}
+
+.point img {
+  height: auto;
+
+  @include mq($tablet-l) {
+    max-width: 45vw;
+    flex-basis: 34%;
+  }
+
+  @include mq($tablet) {
+    flex-basis: auto;
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+
+  @include mq($phone) {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+}
+
+#point-text-left {
+  img {
+    height: 600px;
+    flex-basis: auto;
+    object-fit: contain;
+  }
+
+  article {
+    flex-basis: auto;
+
+    p {
+      color: $black2;
+      font-size: 52px;
+      max-width: 700px;
+      padding-left: 100px;
+    }
+  }
+
+  @include mq($phone) {
+    img {
+      margin-bottom: 0;
+      height: 400px;
+      margin-top: 80px;
+    }
+
+    article {
+      p {
+        font-size: 36px;
+        max-width: 100%;
+        padding-left: 0;
+      }
+    }
+  }
+
+  @include mq($phone-xs) {
+    article {
+      p {
+        font-size: 29px;
+      }
+    }
+  }
+}
