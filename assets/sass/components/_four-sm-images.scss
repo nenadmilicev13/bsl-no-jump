@@ -1,5 +1,9 @@
 .four-sm-images {
     padding: 120px 0;
+
+    @include mq($phone) {
+        padding: 60px 0;
+    }
 }
 
 .four-sm-images__container {
