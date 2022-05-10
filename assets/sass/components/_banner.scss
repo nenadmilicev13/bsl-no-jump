@@ -348,15 +348,6 @@
   }
 }
 
-//////////////////////@include
-// .services-m {
-//   margin-top: 600px;
-
-//   @include mq($phone) {
-//     margin-top: 400px;
-//   }
-// }
-
 ////////////////////////////@at-root scrolling-text
 
 .container__wrap {
@@ -439,7 +430,6 @@
 
 #philosophie--white {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
-  // padding-top: 70px;
 
   .point {
     height: 92vh;

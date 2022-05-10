@@ -10,11 +10,11 @@ const Gsap = {
 	init: function (color) {
 		gsap.registerPlugin(ScrollTrigger);
 
-		let test;
+		let load;
 
 		const timeout = setTimeout(() => {
-			test = ScrollTrigger.getAll();
-			test.forEach((instance) => {
+			load = ScrollTrigger.getAll();
+			load.forEach((instance) => {
 				instance.refresh();
 			});
 		}, 300);
@@ -22,7 +22,7 @@ const Gsap = {
 
 		const body = $(".main-content");
 		if (body.length) {
-			gsap.to(".main-content", { opacity: 1, delay: 0.3, duration: 0.3 });
+			gsap.to(".main-content", { opacity: 1, delay: 0.4, duration: 0.4, ease: "power3.out" });
 		}
 
 		///video
@@ -132,21 +132,6 @@ const Gsap = {
 				},
 			});
 		}
-
-		// const textSec = $(".text-sec");
-		// if (textSec.length) {
-		// 	gsap.to(".text-sec", {
-		// 		backgroundColor: "#0f0f0f",
-		// 		ease: "power1.inOut",
-		// 		scrollTrigger: {
-		// 			trigger: ".cards",
-		// 			start: "bottom center",
-		// 			end: "bottom center",
-		// 			toggleActions: "restart none reverse none",
-		// 			// markers: true,
-		// 		},
-		// 	});
-		// }
 
 		const testimonials = $(".testimonials");
 		if (testimonials.length) {

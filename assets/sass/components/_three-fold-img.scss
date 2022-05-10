@@ -1,10 +1,11 @@
 .three-fold-img__wrap {
     display: flex;
-    gap: 40px;
+    grid-gap: 40px;
     margin-bottom: 40px;
 
     @include mq($phone) {
         display: block;
+        margin-bottom: 30px;
     }
 }
 
@@ -24,7 +25,7 @@
         display: block;
         flex: 100%;
         max-width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 }
 
@@ -34,7 +35,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    grid-gap: 40px;
 
     img {
         max-height: 340px;
@@ -48,7 +49,7 @@
         display: block;
 
         img {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
     }
 }

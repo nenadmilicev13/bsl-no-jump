@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 110px;
+    grid-gap: 110px;
 
     @include mq($tablet-xs) {
         display: block;

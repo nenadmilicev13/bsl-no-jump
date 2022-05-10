@@ -1,6 +1,10 @@
 .half-image__container {
     display: flex;
-    gap: 110px;
+    grid-gap: 110px;
+
+    @include mq($phone) {
+        display: block;
+    }
 }
 
 .half-image-item {
@@ -10,5 +14,10 @@
 
     img {
         width: 100%;
+    }
+
+    @include mq($phone) {
+        flex: 100%;
+        max-width: 100%;
     }
 }
