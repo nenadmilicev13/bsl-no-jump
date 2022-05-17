@@ -38,7 +38,6 @@ get_header(); ?>
 						becomes visual.</h1>
 						<div class="typing-container">
 							<h2 id="sentence" class="sentence banner-head__subtitle">Powerful branding and unique SEO friendly websites that help your businesses <span id="feature-text"></span>
-							<!-- <span class="input-cursor"></span></h2> -->
 						</div>
 					</div>
 				</div>
@@ -47,14 +46,11 @@ get_header(); ?>
 					<div class="video-sec hover-js"data-image-src="play-button">
 						<a data-fancybox href="https://vimeo.com/305547899" loop=1 autoplay=1 mute=1>
 							<div id="video" class="video-sec js-video-sec">
-								<video class="video-p" controls muted width="100%" height="auto" autoplay controls loop controls="false" playsinline style="pointer-events: none;">
+								<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
 									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/video.mp4" type="video/mp4">
 									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/video.ogg" type="video/ogg">
 									Your browser does not support the video tag.
 								</video>
-								<!--<div class="video-sec__play js-video-sec__play"> -->
-									<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/play-button.svg" alt=""> -->
-								<!-- </div> -->
 							</div>
 						</a>
 					</div>
@@ -72,9 +68,9 @@ get_header(); ?>
 					</div>
 					<div class="cards__container">
 						<div class="card-item card-item__one hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/flower.png" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/heckerr.png" alt="">
 							<div class="card-item__info">
-								<h5 class="card-item__info-title">Flower Couture</h5>
+								<h5 class="card-item__info-title">Hecker Construction</h5>
 								<p class="card-item__info-text">Magna ultrices dictum odio morbi sagittis quis at orci.</p>
 							</div>
 						</div>
@@ -103,7 +99,7 @@ get_header(); ?>
 					<div class="cards__bottom-text">
 						<h3>Because all brands are unique, our solutions tell a different story each time.</h3>
 						<div class="card__bottom-text__btn">
-							<a class="btn" href="javascript">See more projects</a>
+							<a class="btn" href="javascript">Check out our favourite projects</a>
 						</div>
 					</div>
 					
@@ -826,7 +822,11 @@ get_header(); ?>
 							</div>
 						</div>
 						<div class="cta__right">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/ctaa-img.svg" alt="">
+						<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.mp4" type="video/mp4">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.ogg" type="video/ogg">
+							Your browser does not support the video tag.
+						</video>
 						</div>
 					</div>
 				</div>

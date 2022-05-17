@@ -142,31 +142,32 @@ const Gsap = {
 					start: "top center",
 					end: "bottom center",
 					toggleActions: "play none play reverse",
-					markers: true,
-				},
-			});
-		}
-
-		const cardsContainer = $(".cards__container");
-		if (cardsContainer.length) {
-			gsap.to(".cards__container", {
-				opacity: 0,
-				scrollTrigger: {
-					trigger: ".cards",
-					start: "bottom center",
-					end: "bottom center",
-					toggleActions: "restart none reverse none",
 					// markers: true,
 				},
 			});
 		}
 
+		// const cardsContainer = $(".cards__container");
+		// if (cardsContainer.length) {
+		// 	gsap.to(".cards__container", {
+		// 		opacity: 0,
+		// 		scrollTrigger: {
+		// 			trigger: ".cards",
+		// 			start: "bottom center",
+		// 			end: "bottom center",
+		// 			toggleActions: "restart none reverse none",
+		// 			// markers: true,
+		// 		},
+		// 	});
+		// }
+
 		const cardsBottomText = $(".cards__bottom-text");
 		if (cardsBottomText.length) {
+			// gsap.set("cardsBottomText",{y: -60});
 			gsap.to(cardsBottomText, {
 				opacity: 1,
-				duration: 0.6,
-				y: 0,
+				duration: 0.8,
+				y: -110,
 				scrollTrigger: {
 					trigger: cardsBottomText,
 					start: "top center",
@@ -185,13 +186,13 @@ const Gsap = {
 			cards.forEach((card) => {
 				gsap.to(card, {
 					y: 0,
-					duration: .8,
+					duration: .7,
 					opacity: 1,
-					// ease: "power1.inOut",
 					scrollTrigger: {
 						trigger: card,
 						start: "top 80%",
 						end: "bottom 80%",
+						// toggleActions: "play none play none",
 						// markers: true,
 					},
 				});
@@ -229,7 +230,7 @@ const Gsap = {
 					start: "top center",
 					end: "top center",	
 					toggleActions: "play none none reverse",
-					// markers: true,
+					markers: true,
 				},
 			});
 		}
@@ -274,6 +275,7 @@ const Gsap = {
 		if (fadeIn.length) {
 			gsap.to(fadeIn, {
 				opacity: 1,
+				// delay: 0.5,
 				scrollTrigger: {
 					trigger: ".triger-start",
 					start: "top center",

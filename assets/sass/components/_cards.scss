@@ -8,7 +8,7 @@
     }
 
     @include mq($tablet-l) {
-        padding: 112px 0 0;
+        padding: 112px 0;
     }
 
     @include mq($tablet-xs) {
@@ -51,6 +51,7 @@
 
     @include mq($phone) {
         margin-top: -100px;
+        padding-bottom: 50px;
     }
 }
 
@@ -154,9 +155,13 @@
         width: 100%;
     }
 
+    @include mq($lap-small) {
+        margin: 0;
+    }
+
     @include mq($tablet-s) {
-        flex: 0 0 50%;
-        max-width: 50%;
+        flex: 0 0 47%;
+        max-width: 47%;
         margin-bottom: 100px;
     }
 
@@ -257,7 +262,9 @@
 .cards__bottom-text {
     max-width: 639px;
     padding-left: 250px;
-    margin-top: -110px;
+    // margin-top: -110px;
+    // transform: translateY(0);
+    // transition: $dur $ease;
     opacity: 0;
 
     h3 {
@@ -287,6 +294,7 @@
         padding: 40px 0 30px;
         text-align: left;
         margin: auto;
+        transform: translateY(0) !important;
     }
 
     @include mq($phone-s) {

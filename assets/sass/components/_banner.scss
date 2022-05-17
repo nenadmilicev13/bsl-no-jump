@@ -103,6 +103,13 @@
   }
 }
 
+.banner-head__image--tangaroa {
+  &::before {
+    content: '';
+    background-color: $tangaroa;
+  }
+}
+
 .banner-head__image-wrap {
   img {
     width: 100%;

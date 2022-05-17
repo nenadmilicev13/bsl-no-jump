@@ -44,6 +44,26 @@ get_header(); ?>
                 </div>
             </div>
 
+            <div class="carousel-sec">
+                <div class="carousel">
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
             <div class="logo-carousel">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/many-logos.png" alt="many-logos" id=""></img>   
             </div>

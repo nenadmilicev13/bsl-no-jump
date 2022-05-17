@@ -1,0 +1,30 @@
+.half-text-img {
+    padding: 100px 0 300px;
+
+    @include mq($phone) {
+        padding: 0;
+    }
+}
+
+.half-text-img__container {
+    display: flex;
+    justify-content: space-between;
+
+    @include mq($phone) {
+        display: block;
+    }
+}
+
+.half-text-img__left {
+    max-width: 535px;
+}
+
+.half-text-img__right {
+    max-width: 400px;
+}
+
+.half-text-img__bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}

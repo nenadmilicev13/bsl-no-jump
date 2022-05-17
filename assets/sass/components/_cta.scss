@@ -94,7 +94,7 @@
     
     a {
         position: relative;
-        opacity: 0.6;
+        color: $blue-stone;
 
         &::after {
             content: '';
@@ -102,7 +102,7 @@
             bottom: -1px;
             left: 0;
             width: 0;
-            background-color: $black2;
+            background-color: $blue-stone;
             height: 4px;
             transition: $dur $ease;
         }

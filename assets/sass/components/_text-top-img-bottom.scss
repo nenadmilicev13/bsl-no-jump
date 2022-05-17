@@ -1,5 +1,9 @@
 .text-top-img-bottom {
     padding: 100px 0 150px;
+
+    @include mq($phone) {
+        padding: 100px 0 0;
+    }
 }
 
 .text-top-img-bottom__text {

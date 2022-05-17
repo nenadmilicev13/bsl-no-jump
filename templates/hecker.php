@@ -62,10 +62,10 @@ get_header(); ?>
                 <div class="wrapper">
                     <div class="half-image__container">
                         <div class="half-image-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerTypography.jpg" alt="" id="view"></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerTypography.jpg" alt="" ></img>
                         </div>
                         <div class="half-image-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerSolutions.png" alt="" id="view"></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerSolutions.png" alt=""></img>
                         </div>
                     </div>
                 </div>

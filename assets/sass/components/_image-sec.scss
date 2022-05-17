@@ -1,5 +1,5 @@
 .image-sec--white {
-    padding: 250px 0;
+    padding-top: 300px;
 
     @include mq($phone) {
         padding: 0;
@@ -7,7 +7,7 @@
 }
 
 .image-sec__logo {
-    padding: 50px 0 450px;
+    padding: 50px 0 350px;
     display: flex;
     justify-content: center;
 
@@ -28,30 +28,28 @@
         width: 100%;
         border-radius: 15px;
     }
+
+    @include mq($phone) {
+        margin-top: 20px;
+    }
 }
 
 
 .image-sec__img-half {
     position: relative;
     z-index: 10;
-    transform: translateY(50%);
-    margin-bottom: 300px;
+    margin: 200px 0;
 
     img {
         margin: 0 auto;
     }
 
     @include mq($phone) {
-        margin-bottom: 0;
-        transform: translateY(0);
+        margin: 100px 0;
     }
-
-    // @include mq($phone-s) {
-    //     margin-bottom: 72px;
-    // }
 }
 
-.setion {
-    height: 100vh;
-    background-color: $white;
-}
+// .setion {
+//     height: 100vh;
+//     background-color: $white;
+// }

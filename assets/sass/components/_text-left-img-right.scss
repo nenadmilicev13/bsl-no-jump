@@ -1,17 +1,9 @@
-.text-left-img-right {
-    padding: 200px 0 0;
-
-    @include mq($tablet-xs) {
-        padding: 100px 0;
-    }
-
-    @include mq($phone) {
-        padding: 50px 0 0;
-    }
-}
-
 .text-left-img-right--blue {
     padding: 110px 0 0;
+
+    @include mq($phone) {
+        padding: 30px 0 0;
+    }
 }
 
 .text-left-img-right__container {
@@ -23,6 +15,10 @@
     @include mq($tablet-xs) {
         display: block;
     }
+
+    // @include mq($phone) {
+    //     padding-top: 50px;
+    // }
 }
 
 .text-left-img-right__container--align-item-normal {
@@ -191,6 +187,7 @@
 
     @include mq($phone-s) {
         max-width: 330px;
+        padding: 0 15px 65px;
 
         h5,
         span {

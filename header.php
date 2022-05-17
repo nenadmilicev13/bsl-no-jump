@@ -52,16 +52,16 @@
 					?>
 					<div class="footer__container-right">
 						<ul class="footer__container-right-media header-media">
-							<li><a href="javasceript:;">
+							<li><a href="javascript:;">
 								<span class="social-media-icon font-facebook"></span></a>
 							</li>
-							<li><a href="javasceript:;">
+							<li><a href="javasscript:;">
 								<span class="social-media-icon font-twitter"></span></a>
 							</li>
-							<li><a href="javasceript:;">
+							<li><a href="javasscript:;">
 								<span class="social-media-icon font-instagram"></span></a>
 							</li>
-							<li><a href="javasceript:;">
+							<li><a href="javasscript:;">
 								<span class="social-media-icon font-linkedin"></span></a>
 							</li>
 						</ul>

@@ -64,6 +64,9 @@ jQuery(function () {
 	} else if(document.querySelector('main').classList.contains('jedinstvo')) {
 		const color = '#c29e60'
 		Gsap.init(color);
+	} else if(document.querySelector('main').classList.contains('qanya')) {
+		const color='#011e41'
+		Gsap.init(color);
 	} else {
 		Gsap.init();
 	}
