@@ -1,1 +1,1 @@
-{"version":3,"sources":["components/half-image.scss"],"names":[],"mappings":"AAAA;EACI,cAAa;EACb,WAAU;CACb;;AAED;EACI,YAAS;EACT,eAAc;EACd,eAAc;CAKjB;;AARD;EAMQ,YAAW;CACd","file":"half-image.css","sourcesContent":[".half-image__container {\r\n    display: flex;\r\n    gap: 110px;\r\n}\r\n\r\n.half-image-item {\r\n    flex: 50%;\r\n    max-width: 50%;\r\n    flex-shrink: 1;\r\n\r\n    img {\r\n        width: 100%;\r\n    }\r\n}"]}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"half-image.css","sourcesContent":[]}

@@ -1,16 +1,2 @@
-.half-image__container {
-  display: flex;
-  gap: 110px;
-}
-
-.half-image-item {
-  flex: 50% 1;
-  max-width: 50%;
-  flex-shrink: 1;
-}
-
-.half-image-item img {
-  width: 100%;
-}
 
 /*# sourceMappingURL=half-image.css.map */

@@ -45,8 +45,13 @@ jQuery(function () {
 	// Footer
 	// Footer.init();
 
+<<<<<<< HEAD
 	// console.log("hello");
 	// console.log("Cao Nenade ovo Je Bobisa");
+=======
+	console.log("hello");
+	console.log("Cao Nenade ovo Je Bobisa");
+>>>>>>> 76bdfe631a28e2285c41a1633f275026da4fa3fe
 
 	// console.log(document.querySelector('main').classList);
 

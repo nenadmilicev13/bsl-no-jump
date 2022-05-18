@@ -48,6 +48,11 @@ get_header(); ?>
                         <p>Whatever the reason, we’re here to help.</p>
                         <span class="contact-cta">So let's get started!</span>
                     </div>
+                    <video class="video-p" muted width="309px" height="539px" autoplay loop playsinline style="pointer-events: none;">
+                        <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/contact.mp4" type="video/mp4">
+                        <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/contact.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
 

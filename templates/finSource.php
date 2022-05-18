@@ -42,7 +42,10 @@ get_header(); ?>
                 <div class="wrapper wrapper--sm">
                     <div class="text-left-img-right__container">
                         <div class="text-left-img-right__content text-left-img-right__content--sm">
-                            <h3 class="text-left-img-right__content-title ">We were asked to design a simple but memorable logo that will differentiate them from competitors and a user-friendly website that their future customers can easily navigate.</h3>
+                            <div class="entry-content">
+                                <h3 class="text-left-img-right__content-title ">We were asked to design a simple but memorable logo that will differentiate them from competitors and a user-friendly website that their future customers can easily navigate.</h3>
+                            </div>
+                            
                         </div>
                         <div class="text-left-img-right__image">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finSource1.png" alt="">
