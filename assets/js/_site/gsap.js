@@ -19,10 +19,14 @@ const Gsap = {
 			});
 		}, 300);
 
-
 		const body = $(".main-content");
 		if (body.length) {
-			gsap.to(".main-content", { opacity: 1, delay: 0.4, duration: 0.4, ease: "power3.out" });
+			gsap.to(".main-content", {
+				opacity: 1,
+				delay: 0.4,
+				duration: 0.4,
+				ease: "power3.out",
+			});
 		}
 
 		///video
@@ -180,13 +184,13 @@ const Gsap = {
 
 		const cardsItem = $(".card-item");
 		const cards = gsap.utils.toArray(".card-item");
-			
+
 		if (cardsItem.length) {
-			gsap.set(".card-item",{y: 100});
+			gsap.set(".card-item", { y: 100 });
 			cards.forEach((card) => {
 				gsap.to(card, {
 					y: 0,
-					duration: .7,
+					duration: 0.7,
 					opacity: 1,
 					scrollTrigger: {
 						trigger: card,
@@ -218,42 +222,40 @@ const Gsap = {
 				delay: 1,
 			});
 		}
-		
-		const trigerStart = $(".triger-start");
-		if(trigerStart.length){
 
+		const trigerStart = $(".triger-start");
+		if (trigerStart.length) {
 			gsap.to("body", {
 				backgroundColor: color,
 				ease: "power1.inOut",
 				scrollTrigger: {
 					trigger: ".triger-start",
 					start: "top center",
-					end: "top center",	
+					end: "top center",
 					toggleActions: "play none none reverse",
 					markers: true,
 				},
 			});
 		}
 		const trigerEnd = $(".triger-end");
-		if(trigerEnd.length){
-
+		if (trigerEnd.length) {
 			gsap.to("body", {
 				ease: "power1.inOut",
 				scrollTrigger: {
 					trigger: ".triger-end",
 					start: "top center",
-					end: "top center",	
+					end: "top center",
 					// markers: true,
 					onEnter: () => {
-						gsap.to('body', {
-							backgroundColor: '#fff'
-						})
+						gsap.to("body", {
+							backgroundColor: "#fff",
+						});
 					},
 					onEnterBack: () => {
-						gsap.to('body', {
-							backgroundColor: color
-						})
-					}
+						gsap.to("body", {
+							backgroundColor: color,
+						});
+					},
 				},
 			});
 		}
@@ -265,7 +267,7 @@ const Gsap = {
 				scrollTrigger: {
 					trigger: ".triger-start",
 					start: "top center",
-					end: "top center",	
+					end: "top center",
 					toggleActions: "play none none reverse",
 				},
 			});
@@ -279,7 +281,7 @@ const Gsap = {
 				scrollTrigger: {
 					trigger: ".triger-start",
 					start: "top center",
-					end: "top center",	
+					end: "top center",
 					toggleActions: "play none none reverse",
 				},
 			});

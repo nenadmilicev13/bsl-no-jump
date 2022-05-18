@@ -35,7 +35,7 @@ get_header(); ?>
 				<div class="wrapper wrapper--sm">
 					<div class="banner-head__content">
 						<h1 class="banner-head__title">Where your brand's voice
-						becomes visual.</h1>
+						becomes visual. And there is nothing left there</h1>
 						<div class="typing-container">
 							<h2 id="sentence" class="sentence banner-head__subtitle">Powerful branding and unique SEO friendly websites that help your businesses <span id="feature-text"></span>
 						</div>
