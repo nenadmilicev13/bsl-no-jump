@@ -10,19 +10,23 @@ const Gsap = {
 	init: function (color) {
 		gsap.registerPlugin(ScrollTrigger);
 
-		let test;
+		let load;
 
 		const timeout = setTimeout(() => {
-			test = ScrollTrigger.getAll();
-			test.forEach((instance) => {
+			load = ScrollTrigger.getAll();
+			load.forEach((instance) => {
 				instance.refresh();
 			});
 		}, 300);
 
-
 		const body = $(".main-content");
 		if (body.length) {
-			gsap.to(".main-content", { opacity: 1, delay: 0.3, duration: 0.3 });
+			gsap.to(".main-content", {
+				opacity: 1,
+				delay: 0.4,
+				duration: 0.4,
+				ease: "power3.out",
+			});
 		}
 
 		///video
@@ -133,11 +137,24 @@ const Gsap = {
 			});
 		}
 
-		// const textSec = $(".text-sec");
-		// if (textSec.length) {
-		// 	gsap.to(".text-sec", {
-		// 		backgroundColor: "#0f0f0f",
-		// 		ease: "power1.inOut",
+		const testimonials = $(".testimonials");
+		if (testimonials.length) {
+			gsap.to(".testimonials", {
+				opacity: 0,
+				scrollTrigger: {
+					trigger: ".text-sec",
+					start: "top center",
+					end: "bottom center",
+					toggleActions: "play none play reverse",
+					// markers: true,
+				},
+			});
+		}
+
+		// const cardsContainer = $(".cards__container");
+		// if (cardsContainer.length) {
+		// 	gsap.to(".cards__container", {
+		// 		opacity: 0,
 		// 		scrollTrigger: {
 		// 			trigger: ".cards",
 		// 			start: "bottom center",
@@ -148,40 +165,13 @@ const Gsap = {
 		// 	});
 		// }
 
-		const testimonials = $(".testimonials");
-		if (testimonials.length) {
-			gsap.to(".testimonials", {
-				opacity: 0,
-				scrollTrigger: {
-					trigger: ".text-sec",
-					start: "top center",
-					end: "bottom center",
-					toggleActions: "play none play reverse",
-					markers: true,
-				},
-			});
-		}
-
-		const cardsContainer = $(".cards__container");
-		if (cardsContainer.length) {
-			gsap.to(".cards__container", {
-				opacity: 0,
-				scrollTrigger: {
-					trigger: ".cards",
-					start: "bottom center",
-					end: "bottom center",
-					toggleActions: "restart none reverse none",
-					// markers: true,
-				},
-			});
-		}
-
 		const cardsBottomText = $(".cards__bottom-text");
 		if (cardsBottomText.length) {
+			// gsap.set("cardsBottomText",{y: -60});
 			gsap.to(cardsBottomText, {
 				opacity: 1,
-				duration: 0.6,
-				y: 0,
+				duration: 0.8,
+				y: -110,
 				scrollTrigger: {
 					trigger: cardsBottomText,
 					start: "top center",
@@ -194,19 +184,19 @@ const Gsap = {
 
 		const cardsItem = $(".card-item");
 		const cards = gsap.utils.toArray(".card-item");
-			
+
 		if (cardsItem.length) {
-			gsap.set(".card-item",{y: 100});
+			gsap.set(".card-item", { y: 100 });
 			cards.forEach((card) => {
 				gsap.to(card, {
 					y: 0,
-					duration: .8,
+					duration: 0.7,
 					opacity: 1,
-					// ease: "power1.inOut",
 					scrollTrigger: {
 						trigger: card,
 						start: "top 80%",
 						end: "bottom 80%",
+						// toggleActions: "play none play none",
 						// markers: true,
 					},
 				});
@@ -232,42 +222,40 @@ const Gsap = {
 				delay: 1,
 			});
 		}
-		
-		const trigerStart = $(".triger-start");
-		if(trigerStart.length){
 
+		const trigerStart = $(".triger-start");
+		if (trigerStart.length) {
 			gsap.to("body", {
 				backgroundColor: color,
 				ease: "power1.inOut",
 				scrollTrigger: {
 					trigger: ".triger-start",
 					start: "top center",
-					end: "top center",	
+					end: "top center",
 					toggleActions: "play none none reverse",
-					// markers: true,
+					markers: true,
 				},
 			});
 		}
 		const trigerEnd = $(".triger-end");
-		if(trigerEnd.length){
-
+		if (trigerEnd.length) {
 			gsap.to("body", {
 				ease: "power1.inOut",
 				scrollTrigger: {
 					trigger: ".triger-end",
 					start: "top center",
-					end: "top center",	
+					end: "top center",
 					// markers: true,
 					onEnter: () => {
-						gsap.to('body', {
-							backgroundColor: '#fff'
-						})
+						gsap.to("body", {
+							backgroundColor: "#fff",
+						});
 					},
 					onEnterBack: () => {
-						gsap.to('body', {
-							backgroundColor: color
-						})
-					}
+						gsap.to("body", {
+							backgroundColor: color,
+						});
+					},
 				},
 			});
 		}
@@ -279,7 +267,7 @@ const Gsap = {
 				scrollTrigger: {
 					trigger: ".triger-start",
 					start: "top center",
-					end: "top center",	
+					end: "top center",
 					toggleActions: "play none none reverse",
 				},
 			});
@@ -289,10 +277,11 @@ const Gsap = {
 		if (fadeIn.length) {
 			gsap.to(fadeIn, {
 				opacity: 1,
+				// delay: 0.5,
 				scrollTrigger: {
 					trigger: ".triger-start",
 					start: "top center",
-					end: "top center",	
+					end: "top center",
 					toggleActions: "play none none reverse",
 				},
 			});

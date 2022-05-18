@@ -1,11 +1,11 @@
 .small-image {
-    padding: 70px 0 120px;
+    padding: 120px 0;
 
     img {
         margin: 0 auto;
     }
 
     @include mq($phone) {
-        padding: 60px 0 30px;
+        padding: 0 0 30px;
     }
 }

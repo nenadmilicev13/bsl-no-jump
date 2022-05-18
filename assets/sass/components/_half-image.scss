@@ -1,0 +1,24 @@
+.half-image__container {
+    display: flex;
+    grid-gap: 110px;
+
+    @include mq($phone) {
+        display: block;
+    }
+}
+
+.half-image-item {
+    flex: 50%;
+    max-width: 50%;
+    flex-shrink: 1;
+
+    img {
+        width: 100%;
+    }
+
+    @include mq($phone) {
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+}
