@@ -9,3 +9,25 @@
         padding: 0 0 30px;
     }
 }
+
+.small-video__container {
+    display: flex;
+    justify-content: center;
+
+    @include mq($phone) {
+        display: block;
+        text-align: center;
+    }
+}
+
+.small-video {
+    padding: 150px 0;
+
+    img {
+        margin: 0 auto;
+    }
+
+    @include mq($phone) {
+        padding: 0 0 30px;
+    }
+}

@@ -29,6 +29,24 @@ const Gsap = {
 			});
 		}
 
+		const fadeInTexts = gsap.utils.toArray('.fadeIn-text');
+		console.log(fadeInTexts);
+		fadeInTexts.forEach((text) => {
+			gsap.from(text, {
+				opacity: 0,
+				translateY: 100,
+				duration: 1.3,
+				stagger: {
+				amount: 1,
+				},
+				scrollTrigger: {
+				trigger: text,
+				start: 'top bottom',
+				end: 'bottom bottom',
+				},
+			});
+		});
+
 		///video
 		const videoSec = $(".video-sec");
 		if (videoSec.length) {
@@ -151,23 +169,8 @@ const Gsap = {
 			});
 		}
 
-		// const cardsContainer = $(".cards__container");
-		// if (cardsContainer.length) {
-		// 	gsap.to(".cards__container", {
-		// 		opacity: 0,
-		// 		scrollTrigger: {
-		// 			trigger: ".cards",
-		// 			start: "bottom center",
-		// 			end: "bottom center",
-		// 			toggleActions: "restart none reverse none",
-		// 			// markers: true,
-		// 		},
-		// 	});
-		// }
-
 		const cardsBottomText = $(".cards__bottom-text");
 		if (cardsBottomText.length) {
-			// gsap.set("cardsBottomText",{y: -60});
 			gsap.to(cardsBottomText, {
 				opacity: 1,
 				duration: 0.8,
@@ -286,6 +289,21 @@ const Gsap = {
 				},
 			});
 		}
+
+		let videoElem1 = document.querySelector('.video-mihano');
+		let videoPlayed = false;
+
+		let trigger = ScrollTrigger.create({
+			trigger: videoElem1,
+			start: 'top center',
+			onEnter: () => {
+				if (!videoPlayed) {
+					videoElem1.play();
+					videoPlayed = true;
+				}
+			}
+			// toggleActions: "play none none none",
+		});
 	},
 };
 

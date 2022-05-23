@@ -17,7 +17,7 @@ const Video = {
     }
 
     $(function(){
-      if($('body').is('.home')){
+      if($('body').is('.page-template-studio')){
           ScrollTrigger.defaults({
             markers:false
         })

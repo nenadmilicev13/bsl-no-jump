@@ -22,15 +22,15 @@ get_header(); ?>
             <div class="single-work single-work--tangaroa">
                 <div class="wrapper wrapper--sm">
                     <div class="single-work__intro">
-                        <p>Qanya is a company that produces raw cane grass juices and waters from sustainable farms in the heart of Brazil, delivering both nutrition and taste, packed with naturally occurring antioxidants, minerals and vitamins without harmful chemicals or caffeine jitters.</p>
+                        <p class="fadeIn-text">Qanya is a company that produces raw cane grass juices and waters from sustainable farms in the heart of Brazil, delivering both nutrition and taste, packed with naturally occurring antioxidants, minerals and vitamins without harmful chemicals or caffeine jitters.</p>
                         <div class="single-work__intro-flex">
                             <div class="single-work__intro-flex-item-left">
-                                <ul>
+                                <ul class="fadeIn-text">
                                     <li>Logo Design</li>
                                     <li>Packaging Design</li>
                                 </ul>
                             </div>
-                            <div class="single-work__intro-flex-item-right">
+                            <div class="single-work__intro-flex-item-right fadeIn-text">
                                 <p>The client wanted a promotional campaign for an app that improves fertility through nutrition and lifestyle habits.</p>
                             </div>
                         </div>
@@ -41,18 +41,18 @@ get_header(); ?>
             <div class="half-text-img fade-out">
                 <div class="wrapper wrapper--sm">
                     <div class="half-text-img__container">
-                        <div class="half-text-img__left">
+                        <div class="half-text-img__left fadeIn-text">
                             <div class="entry-content">
                                 <h3>In the process of designing the logo, our team went through many stages before deciding on a final design: from various styles of illustration to different typography.</h3>
                             </div>
                         </div>
-                        <div class="half-text-img__right">
+                        <div class="half-text-img__right fadeIn-text">
                             <div class="entry-content">
                                 <p>We were simultaneously brainstorming ideas for the packaging, since the elements needed to work together. This meant that the logo was simplified to a minimal typographic solution, to avoid clashing with the rest of the elements on the packaging.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="half-text-img__bottom">
+                    <div class="half-text-img__bottom fadeIn-text">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/canya-bottom.png" alt="">
                     </div>
                 </div>
@@ -82,9 +82,9 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="image-sec image-sec--white">
+            <div class="image-sec">
                 <div class="wrapper">
-                    <div class="image-sec__logo">
+                    <div class="image-sec__logo image-sec__logo--sm">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-frog-design.png" alt="">
                     </div>
                 </div>

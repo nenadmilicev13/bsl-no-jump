@@ -21,16 +21,16 @@ get_header(); ?>
             <div class="single-work">
                 <div class="wrapper wrapper--sm">
                     <div class="single-work__intro">
-                        <p>FinSource Accounting is a tailored accounting and bookkeeping family-owned and operated firm which understands the unique challenges of running a business and a family. Founded by a corporate alumna of Deloitte and BNP Paribas, with over 15 years of experience in the financial industry.</p>
+                        <p class="fadeIn-text">FinSource Accounting is a tailored accounting and bookkeeping family-owned and operated firm which understands the unique challenges of running a business and a family. Founded by a corporate alumna of Deloitte and BNP Paribas, with over 15 years of experience in the financial industry.</p>
                         <div class="single-work__intro-flex">
                             <div class="single-work__intro-flex-item-left">
-                                <ul>
+                                <ul class="fadeIn-text">
                                     <li>Brand Discovery</li>
                                     <li>Website Design</li>
                                     <li>Development</li>
                                 </ul>
                             </div>
-                            <div class="single-work__intro-flex-item-right">
+                            <div class="single-work__intro-flex-item-right fadeIn-text">
                                 <p>Since the company was at its early stages, the client asked us to design a logo and a temporary one-page website that would expand and develop over time, as the business grew. Because FinSource Accounting makes “complex financials simple”, our task was to create their visual identity accordingly.</p>
                             </div>
                         </div>

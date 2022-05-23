@@ -129,12 +129,47 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="half-sec__change-text">
+                    <!-- <div class="half-sec__change-text">
                         <p>We create digital experiences for analogue humans.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-
+            <section class="philosophie">
+				<div class="wrapper philosophie__wrap">
+					<div class="indicators">
+						<div class="indicator"></div>
+						<div class="indicator"></div>
+						<div class="indicator"></div>
+						<div class="indicator"></div>
+						<!-- <div class="indicator"></div> -->
+					</div>
+					<div class="point">
+						<article>
+							<p>Before we do - we get inspired imagine, doodle, brainstorm agree and disagree.</p>
+						</article>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/test.svg" alt="" width= "628" height="428">
+					</div>
+					<div class="point">
+						<article>
+							<p>We research and dwell, find various solutions and pick the best one with your help.</p>
+						</article>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/test22.svg" alt="" width= "628" height="428">
+					</div>
+					<div class="point">
+						<article>
+							<p>We divide tasks: design, illustrate, write, code, and then - magic happens.</p>
+						</article>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/test3.svg" alt="" width= "628" height="428">
+					</div>
+					<div class="point">
+						<article>
+							<p>You get the final product that helps your company succeed, while we get the satisfaction from working on it.</p>
+						</article>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/test4.svg" alt="" width= "628" height="428">
+					</div>
+					<!--  -->
+				</div>
+			</section>
             <div class="services">
 				<div class="services__wrap services-wrap-br">
 					<div class="wrapper">
@@ -264,7 +299,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-            <div class="services__bottom">
+            <!-- <div class="services__bottom">
 				<div class="wrapper">
 					<div class="services__bottom-container">
 						<div class="services__bottom-item">
@@ -287,7 +322,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
             <div class="brands-all">
                 <div class="wrapper">

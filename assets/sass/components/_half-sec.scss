@@ -1,17 +1,17 @@
 .half-sec {
-    padding: 140px 0 300px;
+    padding: 140px 0;
     background-color: $white;
 
-    @include mq($lap-small) {
-        padding: 140px 0 200px;
-    }
+    // @include mq($lap-small) {
+    //     padding: 140px 0 200px;
+    // }
 
     @include mq($phone-s) {
         padding: 100px 0;
     }
 
     @include mq($phone-xs) {
-       padding: 70px 0 130px;
+       padding: 70px 0;
     }
 }
 

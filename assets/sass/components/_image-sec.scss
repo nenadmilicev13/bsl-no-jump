@@ -20,6 +20,14 @@
     }
 }
 
+.image-sec__logo--sm {
+    padding: 150px 0 110px;
+
+    @include mq($phone) {
+        padding: 70px 0 110px;
+    }
+}
+
 .image-sec__full-img {
     margin-bottom: 40px;
     margin-top: 40px;

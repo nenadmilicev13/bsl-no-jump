@@ -47,8 +47,8 @@ get_header(); ?>
 						<a data-fancybox href="https://vimeo.com/305547899" loop=1 autoplay=1 mute=1>
 							<div id="video" class="video-sec js-video-sec">
 								<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
-									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/video.mp4" type="video/mp4">
-									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/video.ogg" type="video/ogg">
+									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/bsl.mp4" type="video/mp4">
+									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/bsl.ogg" type="video/ogg">
 									Your browser does not support the video tag.
 								</video>
 							</div>
@@ -68,11 +68,13 @@ get_header(); ?>
 					</div>
 					<div class="cards__container">
 						<div class="card-item card-item__one hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/heckerr.png" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">Hecker Construction</h5>
-								<p class="card-item__info-text">Magna ultrices dictum odio morbi sagittis quis at orci.</p>
-							</div>
+							<a href="http://localhost/baseline/fe-hecker/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">Hecker Construction</h5>
+									<p class="card-item__info-text">Magna ultrices dictum odio morbi sagittis quis at orci.</p>
+								</div>
+							</a>
 						</div>
 						<div class="card-item card-item__two hover-js"data-image-src="view">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle.jpg" alt="">
@@ -82,18 +84,22 @@ get_header(); ?>
 							</div>
 						</div>
 						<div class="card-item card-item__three hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano.jpg" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">Mihano Momosa</h5>
-								<p class="card-item__info-text">Nisl diam sed porttitor amet ullamcorper velit enim, faucibus sed.</p>
-							</div>
+							<a href="http://localhost/baseline/fe-mihano/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">Mihano Momosa</h5>
+									<p class="card-item__info-text">Nisl diam sed porttitor amet ullamcorper velit enim, faucibus sed.</p>
+								</div>
+							</a>
 						</div>
 						<div class="card-item  card-item__four hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/michael.jpg" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">luv Michael</h5>
-								<p class="card-item__info-text">Vitae, massa rhoncus ac velit in ac cras. Suspendisse facilisis eget arcu vestibulum lacus, faucibus.</p>
-							</div>
+							<a href="http://localhost/baseline/fe-qanya/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-work.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">QANYA</h5>
+									<p class="card-item__info-text">Vitae, massa rhoncus ac velit in ac cras. Suspendisse facilisis eget arcu vestibulum lacus, faucibus.</p>
+								</div>
+							</a>
 						</div>
 					</div>
 					<div class="cards__bottom-text">
