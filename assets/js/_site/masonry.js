@@ -8,9 +8,9 @@ const Masonry = {
 	-------------------------------------------------------------------------------*/
 	init: function () {
 		// layout Masonry after each image loads
-		$('.insight-item__img').imagesLoaded( function() {
-			$('.insights__container').masonry({
-				itemSelector: '.insight-item',
+		$('.resource-item__img').imagesLoaded( function() {
+			$('.resources__container').masonry({
+				itemSelector: '.resource-item',
 				percentPosition: true,
 				// gutter: 10
 			});

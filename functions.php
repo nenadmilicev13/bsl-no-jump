@@ -143,6 +143,21 @@ function nmtheme_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'nmtheme_scripts' );
 
+function custom_post_type() {
+	$args = array (
+		'labels' => array (
+			'name' => 'Services',
+			'singular_name' => 'Service',
+		),
+		'hierarchical' => true,
+		'public' => true,
+		'has_archive' => true,
+		'menu_icon' => 'dashicons-admin-page',
+	);
+	register_post_type('service', $args);
+}
+add_Action( 'init', 'custom_post_type' );
+
 /**
  * Custom theme functions for this theme.
  */

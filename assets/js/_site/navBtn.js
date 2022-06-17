@@ -16,7 +16,7 @@ const NavBtn = {
 
         if (window.innerWidth < 767) {
             let isHidden = true;
-            gsap.set(mainNav,{opacity: 0});
+            gsap.set(mainNav,{opacity: 0,});
             gsap.set(header,{backgroundColor: '#f9f9f9',});
             // gsap.set(body,{ overflow: 'none',});
            
@@ -34,6 +34,7 @@ const NavBtn = {
                 gsap.to(mainNav, {
                     opacity: isHidden ? 0 : 1,
                     height: isHidden ? '0' : '100%',
+                    display: isHidden ? 'none' : 'block',
                     // visibility: 'visible',
                     duration: .7,
                     y: -25,

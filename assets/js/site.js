@@ -1,17 +1,18 @@
 import Cursor from "./_site/cursor";
 import Sliders from "./_site/sliders";
 import Type from "./_site/type";
-
 import ScrollingText from "./_site/scrollingText";
 // import Header from "./_site/header";
-import Test from "./_site/test";
+import Split from "./_site/split";
 import Video from "./_site/video";
 import NavBtn from "./_site/navBtn";
 import Masonry from "./_site/masonry";
-// import Footer from './_site/footer';
 import Gsap from "./_site/gsap";
 
 jQuery(function () {
+	
+	console.log('test');
+
 	// // Cursor
 	Cursor.init();
 
@@ -24,11 +25,8 @@ jQuery(function () {
 	// Gsap
 	ScrollingText.init();
 
-	// Header
-	// Header.init();
-
-	// Test
-	Test.init();
+	// Split
+	Split.init();
 
 	// Gsap
 	// Gsap.init();
@@ -42,8 +40,7 @@ jQuery(function () {
 	// Masonry
 	Masonry.init();
 
-	// Footer
-	// Footer.init();
+
 
 
 	// console.log(document.querySelector('main').classList);
@@ -62,6 +59,9 @@ jQuery(function () {
 		Gsap.init(color);
 	} else if (document.querySelector("main").classList.contains("qanya")) {
 		const color = "#011e41";
+		Gsap.init(color);
+	} else if (document.querySelector("main").classList.contains("nestle")) {
+		const color = "#2b7681";
 		Gsap.init(color);
 	} else {
 		Gsap.init();

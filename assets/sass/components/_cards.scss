@@ -1,5 +1,5 @@
 .cards {
-    padding: 146px 0;
+    padding: 146px 0 50px;
     position: relative;
 
     .section-head__title {
@@ -39,7 +39,6 @@
 #cards {
     background-color: $white;
 }
-
 
 .cards-margin {
     margin-top: -150px;
@@ -153,6 +152,7 @@
 
     img {
         width: 100%;
+        margin-top: 50px;
     }
 
     @include mq($lap-small) {
@@ -178,6 +178,14 @@
         margin-bottom: 80px;
     }
 }
+
+// .card-item__three {
+//     opacity: 1;
+//     flex: 0 0 30%;
+//     max-width: 30%;
+//     margin: 0 20px;
+//     max-height: 705px;
+// }
 
 .card-item__info {
     display: flex;
@@ -262,9 +270,6 @@
 .cards__bottom-text {
     max-width: 639px;
     padding-left: 250px;
-    // margin-top: -110px;
-    // transform: translateY(0);
-    // transition: $dur $ease;
     opacity: 0;
 
     h3 {
@@ -290,7 +295,7 @@
         text-align: center;
     }
 
-    @include mq($phone) {
+    @include mq($tablet-l) {
         padding: 40px 0 30px;
         text-align: left;
         margin: auto;

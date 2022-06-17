@@ -14,7 +14,7 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--fallow">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-banner.jpg" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-banner.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -145,13 +145,13 @@ get_header(); ?>
             </div>
             
 		</main><!-- #main -->
-		<div class="cursor">
+		<!-- <div class="cursor">
 			<div class="cursor-media">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
 			</div>	
-		</div>
-        <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
+		</div> -->
+        <!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

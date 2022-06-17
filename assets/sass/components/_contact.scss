@@ -35,12 +35,8 @@
 }
 
 .contact-form {
-    padding: 160px 0;
+    padding: 100px 0;
     background-color: $black2;
-
-    @include mq($phone) {
-        padding: 100px 0;
-    }
 
     span, p {
         font-size: 32px;
@@ -234,6 +230,11 @@
     }  
 }
 
+.contact-form__wrap {
+    transform: translateY(60px);
+    opacity: 0;
+}
+
 .contact-cta-bottom {
     padding: 120px 0;
     text-align: center;
@@ -249,7 +250,7 @@
     }
 
     a {
-        color: $viridian;
+        color: $blue-stone;
         font-weight: 500;
         line-height: 1.8;
         position: relative;
@@ -282,7 +283,7 @@
         padding: 10px 20px;
         font-size: 16px;
         color: $black2;
-        background-color: $sunglow;
+        background-color: $white;
         font-weight: 500;
         opacity: 1;
         transition: $dur $ease;

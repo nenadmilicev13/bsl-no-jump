@@ -29,7 +29,6 @@
     border-radius: 40px;
     padding: 200px 0 40px;
     position: relative;
-    // margin-top: 300px;
 
     @include mq($lap-small) {
         padding: 140px 0;
@@ -273,14 +272,11 @@
     @include mq($tablet-xs) {
        padding: 50px 0 0;
     }
-
-    @include mq($phone) {
-        padding: 30px 0 0;
-    }
 }
 
 .services__bottom--home {
-    margin-bottom: 800px;
+    margin-bottom: 500px;
+
     @include mq($phone) {
         margin-bottom: 400px;
     }
@@ -343,9 +339,25 @@
     .color {
         color: $blue-stone;
         font-weight: 500;
+        position: relative;
+        
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: $blue-stone;
+            transform-origin: left;
+            transition: 600ms ease;
+        }
 
         &:hover {
-            font-weight: 600;
+            &::after {
+                width: 100%;
+                // transform: translateX(-100%);
+            }
         }
     }
 

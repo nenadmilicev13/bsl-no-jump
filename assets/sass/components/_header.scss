@@ -1,13 +1,15 @@
 .header {
-    height: 83px;
-    background-color: $snow;
+    // height: 83px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
     position: relative;
-    padding: 40px 0 60px;
+    padding: 20px 0;
     z-index: 9999;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    // padding-bottom: 40px;
+
     .footer__mail,
     .footer__container-right {
         display: none;
@@ -15,7 +17,7 @@
 
     @include mq($phone) {
         display: block;
-        padding: 33px 0 60px;
+        padding: 33px 0;
 
         .footer__mail,
         .footer__container-right {
@@ -32,7 +34,6 @@
     background-color: $black2;
     height: 100vh;
     transition: 300ms ease-in-out;
-    
 }
 
 .header__container {
@@ -73,8 +74,7 @@
     @include mq($phone) {
         max-width: 923px;
         padding: 0 15px;
-        display: block;
-        
+        display: block;   
     }
 }
 
@@ -84,9 +84,9 @@
 
     @include mq($phone) {
         margin-top: 130px;
-        opacity: 0;
         height: 0;
         overflow: hidden;
+        display: none;
     }
 }
 

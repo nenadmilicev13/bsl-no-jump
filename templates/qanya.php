@@ -14,7 +14,7 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--tangaroa">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya.jpg" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -38,15 +38,15 @@ get_header(); ?>
                 </div>
             </div>
            
-            <div class="half-text-img fade-out">
+            <div class="half-text fade-out">
                 <div class="wrapper wrapper--sm">
-                    <div class="half-text-img__container">
-                        <div class="half-text-img__left fadeIn-text">
+                    <div class="half-text__container">
+                        <div class="half-text__left fadeIn-text">
                             <div class="entry-content">
                                 <h3>In the process of designing the logo, our team went through many stages before deciding on a final design: from various styles of illustration to different typography.</h3>
                             </div>
                         </div>
-                        <div class="half-text-img__right fadeIn-text">
+                        <div class="half-text__right fadeIn-text">
                             <div class="entry-content">
                                 <p>We were simultaneously brainstorming ideas for the packaging, since the elements needed to work together. This meant that the logo was simplified to a minimal typographic solution, to avoid clashing with the rest of the elements on the packaging.</p>
                             </div>
@@ -92,7 +92,7 @@ get_header(); ?>
 
             <div class="small-image small-image--fallow triger-end">
                 <div class="wrapper">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-tetrapack-design.jpg" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-tetrapack-design.png" alt="">
                 </div>
             </div>
 
@@ -188,16 +188,8 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div> 
 		</main><!-- #main -->
-		<div class="cursor">
-			<div class="cursor-media">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
-			</div>	
-		</div>
-        <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
 	</div><!-- #primary -->
 <?php
 get_footer();

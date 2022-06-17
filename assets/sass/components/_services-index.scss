@@ -20,7 +20,7 @@
 .services-index__wrap {
     transition: 600ms ease;
 
-    &:hover > .services-index__container {
+    &:hover > a .services-index__container {
         opacity: 0.3;
 
         &:hover {

@@ -9,7 +9,6 @@
 .four-sm-images__container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .four-sm-item {
@@ -27,7 +26,6 @@
     }
 
     @include mq($phone) {
-        // margin-right: 20px;
         flex: 47%;
         max-width: 47%;
         margin-right: 0;

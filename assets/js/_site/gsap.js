@@ -7,7 +7,10 @@ const Gsap = {
 	/*-------------------------------------------------------------------------------
 		# Initialize
 	-------------------------------------------------------------------------------*/
+
+	
 	init: function (color) {
+		
 		gsap.registerPlugin(ScrollTrigger);
 
 		let load;
@@ -19,44 +22,58 @@ const Gsap = {
 			});
 		}, 300);
 
-		const body = $(".main-content");
+		ScrollTrigger.matchMedia({
+			"(min-width: 768px)": function () {
+				const fadeInTexts = gsap.utils.toArray('.fadeIn-text');
+				fadeInTexts.forEach((text) => {
+					gsap.from(text, {
+						opacity: 0,
+						translateY: 100,
+						duration: 1.3,
+						stagger: {
+						amount: 1,
+						},
+						scrollTrigger: {
+						trigger: text,
+						start: 'top bottom',
+						end: 'bottom bottom',
+						},
+					});
+				});
+			}
+		})
+		
+
+		const body = $(".site-main");
 		if (body.length) {
-			gsap.to(".main-content", {
+			gsap.to(body, {
 				opacity: 1,
-				delay: 0.4,
-				duration: 0.4,
+				delay: 0.3,
+				duration: 1,
 				ease: "power3.out",
 			});
 		}
-
-		const fadeInTexts = gsap.utils.toArray('.fadeIn-text');
-		console.log(fadeInTexts);
-		fadeInTexts.forEach((text) => {
-			gsap.from(text, {
-				opacity: 0,
-				translateY: 100,
-				duration: 1.3,
-				stagger: {
-				amount: 1,
-				},
-				scrollTrigger: {
-				trigger: text,
-				start: 'top bottom',
-				end: 'bottom bottom',
-				},
-			});
-		});
 
 		///video
 		const videoSec = $(".video-sec");
 		if (videoSec.length) {
 			gsap.from(".video-sec", {
 				opacity: 0,
-				delay: 1.4,
+				delay: 0.5,
 				duration: 1.5,
 				y: 30,
 			});
 		}
+
+		// const header = $(".header");
+		// if (header.length) {
+		// 	gsap.from(header, {
+		// 		opacity: 0,
+		// 		delay: 0.5,
+		// 		duration: 0.8,
+		// 		y: 15,
+		// 	});
+		// }
 
 		const pretitle = $(".section-head__pretitle");
 		if (pretitle.length) {
@@ -65,6 +82,17 @@ const Gsap = {
 				delay: 1.2,
 				duration: 0.5,
 				y: 30,
+			});
+		}
+
+		
+		const bannerDesc = $(".banner-desc");
+		if (bannerDesc.length) {
+			gsap.from(bannerDesc, {
+				opacity: 1,
+				duration: 0.6,
+				y: 30,
+				delay: 1,
 			});
 		}
 
@@ -88,9 +116,19 @@ const Gsap = {
 			});
 		}
 
-		const insightsContainer = $(".insights__container");
-		if (insightsContainer.length) {
-			gsap.from(".insights__container", {
+		const singlePost = $(".single-post__content");
+		if (singlePost.length) {
+			gsap.from(singlePost, {
+				opacity: 0,
+				delay: 1.2,
+				duration: 0.7,
+				y: 50,
+			});
+		}
+
+		const resourcesContainer = $(".resources__container");
+		if (resourcesContainer.length) {
+			gsap.from(".resources__container", {
 				opacity: 0,
 				delay: 1.2,
 				duration: 0.8,
@@ -104,8 +142,8 @@ const Gsap = {
 				backgroundColor: "#0f0f0f",
 				scrollTrigger: {
 					trigger: ".testimonials",
-					start: "bottom center",
-					end: "bottom center",
+					start: "bottom 60%",
+					end: "bottom 60%",
 					toggleActions: "restart none reverse none",
 					// markers: true,
 				},
@@ -161,10 +199,10 @@ const Gsap = {
 				opacity: 0,
 				scrollTrigger: {
 					trigger: ".text-sec",
-					start: "top center",
-					end: "bottom center",
+					start: "top 60%",
+					end: "bottom 60%",
 					toggleActions: "play none play reverse",
-					// markers: true,
+					markers: true,
 				},
 			});
 		}
@@ -177,9 +215,8 @@ const Gsap = {
 				y: -110,
 				scrollTrigger: {
 					trigger: cardsBottomText,
-					start: "top center",
-					end: "top center",
-					// toggleActions: "restart none reverse none",
+					start: "top bottom",
+					end: "top bottom",
 					// markers: true,
 				},
 			});
@@ -193,7 +230,8 @@ const Gsap = {
 			cards.forEach((card) => {
 				gsap.to(card, {
 					y: 0,
-					duration: 0.7,
+					duration: 0.5,
+					// delay: 0.25,
 					opacity: 1,
 					scrollTrigger: {
 						trigger: card,
@@ -206,15 +244,6 @@ const Gsap = {
 			});
 		}
 
-		const bannerDesc = $(".banner-desc");
-		if (bannerDesc.length) {
-			gsap.from(bannerDesc, {
-				opacity: 0,
-				duration: 0.6,
-				y: 30,
-				delay: 0.8,
-			});
-		}
 
 		const servicesSingleContainer = $(".services-single__container");
 		if (servicesSingleContainer.length) {
@@ -236,7 +265,7 @@ const Gsap = {
 					start: "top center",
 					end: "top center",
 					toggleActions: "play none none reverse",
-					markers: true,
+					// markers: true,
 				},
 			});
 		}
@@ -293,17 +322,56 @@ const Gsap = {
 		let videoElem1 = document.querySelector('.video-mihano');
 		let videoPlayed = false;
 
-		let trigger = ScrollTrigger.create({
-			trigger: videoElem1,
-			start: 'top center',
-			onEnter: () => {
-				if (!videoPlayed) {
-					videoElem1.play();
-					videoPlayed = true;
+		if (videoElem1) {
+			let trigger = ScrollTrigger.create({
+				trigger: videoElem1,
+				start: 'top center',
+				onEnter: () => {
+					if (!videoPlayed) {
+						videoElem1.play();
+						videoPlayed = true;
+					}
 				}
-			}
-			// toggleActions: "play none none none",
-		});
+			});
+		}
+
+		// let videoHacker = document.querySelector('.video-hacker');
+		// let videoPlayed2 = false;
+
+		// if(videoHacker) {
+		// 	let trigger = ScrollTrigger.create({
+		// 		trigger: videoHacker,
+		// 		start: 'top center',
+		// 		onEnter: () => {
+		// 			if (!videoPlayed) {
+		// 				videoHacker.play();
+		// 				videoPlayed2 = true;
+		// 			}
+		// 		}
+		// 	});
+		// }
+
+		let bannerAnimation = document.querySelector('.banner-head__animation-right');
+		console.log(bannerAnimation);
+
+		if(bannerAnimation) {
+			gsap.to(bannerAnimation, {
+				opacity: 1,
+				y: 0,
+				delay: 0.5,
+				duration: 1,
+			});
+		}
+
+		let contactForm = document.querySelector('.contact-form__wrap');
+		if(contactForm) {
+			gsap.to(contactForm, {
+				opacity: 1,
+				y: 0,
+				delay: 1.7,
+				duration: 1,
+			});
+		}
 	},
 };
 

@@ -15,10 +15,6 @@
     @include mq($tablet-xs) {
         display: block;
     }
-
-    // @include mq($phone) {
-    //     padding-top: 50px;
-    // }
 }
 
 .text-left-img-right__container--align-item-normal {
@@ -134,12 +130,14 @@
 
     img {
         max-height: 720px;
-        object-fit: cover;
+        // object-fit: cover;
         width: 100%;
         border-radius: 10px;
     }
 
     @include mq($tablet-xs) {
+        flex: 100%;
+        max-width: 100%;
 
         img {
             margin: 0 auto;
@@ -169,16 +167,12 @@
         font-weight: 500;
     }
 
-    span {
-        color: $grey;
-    }
-
     @include mq($lap-large) {
         max-width: 1052px;
     }
 
     @include mq($tablet-l) {
-        max-width: 883px;
+        max-width: 603px;
     }
 
     @include mq($phone) {
@@ -192,6 +186,14 @@
         h5,
         span {
             font-size: 16px;
+        }
+    }
+}
+
+.mihano {
+    .project-name {
+        h5, span {
+            color: $white;
         }
     }
 }
