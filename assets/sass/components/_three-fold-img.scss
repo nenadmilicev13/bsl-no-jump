@@ -9,16 +9,20 @@
     }
 }
 
+.three-fold-img__wrap--reverse {
+    flex-direction: row-reverse;
+}
+
 .three-fold-img__item-left {
     display: flex;
-    flex: 44%;
-    max-width: 44%;
+    flex: 50%;
+    max-width: 50%;
 
     img {
-        width: 100%;
-        max-height: 720px;
+        // width: 100%;
+        // max-height: 720px;
         border-radius: 15px;
-        object-fit: cover;
+        // object-fit: cover;
     }
 
     @include mq($phone) {
@@ -38,9 +42,9 @@
     grid-gap: 40px;
 
     img {
-        max-height: 340px;
+        // max-height: 340px;
         border-radius: 15px;
-        object-fit: cover;
+        // object-fit: cover;
     }
 
     @include mq($phone) {

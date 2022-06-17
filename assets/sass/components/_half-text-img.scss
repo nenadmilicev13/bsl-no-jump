@@ -1,12 +1,12 @@
-.half-text-img {
-    padding: 100px 0 300px;
+.half-text {
+    padding: 100px 0 0;
 
     @include mq($phone) {
         padding: 0;
     }
 }
 
-.half-text-img__container {
+.half-text__container {
     display: flex;
     justify-content: space-between;
 
@@ -15,12 +15,16 @@
     }
 }
 
-.half-text-img__left {
+.half-text__left {
     max-width: 535px;
 }
 
-.half-text-img__right {
+.half-text__right {
     max-width: 400px;
+
+    p {
+        color: $grey;
+    }
 }
 
 .half-text-img__bottom {

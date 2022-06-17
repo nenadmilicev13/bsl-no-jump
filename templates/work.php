@@ -25,22 +25,26 @@ get_header(); ?>
 
 					<div class="cards__container cards__container-work">
 						<div class="card-item hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/flower.png" alt="">
+						<a href="/baseline/fe-finsource/">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finsource-business-card.jpg" alt="">
 							<div class="card-item__info">
-								<h5 class="card-item__info-title">Flower Couture</h5>
-								<p class="card-item__info-text">Magna ultrices dictum odio morbi sagittis quis at orci.</p>
+								<h5 class="card-item__info-title">FinSource Accounting</h5>
+								<p class="card-item__info-text">Laoreet amet nec et varius leo, sollicitudin aliquet suspendisse tristique. Faucibus lobortis potenti et tortor sed in magnis velit ac.</p>
 							</div>
+						</a>
 						</div>
 						<div class="card-item card-item__two hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle.jpg" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">Nestlé</h5>
-								<p class="card-item__info-text">Cursus id volutpat eleifend id quis in natoque velit. Integer risus adipiscing sed platea quis platea a purus consectetur.</p>
-							</div>
+							<a href="/baseline/fe-nestle/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">Nestlé</h5>
+									<p class="card-item__info-text">Cursus id volutpat eleifend id quis in natoque velit. Integer risus adipiscing sed platea quis platea a purus consectetur.</p>
+								</div>
+							</a>
 						</div>
 						
-						<div class="card-item hover-js" data-image-src="view">
-							<a href="http://localhost/baseline/fe-mihano/">
+						<div class="card-item card-item__three hover-js" data-image-src="view">
+							<a href="/baseline/fe-mihano/">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Mihano Momosa</h5>
@@ -51,27 +55,33 @@ get_header(); ?>
 						
 						
 						<div class="card-item card-item__four hover-js" data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/michael.jpg" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">luv Michael</h5>
-								<p class="card-item__info-text">Vitae, massa rhoncus ac velit in ac cras. Suspendisse facilisis eget arcu vestibulum lacus, faucibus.</p>
-							</div>
+							<a href="/baseline/fe-fc-jedinstvo-gospodjinci/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/fc-jedinstvo.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">FC Jedinstvo Gospodjinci</h5>
+									<p class="card-item__info-text">Laoreet amet nec et varius leo, sollicitudin aliquet suspendisse tristique.</p>
+								</div>
+							</a>
 						</div>
 						<div class="break-line"></div>
 						<div class="card-item card-item__five hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-work.png" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">Hecker</br> Construction</h5>
-								<p class="card-item__info-text">Imperdiet sed volutpat nullam fermentum. Quam proin sagittis volutpat diam proin non dui velit. Eget sed sollicitudin ipsum sed tincidunt magna venenatis condimentum. Eu tincidunt donec montes, quis.</p>
-							</div>
+							<a href="/baseline/fe-hecker/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">Hecker</br> Construction</h5>
+									<p class="card-item__info-text">Magna ultrices dictum odio morbi sagittis quis at orci.</p>
+								</div>
+							</a>
 						</div>
 						<div class="break-line"></div>
 						<div class="card-item card-item__six hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya.png" alt="">
-                            <div class="card-item__info">
-                                <h5 class="card-item__info-title">QANYA</h5>
-                                <p class="card-item__info-text">Laoreet amet nec et varius leo, sollicitudin aliquet suspendisse tristique. Faucibus lobortis potenti et tortor sed in magnis velit ac.</p>
-                            </div>
+							<a href="/baseline/fe-qanya/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-work.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">QANYA</h5>
+									<p class="card-item__info-text">Laoreet amet nec et varius leo, sollicitudin aliquet suspendisse tristique. Faucibus lobortis potenti et tortor sed in magnis velit ac.</p>
+								</div>
+							</a>
 						</div>
 					</div>
 
@@ -101,13 +111,6 @@ get_header(); ?>
 				</div>
 			</div>
 		</main><!-- #main -->
-		<div class="cursor">
-			<div class="cursor-media">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
-			</div>	
-		</div>
-        <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
 	</div><!-- #primary -->
 <?php
 get_footer();

@@ -12,7 +12,8 @@
 	@include mq($phone) {
 		.text-sec__title {
 			font-size: 29px;
-			margin-bottom: 100px;
+			margin-bottom: 250px;
+			// margin-top: 200px;
 		}
 	}
 }

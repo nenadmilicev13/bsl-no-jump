@@ -26,6 +26,7 @@ const Sliders = {
 			slidesToShow: 3,
 			centerPadding: '160px',
 			centerMode: true,
+			variableWidth: true,
 			dots: false,
 			arrows: false,
 			swipeToSlide: true,

@@ -14,24 +14,6 @@ get_header(); ?>
 			
 
 			<div class="banner-head">
-				<!-- <div class="video-sec__hidden">
-					<div class="vimeo-wrapper"><iframe src="https://player.vimeo.com/video/159046953?background=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-				</div> -->
-				<!-- <div class="banner-head__spot js-banner-spot">
-					<svg width="100%" height="1147" viewBox="0 0 1046 1147" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<g filter="url(#filter0_f_971_16)">
-							<path fill-rule="evenodd" clip-rule="evenodd" d="M740.521 554.115C765.452 561.935 821.655 444.744 847.35 449.475C892.823 457.846 859.85 532.975 966.35 567.475C988.15 605.214 935.29 678.927 909.547 714.093C888.347 743.053 847.015 744.767 818.794 766.935C788.735 790.546 778.619 849.868 740.521 846.865C701.305 843.774 703.799 776.569 670.724 755.263C633.883 731.531 325.764 590.519 301.349 554.115C278.363 519.841 556.497 642.717 568.827 603.327C581.315 563.434 578.183 311.988 618.349 300.475C663.226 287.612 695.977 540.144 740.521 554.115Z" fill="#EF9B4E" fill-opacity="0.5"/>
-						</g>
-						<defs>
-							<filter id="filter0_f_971_16" x="0" y="0" width="1271.5" height="1146.98" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-								<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-								<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-								<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_971_16"/>
-							</filter>
-						</defs>
-					</svg>
-				</div> -->
-
 				<div class="wrapper wrapper--sm">
 					<div class="banner-head__content">
 						<h1 class="banner-head__title">Where your brand's voice
@@ -47,8 +29,8 @@ get_header(); ?>
 						<a data-fancybox href="https://vimeo.com/305547899" loop=1 autoplay=1 mute=1>
 							<div id="video" class="video-sec js-video-sec">
 								<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
-									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/video.mp4" type="video/mp4">
-									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/video.ogg" type="video/ogg">
+									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/bsl.mp4" type="video/mp4">
+									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/bsl.ogg" type="video/ogg">
 									Your browser does not support the video tag.
 								</video>
 							</div>
@@ -68,32 +50,40 @@ get_header(); ?>
 					</div>
 					<div class="cards__container">
 						<div class="card-item card-item__one hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/heckerr.png" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">Hecker Construction</h5>
-								<p class="card-item__info-text">Magna ultrices dictum odio morbi sagittis quis at orci.</p>
-							</div>
+							<a href="/baseline/fe-hecker/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">Hecker Construction</h5>
+									<p class="card-item__info-text">Magna ultrices dictum odio morbi sagittis quis at orci.</p>
+								</div>
+							</a>
 						</div>
 						<div class="card-item card-item__two hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle.jpg" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">Nestlé</h5>
-								<p class="card-item__info-text">Cursus id volutpat eleifend id quis in natoque velit. Integer risus adipiscing sed platea quis platea a purus consectetur.</p>
-							</div>
+							<a href="/baseline/fe-nestle/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">Nestlé</h5>
+									<p class="card-item__info-text">Cursus id volutpat eleifend id quis in natoque velit. Integer risus adipiscing sed platea quis platea a purus consectetur.</p>
+								</div>
+							</a>
 						</div>
 						<div class="card-item card-item__three hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano.jpg" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">Mihano Momosa</h5>
-								<p class="card-item__info-text">Nisl diam sed porttitor amet ullamcorper velit enim, faucibus sed.</p>
-							</div>
+							<a href="/baseline/fe-mihano/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">Mihano Momosa</h5>
+									<p class="card-item__info-text">Nisl diam sed porttitor amet ullamcorper velit enim, faucibus sed.</p>
+								</div>
+							</a>
 						</div>
 						<div class="card-item  card-item__four hover-js"data-image-src="view">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/michael.jpg" alt="">
-							<div class="card-item__info">
-								<h5 class="card-item__info-title">luv Michael</h5>
-								<p class="card-item__info-text">Vitae, massa rhoncus ac velit in ac cras. Suspendisse facilisis eget arcu vestibulum lacus, faucibus.</p>
-							</div>
+							<a href="/baseline/fe-qanya/">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-work.jpg" alt="">
+								<div class="card-item__info">
+									<h5 class="card-item__info-title">QANYA</h5>
+									<p class="card-item__info-text">Vitae, massa rhoncus ac velit in ac cras. Suspendisse facilisis eget arcu vestibulum lacus, faucibus.</p>
+								</div>
+							</a>
 						</div>
 					</div>
 					<div class="cards__bottom-text">
@@ -169,477 +159,502 @@ get_header(); ?>
 						<div class="brands__slider">
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/6.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/7.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/baron_castel.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/8.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/pandora.svg" alt="">
 								</div>
 							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/9.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/10.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/11.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/12.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/13.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/14.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/15.svg" alt="">
-								</div>
-							</div>
-						</div>
 
-						<div class="brands__slider">
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/6.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano_momosa.svg" alt="">
 								</div>
 							</div>
+							
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/7.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker_construction.svg" alt="">
 								</div>
 							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/8.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/9.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/10.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/11.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/12.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/13.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/14.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/15.svg" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="brands__slider">
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/6.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/7.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/8.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/9.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/10.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/11.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/12.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/13.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/14.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/15.svg" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="brands__slider-row">
-						<div class="brands__slider">
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/6.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/7.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/8.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/9.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/10.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/11.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/12.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/13.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/14.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/15.svg" alt="">
-								</div>
-							</div>
-						</div>
 
-						<div class="brands__slider">
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/6.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-b.svg" alt="">
 								</div>
 							</div>
+
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/7.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/olympus.svg" alt="">
 								</div>
 							</div>
+							
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/8.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nespresso.svg" alt="">
 								</div>
 							</div>
+
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/9.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/10.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/11.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/12.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/13.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/14.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/15.svg" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="brands__slider">
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/6.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/7.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/8.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/9.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/10.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/11.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/12.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/13.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/14.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/15.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/reshape.svg" alt="">
 								</div>
 							</div>
 						</div>
 						
+						<div class="brands__slider">
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/baron_castel.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/pandora.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano_momosa.svg" alt="">
+								</div>
+							</div>
+							
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker_construction.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-b.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/olympus.svg" alt="">
+								</div>
+							</div>
+							
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nespresso.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/reshape.svg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="brands__slider">
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/baron_castel.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/pandora.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano_momosa.svg" alt="">
+								</div>
+							</div>
+							
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker_construction.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-b.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/olympus.svg" alt="">
+								</div>
+							</div>
+							
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nespresso.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/reshape.svg" alt="">
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="brands__slider-row">
 						<div class="brands__slider">
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/6.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/aquafilter.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/7.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mhk.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unhcr.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/swiss_pro.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/steelImpex.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle_health_science.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unicef.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/central_road_laboratory.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/tyto_care.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/pour_vous.svg" alt="">
+								</div>
+							</div>
+							
+						</div>
+						<div class="brands__slider">
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/aquafilter.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/8.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mhk.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unhcr.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/swiss_pro.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/steelImpex.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle_health_science.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unicef.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/central_road_laboratory.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/tyto_care.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/pour_vous.svg" alt="">
+								</div>
+							</div>
+							
+						</div>
+						<div class="brands__slider">
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/aquafilter.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/9.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mhk.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unhcr.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/swiss_pro.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/steelImpex.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle_health_science.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unicef.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/central_road_laboratory.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/tyto_care.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/pour_vous.svg" alt="">
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="brands__slider-row">
+						<div class="brands__slider">
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/sonax.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/10.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/immertec.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/11.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/wunder_baum.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/12.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finsource.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/13.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/phox_health.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/14.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/dunn_co.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/15.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hartmann_packaging.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unops.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/digital_medical.svg" alt="">
+								</div>
+							</div>
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/lasercap.svg" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="brands__slider">
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/6.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/sonax.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/7.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/immertec.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/8.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/wunder_baum.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/9.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finsource.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/10.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/phox_health.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/11.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/dunn_co.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/12.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hartmann_packaging.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/13.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unops.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/digital_medical.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/14.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/15.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/lasercap.svg" alt="">
 								</div>
 							</div>
 						</div>
-
-
 						<div class="brands__slider">
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/6.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/sonax.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/7.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/immertec.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/8.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/wunder_baum.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/9.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finsource.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/10.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/phox_health.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/11.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/dunn_co.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/12.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hartmann_packaging.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/13.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unops.svg" alt="">
+								</div>
+							</div>
+
+							<div class="brands__slider-item">
+								<div class="brands__slider-img">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/digital_medical.svg" alt="">
 								</div>
 							</div>
 							<div class="brands__slider-item">
 								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/14.svg" alt="">
-								</div>
-							</div>
-							<div class="brands__slider-item">
-								<div class="brands__slider-img">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/15.svg" alt="">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/lasercap.svg" alt="">
 								</div>
 							</div>
 						</div>
@@ -735,6 +750,7 @@ get_header(); ?>
 										<li>Google Ad Campaigns</li>
 										<li>Social Media</li>
 										<li>SEO Copywriting</li>
+										<li>Copywriting</li>
 									</ul>
 									<div class="services__item-btns">
 										<a href="javascript:;">Learn More</a>
@@ -836,13 +852,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 
-		<div class="cursor">
-			<div class="cursor-media">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/play-button.svg" alt=""id="play-button"></img>
-			</div>	
-		</div>
+		
 	</div><!-- #primary -->
 
 <?php

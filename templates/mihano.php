@@ -14,13 +14,13 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--black">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihanoo.jpg" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihanoo.jpg" alt="">
                     </div>
                 </div>
             </div>
             <div class="single-work single-work--black">
                 <div class="wrapper wrapper--sm">
-                    <div class="single-work__intro">
+                    <div class="single-work__intro fadeIn-text">
                         <p>Mihano Momosa is a brand devoted to women. Mihailo Anušić, the fashion designer behind the brand, insists on creating items that nurture individuality and enable women to feel as if in a modern fairy tale. Believing that each woman is unique in her own way, he approaches making every item with the same dose of enthusiasm, while still holding on to the feminine imperative.</p>
                         <div class="single-work__intro-flex">
                             <div class="single-work__intro-flex-item-left">
@@ -39,7 +39,12 @@ get_header(); ?>
             <div class="image-sec image-sec--white">
                 <div class="wrapper">
                     <div class="image-sec__logo">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-logo.svg" alt="">
+                        <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-logo.svg" alt=""> -->
+                        <video class="video-mihano" muted width="400px" height="200px" playsinline style="pointer-events: none;">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/MM1.mp4" type="video/mp4">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/MM1.ogg" type="video/ogg">
+							Your browser does not support the video tag.
+						</video>
                     </div>
                 </div>
             </div>
@@ -99,7 +104,7 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="image-sec triger-end">
+            <div class="image-sec">
                 <div class="wrapper">
                     <div class="image-sec__full-img">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihanooo.jpg" alt="">
@@ -147,13 +152,13 @@ get_header(); ?>
             </div>
             
 		</main><!-- #main -->
-		<div class="cursor">
+		<!-- <div class="cursor">
 			<div class="cursor-media">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
 			</div>	
-		</div>
-        <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
+		</div> -->
+        <!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

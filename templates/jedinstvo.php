@@ -14,21 +14,21 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--fallow">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-banner.jpg" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-banner.jpg" alt="">
                     </div>
                 </div>
             </div>
             <div class="single-work single-work--fallow">
                 <div class="wrapper wrapper--sm">
                     <div class="single-work__intro">
-                        <p>The Football Club “Jedinstvo” in the small village of Gospođinci has a long history. People in the village started playing this sport after World War I, as early as 1919.</p>
+                        <p class="fadeIn-text">The Football Club “Jedinstvo” in the small village of Gospođinci has a long history. People in the village started playing this sport after World War I, as early as 1919.</p>
                         <div class="single-work__intro-flex">
                             <div class="single-work__intro-flex-item-left">
-                                <ul>
+                                <ul class="fadeIn-text">
                                     <li>Monograph Design</li>
                                 </ul>
                             </div>
-                            <div class="single-work__intro-flex-item-right">
+                            <div class="single-work__intro-flex-item-right fadeIn-text">
                                 <p>The clients first came to us with the idea of designing a brochure to celebrate the 100th anniversary of the Football Club “Jedinstvo”. After hearing how much the club and football tradition meant to the local community, we managed to convince them to do something bigger for this historic event.</p>
                             </div>
                         </div>
@@ -145,13 +145,13 @@ get_header(); ?>
             </div>
             
 		</main><!-- #main -->
-		<div class="cursor">
+		<!-- <div class="cursor">
 			<div class="cursor-media">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
 			</div>	
-		</div>
-        <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
+		</div> -->
+        <!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

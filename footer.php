@@ -20,9 +20,10 @@
 					<ul class="footer__container-list">
 						<li><a href="javascript:;">Work</a></li>
 						<li><a href="javascript:;">Services</a></li>
-						<li><a href="javascript:;">About</a></li>
-						<li><a href="javascript:;">Insights</a></li>
+						<li><a href="javascript:;">Studio</a></li>
+						<li><a href="javascript:;">Resources</a></li>
 						<li><a href="javascript:;">Contact</a></li>
+						<li><a href="javascript:;">Start Here</a></li>
 					</ul>
 				</div>
 
@@ -51,7 +52,6 @@
 			</div>
 		</div>
 	</footer>
-
 	
 </div><!-- #page -->
 

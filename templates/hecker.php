@@ -14,22 +14,22 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--blue">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Hecker-flag.jpg" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Hecker-flag.jpg" alt="">
                     </div>
                 </div>
             </div>
             <div class="single-work single-work--blue">
                 <div class="wrapper wrapper--sm">
                     <div class="single-work__intro">
-                        <p>Hecker Construction company (Tampa, Florida) specialises in all phases of marine construction and renovation since 1973.</p>
+                        <p class="fadeIn-text">Hecker Construction company (Tampa, Florida) specialises in all phases of marine construction and renovation since 1973.</p>
                         <div class="single-work__intro-flex">
                             <div class="single-work__intro-flex-item-left">
-                                <ul>
+                                <ul class="fadeIn-text">
                                     <li>Logo Design</li>
                                     <li>Brand Identity</li>
                                 </ul>
                             </div>
-                            <div class="single-work__intro-flex-item-right">
+                            <div class="single-work__intro-flex-item-right fadeIn-text">
                                 <p>The client reached out with the idea to develop a modern and easily recognizable brand identity, with simple, geometric shapes and minimalistic construction elements. The goal was to create a visual identity that would set Hecker Construction apart from other companies in the field, presenting a more professional image and bringing in fresh clients.</p>
                             </div>
                         </div>
@@ -39,13 +39,13 @@ get_header(); ?>
 
             <div class="text-top-img-bottom fade-out">
                 <div class="wrapper wrapper--sm">
-                    <div class="text-top-img-bottom__text">
+                    <div class="text-top-img-bottom__text fadeIn-text">
                         <div class="entry-content">
                             <h3>With this brief in mind, we went straight to the drawing board.</h3>
                         </div>
                     </div>
-                    <div class="text-top-img-bottom__image">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Hecker-logo-skica.png" alt="">
+                    <div class="text-top-img-bottom__image fadeIn-text">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Hecker-logo-skica.png" alt=""> </img>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ get_header(); ?>
             <div class="image-sec triger-start ">
                 <div class="wrapper">
                     <div class="image-sec__logo fade-in">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-logo2.svg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-logo2.svg" alt=""> </img>
                     </div>
                 </div>
             </div>
@@ -62,10 +62,10 @@ get_header(); ?>
                 <div class="wrapper">
                     <div class="half-image__container">
                         <div class="half-image-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerTypography.jpg" alt="" ></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerTypography.svg" alt="" ></img>
                         </div>
                         <div class="half-image-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerSolutions.png" alt=""></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerSolutions.svg" alt=""></img>
                         </div>
                     </div>
                 </div>
@@ -81,22 +81,43 @@ get_header(); ?>
                            </div>
                         </div>
                         <div class="text-left-img-right__image">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerHelmet.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerHelmet.jpg" alt=""> </img>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="image-sec__full-img">
+            <div class="image-sec__full-img triger-end">
                 <div class="wrapper">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerMockup.jpg" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerMockup.jpg" alt=""> </img>
                 </div>
             </div>
 
-            <div class="small-image  triger-end">
+            <!-- <div class="small-video">
                 <div class="wrapper">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerShapes.png" alt="">
+                    <div class="small-video__container">
+                        <video class="video-hecker" muted width="171px" height="171px" autoplay playsinline style="pointer-events: none;">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/1.mp4" type="video/mp4">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/1.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
+                        <video class="video-hecker" muted width="171px" height="171px" autoplay playsinline style="pointer-events: none;">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/2.mp4" type="video/mp4">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/2.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
+                        <video class="video-hecker" muted width="171px" height="171px" autoplay playsinline style="pointer-events: none;">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/3.mp4" type="video/mp4">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/3.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
+                        <video class="video-hecker" muted width="171px" height="171px" autoplay playsinline style="pointer-events: none;">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/4.mp4" type="video/mp4">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/4.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="image-sec__full-img">
                 <div class="wrapper">
@@ -108,16 +129,16 @@ get_header(); ?>
                 <div class="wrapper">
                     <div class="four-sm-images__container">
                         <div class="four-sm-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-four-images.png" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-four-images.svg" alt="">
                         </div>
                         <div class="four-sm-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-four-images2.png" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-four-images2.svg" alt="">
                         </div>
                         <div class="four-sm-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-four-images3.png" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-four-images3.svg" alt="">
                         </div>
                         <div class="four-sm-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-four-images4.png" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-four-images4.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -169,13 +190,13 @@ get_header(); ?>
             </div>
             
 		</main><!-- #main -->
-		<div class="cursor">
+		<!-- <div class="cursor">
 			<div class="cursor-media">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
 			</div>	
-		</div>
-        <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
+		</div> -->
+        <!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

@@ -26,20 +26,16 @@ body {
 }
 
 
+// .home {
+// 	background: $snow;
+// 	.main-content {
+// 		opacity: 0;
+// 	}
+// }
 
-.page-template-services-index {
-	// background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
-	background-color: $snow;
-
-}
-
-.home {
-	// background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
-	background: $snow;
-
-	.main-content {
-		opacity: 0;
-	}
+.site-main {
+	opacity: 0;
+	transition: 350ms ease;
 }
 
 .overflow {
@@ -49,4 +45,18 @@ body {
 
 .page-id-34 {
 	background-color: $white;
+}
+
+
+.concept {
+    font-size: 16px;
+    color: $black;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 200px 0 150px;
+    text-align: center;
+}
+
+.page-template-mihanoPatterns {
+	background-color: $snow;
 }

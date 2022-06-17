@@ -1,6 +1,6 @@
 .single-work {
     background-color: $dark-green;
-    padding: 80px 0 250px;
+    padding: 160px 0 250px;
 
     @include mq($phone-s) {
         padding: 40px 0 100px;
@@ -21,6 +21,10 @@
 
 .single-work--tangaroa {
     background-color: $tangaroa;
+}
+
+.single-work--atoll {
+    background-color: $atoll;
 }
 
 .single-work__intro {

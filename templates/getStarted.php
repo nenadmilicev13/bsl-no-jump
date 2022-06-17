@@ -11,54 +11,29 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-            <!-- <section id="philosophie--white" class="philosophie">
-				<div class="wrapper">
-					<div class="indicators">
-						<div class="indicator"></div>
-						<div class="indicator"></div>
-						<div class="indicator"></div>
-						<div class="indicator"></div>
-						<!-- <div class="indicator"></div>
-					</div> -->
-					<!-- <div id="point-text-left" class="point p">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/started.png" alt="" width= "628" height="428">
-						<article>
-							<p>If your website is in desperate need of a polish.</p>
-						</article>
-					</div>
-					<div id="point-text-left" class="point">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/started.png" alt="" width= "628" height="428">
-						<article>
-							<p>If your branding is anything but consistent and -on brand-</p>
-						</article>
-					</div>
 
-					<div id="point-text-left" class="point">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/started.png" alt="" width= "628" height="428">
-						<article>
-							<p>If your logo is outdated, non-existent or you are often asked the question “What is this supposed to be?”</p>
-						</article>
-					</div>
-				</div>
-			</section> -->
-
-            <div class="contact-content">
-                <div class="contact-content__text">
-                    <div class="entry-content">
-                        <p>Whatever the reason, we’re here to help.</p>
-                        <span class="contact-cta">So let's get started!</span>
+            <div class="banner-head banner-head--text">
+                <div class="wrapper wrapper--sm">
+                    <div class="banner-head__animation">
+                        <div class="banner-head__animation-left">
+                                <span class="section-head__pretitle">Get Started</span>
+                                <h1 class="banner-head__title">If your website is in desperate need of a polish.</h1>
+                                <span class="banner-head__subtitle banner-head__subtitle--sm">Whatever the reason, we’re here to help.</span>
+                        </div>
+                        <div class="banner-head__animation-right">
+                            <video class="video-p" muted width="309px" height="539px" autoplay loop playsinline style="pointer-events: none;">
+                                <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/contact2.mp4" type="video/mp4">
+                                <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/contact2.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
                     </div>
-                    <video class="video-p" muted width="309px" height="539px" autoplay loop playsinline style="pointer-events: none;">
-                        <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/contact.mp4" type="video/mp4">
-                        <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/contact.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
-                    </video>
                 </div>
             </div>
 
             <div class="contact-form">
                 <div class="wrapper wrapper--s">
-                    <form action="">
+                    <form class="contact-form__wrap">
                         <span>You usually go by</span>
                         <div class="contact-text2">
                             <p> You usually go by</p>
@@ -114,23 +89,42 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="contact-cta-bottom">
+            <!-- <div class="contact-cta-bottom">
                 <div class="wrapper">
                     <div class="section-head">
                         <h2 class="section-head__title">Thanks for trusting us with your project! We’ll get back to you ASAP.</h2>
                         <p>Or you can email us directly at <a href="mailto:contact@wearebaselinecom">contact@wearebaseline.com</a></p>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+            <div class="cta">
+				<div class="wrapper wrapper--sm">
+					<div class="cta__container">
+						<div class="cta__wrap">
+							<div class="cta__left">
+								<h2 class="cta__title">Your brand’s evolution starts <a href="javascript:;">here.</a></h2>
+							</div>
+						</div>
+						<div class="cta__right">
+						<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.mp4" type="video/mp4">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.ogg" type="video/ogg">
+							Your browser does not support the video tag.
+						</video>
+						</div>
+					</div>
+				</div>
+			</div>
             
 		</main><!-- #main -->
-		<div class="cursor">
+		<!-- <div class="cursor">
 			<div class="cursor-media">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
 			</div>	
-		</div>
-        <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
+		</div> -->
+        <!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

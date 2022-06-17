@@ -47,7 +47,13 @@
 .vimeo-wrapper iframe {
     width: 90vw;
     height: 36.25vw;
-    // min-height: 92vh;
     min-width: 177.77vh;
     @include center;
+}
+
+video {
+    @include mq($phone) {
+        height: 260px;
+        padding-top: 50px;
+    }
 }

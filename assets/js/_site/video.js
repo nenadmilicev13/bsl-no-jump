@@ -17,7 +17,7 @@ const Video = {
     }
 
     $(function(){
-      if($('body').is('.home')){
+      if($('body').is('.page-id-16')){
           ScrollTrigger.defaults({
             markers:false
         })

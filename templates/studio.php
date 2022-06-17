@@ -129,12 +129,47 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="half-sec__change-text">
+                    <!-- <div class="half-sec__change-text">
                         <p>We create digital experiences for analogue humans.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-
+            <section class="philosophie">
+				<div class="wrapper philosophie__wrap">
+					<div class="indicators">
+						<div class="indicator"></div>
+						<div class="indicator"></div>
+						<div class="indicator"></div>
+						<div class="indicator"></div>
+						<!-- <div class="indicator"></div> -->
+					</div>
+					<div class="point">
+						<article>
+							<p>Before we do - we get inspired imagine, doodle, brainstorm agree and disagree.</p>
+						</article>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/test.svg" alt="" width= "628" height="428">
+					</div>
+					<div class="point">
+						<article>
+							<p>We research and dwell, find various solutions and pick the best one with your help.</p>
+						</article>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/test22.svg" alt="" width= "628" height="428">
+					</div>
+					<div class="point">
+						<article>
+							<p>We divide tasks: design, illustrate, write, code, and then - magic happens.</p>
+						</article>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/test3.svg" alt="" width= "628" height="428">
+					</div>
+					<div class="point">
+						<article>
+							<p>You get the final product that helps your company succeed, while we get the satisfaction from working on it.</p>
+						</article>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/test4.svg" alt="" width= "628" height="428">
+					</div>
+					<!--  -->
+				</div>
+			</section>
             <div class="services">
 				<div class="services__wrap services-wrap-br">
 					<div class="wrapper">
@@ -223,6 +258,7 @@ get_header(); ?>
 										<li>Google Ad Campaigns</li>
 										<li>Social Media</li>
 										<li>SEO Copywriting</li>
+                                        <li>Copywriting</li>
 									</ul>
 									<div class="services__item-btns">
 										<a href="javascript:;">Learn More</a>
@@ -264,7 +300,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-            <div class="services__bottom">
+            <!-- <div class="services__bottom">
 				<div class="wrapper">
 					<div class="services__bottom-container">
 						<div class="services__bottom-item">
@@ -287,7 +323,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
             <div class="brands-all">
                 <div class="wrapper">
@@ -297,141 +333,184 @@ get_header(); ?>
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/olympus.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle_health_science.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/digital_medical.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nespresso.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano_momosa.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/tyto_care.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mhk.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/precog_security.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/reshape.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unhcr.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unicef.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unops.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/swiss_pro.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/un_fao.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/aquafilter.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/pour_vous.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/baron_castel.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/immertec.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/baron_fashion.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/wunder_baum.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/steelImpex.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/ipsi_institut.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-b.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker_construction.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/sonax.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/pandora.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/biosense.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/health_axis.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/kardic_health.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/central_road_laboratory.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/flower_couture.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/dunn_co.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finsource.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/vology.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hartmann_packaging.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/heroj.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/andrejic_partners.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/roar.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/vulic_law.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/lasercap.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/levo_health.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/luv_michael.svg" alt="">
+                        </div>
+                        <div class="brand-all__item">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/pain_teq.svg" alt="">
+                        </div>
+                        <div class="brand-all__item">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/phox_health.svg" alt="">
+                        </div>
+                        <div class="brand-all__item">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/puerto_rico_star_healthcare.svg" alt="">
+                        </div>
+                        <div class="brand-all__item">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/us_autism_homes.svg" alt="">
+                        </div>
+                        <div class="brand-all__item">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/tack_united.svg" alt="">
+                        </div>
+                        <div class="brand-all__item">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/smile_health.svg" alt="">
+                        </div>
+                        <div class="brand-all__item">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/in_genious.svg" alt="">
+                        </div>
+                        <div class="brand-all__item">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/novum_group.svg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="cta">
+				<div class="wrapper wrapper--sm">
+					<div class="cta__container">
+						<div class="cta__wrap">
+							<div class="cta__left">
+								<h2 class="cta__title">Your brand’s evolution starts <a href="javascript:;">here.</a></h2>
+							</div>
+						</div>
+						<div class="cta__right">
+						<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.mp4" type="video/mp4">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.ogg" type="video/ogg">
+							Your browser does not support the video tag.
+						</video>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</main><!-- #main -->
-        <div class="cursor">
+        <!-- <div class="cursor">
 			<div class="cursor-media">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="apps"></img>
 			</div>	
-		</div>
+		</div> -->
         
-  		<script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
+  		<!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

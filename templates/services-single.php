@@ -13,7 +13,7 @@ get_header(); ?>
 		<main id="main" class="site-main">
             <div class="banner-head banner-head--text">
                 <div class="wrapper wrapper--sm">
-                    <div class="banner-head__content banner-head__content--flex">
+                    <div class="banner-head__content ">
                         <div class="banner-head__content-left">
                             <span class="section-head__pretitle">Services</span>
                             <h1 class="banner-head__title">Branding</h1>
@@ -125,16 +125,16 @@ get_header(); ?>
 					
 				</div>
 			</div>
-            <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
+            <!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
         </main><!-- #main -->
 	</div><!-- #primary -->
 		
-        <div class="cursor">
+        <!-- <div class="cursor">
 			<div class="cursor-media">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
 			</div>	
-		</div>
+		</div> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

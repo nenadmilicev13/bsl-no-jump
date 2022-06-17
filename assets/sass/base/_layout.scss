@@ -37,15 +37,6 @@
         max-width: 923px;
         padding: 0 15px;
     }
-
-    // @include mq($phone-s) {
-    //     max-width: 653px;
-    //     // padding: 0 15px;
-    // }
-
-    // @include mq($phone-s) {
-    //    padding: 0 30px;
-    // }
 }
 
 .wrapper--sm {
@@ -80,10 +71,6 @@
     }
 
     @include mq($phone) {
-        padding: 0 30px;
+        padding: 0 15px;
     }
-
-    // @include mq($phone-xs) {
-    //     padding: 0 15px;
-    // }
 }

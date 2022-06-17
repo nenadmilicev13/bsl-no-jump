@@ -1,5 +1,7 @@
 .brands__slider-wrapper {
 	transition-delay: 600ms;
+	// opacity: 0;
+	transition: $dur $ease;
 }
 
 .brands__slider-row {
@@ -53,6 +55,7 @@
 
 
 .brands__slider-img {
+	padding: 0 5px;
 
 	img {
 		opacity: 0.4;

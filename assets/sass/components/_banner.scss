@@ -22,16 +22,6 @@
   }
 }
 
-.banner-head__spot {
-  position: absolute;
-  right: 0;
-  top: 8%;
-
-  path {
-    transition: $dur $ease;
-  }
-}
-
 .banner-head--full {
   &::after {
     content: '';
@@ -52,8 +42,53 @@
   }
 
   @include mq($phone) {
-    padding-bottom: 90px;
+    padding-bottom: 50px;
   }
+}
+
+.banner-head--text__single-post {
+  background-color: $white;
+  padding-bottom: 60px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2px;
+    width: 80%;
+    height: 1px;
+    background-color: $black2;
+  }
+
+  @include mq($phone) {
+    padding-bottom: 0;
+  }
+}
+
+.banner-head--text__single-post-img {
+  position: absolute;
+  right: 16%;
+  top: 57%;
+  z-index: 1;
+}
+
+.banner-head__animation {
+  display: flex;
+  align-items: center;
+}
+
+.banner-head__animation-left,
+.banner-head__animation-right {
+  flex: 50%;
+  max-width: 50%;
+}
+
+.banner-head__animation-right {
+  text-align: right;
+  opacity: 0;
+  transform: translateY(60px);
 }
 
 /// Work Single Banner//////////////////
@@ -68,7 +103,7 @@
     bottom: -3px;
     left: 0;
     width: 100%;
-    height: 200px;
+    height: 120px;
     background-color: $dark-green;
   }
 
@@ -110,14 +145,34 @@
   }
 }
 
+.banner-head__image--atoll {
+  &::before {
+    content: '';
+    background-color: $atoll;
+  }
+}
+
 .banner-head__image-wrap {
+  position: relative;
+  height: 0;
+  padding-top: calc(760 / 1600 * 100%);
+
   img {
-    width: 100%;
-    max-height: 760px;
-    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    position: relative;
     z-index: 1;
+    padding-top: 40px;
+  }
+
+  @include mq($phone) {
+    img {
+      padding-top: 0;
+    }
   }
 }
 
@@ -138,8 +193,8 @@
 }
 
 .banner-head__content {
-  max-width: 918px;
-  padding-top: 140px;
+  max-width: 890px;
+  padding-top: 100px;
 
   @include mq($tablet-l) {
     max-width: 835px;
@@ -164,7 +219,7 @@
 }
 
 .banner-head__content--sm {
-  max-width: 770px;
+  max-width: 780px;
 }
 
 .banner-head__content--flex {
@@ -173,18 +228,19 @@
   align-items: end;
 }
 
-.banner-head__content-left {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
+// .banner-head__content-left {
+//   flex: 0 0 100%;
+//   max-width: 100%;
+// }
 
 .banner-head__title {
-  font-size: 72px;
+  font-size: 70px;
   font-weight: 400;
   line-height: 1.083;
   letter-spacing: -0.015em;
   color: $black2;
   margin-bottom: 40px;
+  will-change: transform;
 
   @include mq($tablet-l) {
     font-size: 60px;
@@ -194,7 +250,7 @@
     font-size: 55px;
   }
 
-  @include mq($phone-s) {
+  @include mq($phone) {
     font-size: 40px;
   }
 }
@@ -215,11 +271,7 @@
   }
 
   @include mq($phone) {
-    font-size: 20px;
-  }
-
-  @include mq($phone-xs) {
-    font-size: 19px;
+    font-size: 23px;
   }
 }
 
@@ -359,6 +411,7 @@
 
 .container__wrap {
   background-color: $black2;
+  padding: 0 20px;
 }
 
 .container,
@@ -396,7 +449,6 @@
   font-size: 20px;
   color: $grey;
 }
-
 
 .philosophie {
   position: relative;
