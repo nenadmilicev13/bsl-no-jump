@@ -25,7 +25,7 @@ get_header(); ?>
 				</div>
 				
 				<div class="wrapper">
-					<div class="video-sec hover-js"data-image-src="play-button">
+					<div class="video-sec video-sec__hero hover-js"data-image-src="play-button">
 						<a data-fancybox href="https://vimeo.com/305547899" loop=1 autoplay=1 mute=1>
 							<div id="video" class="video-sec js-video-sec">
 								<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
@@ -313,6 +313,7 @@ get_header(); ?>
 							</div>
 						</div>
 					</div>
+
 					<div class="brands__slider-row">
 						<div class="brands__slider">
 							<div class="brands__slider-item">
@@ -498,6 +499,7 @@ get_header(); ?>
 							
 						</div>
 					</div>
+					
 					<div class="brands__slider-row">
 						<div class="brands__slider">
 							<div class="brands__slider-item">

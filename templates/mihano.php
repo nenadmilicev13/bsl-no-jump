@@ -21,7 +21,7 @@ get_header(); ?>
             <div class="single-work single-work--black">
                 <div class="wrapper wrapper--sm">
                     <div class="single-work__intro fadeIn-text">
-                        <p>Mihano Momosa is a brand devoted to women. Mihailo Anušić, the fashion designer behind the brand, insists on creating items that nurture individuality and enable women to feel as if in a modern fairy tale. Believing that each woman is unique in her own way, he approaches making every item with the same dose of enthusiasm, while still holding on to the feminine imperative.</p>
+                        <p>Mihano Momosa is a brand devoted to women. Mihailo Anusic, the fashion designer behind the brand, insists on creating items that nurture individuality and enable women to feel as if in a modern fairy tale. Believing that each woman is unique in her own way, he approaches making every item with the same dose of enthusiasm, while still holding on to the feminine imperative.</p>
                         <div class="single-work__intro-flex">
                             <div class="single-work__intro-flex-item-left">
                                 <ul>
@@ -39,8 +39,7 @@ get_header(); ?>
             <div class="image-sec image-sec--white">
                 <div class="wrapper">
                     <div class="image-sec__logo">
-                        <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-logo.svg" alt=""> -->
-                        <video class="video-mihano" muted width="400px" height="200px" playsinline style="pointer-events: none;">
+                        <video class="video-mihano" muted width="400px" height="200px" playsinline style="pointer-events: none;" autoplay>
 							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/MM1.mp4" type="video/mp4">
 							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/MM1.ogg" type="video/ogg">
 							Your browser does not support the video tag.

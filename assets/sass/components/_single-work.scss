@@ -2,8 +2,8 @@
     background-color: $dark-green;
     padding: 160px 0 250px;
 
-    @include mq($phone-s) {
-        padding: 40px 0 100px;
+    @include mq($phone) {
+        padding: 40px 0 50px;
     }
 }
 

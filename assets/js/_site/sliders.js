@@ -25,6 +25,7 @@ const Sliders = {
 		carousel.slick({
 			slidesToShow: 3,
 			centerPadding: '160px',
+			slidesToScroll: 3,
 			centerMode: true,
 			variableWidth: true,
 			dots: false,
@@ -35,8 +36,10 @@ const Sliders = {
 				{
 					breakpoint: 767,
 					settings: {
-						slidesToShow: 1,
+						slidesToShow: 1.5,
 						centerPadding: '80px',
+						centerMode: false,
+						variableWidth: false,
 					}
 				}
 			]

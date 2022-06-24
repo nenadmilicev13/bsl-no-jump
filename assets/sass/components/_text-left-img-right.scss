@@ -11,9 +11,14 @@
     justify-content: space-between;
     align-items: center;
     grid-gap: 110px;
+    padding-top: 100px;
 
     @include mq($tablet-xs) {
         display: block;
+    }
+
+    @include mq($phone) {
+        padding-top: 50px;
     }
 }
 
@@ -133,6 +138,7 @@
         // object-fit: cover;
         width: 100%;
         border-radius: 10px;
+        margin-left: auto;
     }
 
     @include mq($tablet-xs) {
