@@ -28,6 +28,7 @@ get_header(); ?>
                                     <li>Brand Discovery</li>
                                     <li>Website Design</li>
                                     <li>Development</li>
+                                    
                                 </ul>
                             </div>
                             <div class="single-work__intro-flex-item-right fadeIn-text">
@@ -44,12 +45,13 @@ get_header(); ?>
                         <div class="text-left-img-right__content text-left-img-right__content--sm">
                             <div class="entry-content">
                                 <h3 class="text-left-img-right__content-title ">We were asked to design a simple but memorable logo that will differentiate them from competitors and a user-friendly website that their future customers can easily navigate.</h3>
-                            </div>
-                            
+                            </div> 
                         </div>
-                        <div class="text-left-img-right__image">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finSource1.png" alt="">
-                        </div>
+                        <video class="video-finsource" muted width="583px" height="508px" autoplay playsinline style="pointer-events: none;">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/FSL.mp4" type="video/mp4">
+                            <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/FSL.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                     
                 </div>
@@ -61,7 +63,7 @@ get_header(); ?>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finSource-logo.svg" alt="">
                     </div>
                     <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finsource-typo.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finsource-typo.svg" alt="">
                     </div>
                     <div class="image-sec__full-img">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finsource-mockup.jpg" alt="">
@@ -77,7 +79,7 @@ get_header(); ?>
                         <div class="text-left-img-right__content">
                             <h3 class="text-left-img-right__content-title ">It makes no difference to us whether the client we’re working with is big or small, just starting out or already successful in their business ventures. We treat every project with undivided attention and care, giving all of our clients an equal chance at a fresh start.</h3>
                            <div class="entry-content">
-                               <p>In this case, we began by assembling the colour pallet, choosing and combining the right typography, and putting in many hours of work into developing the best yet most simple logo design, specially tailored for the client. Great quality content made the whole process of designing the website from start to finish much smoother. The site was live in less than a month, optimised to the extent that its score is 99/100 for the desktop version and 85/100 for mobile phones, making it fully responsive.</p>
+                               <p>In this case, we began by assembling the colour pallet, choosing and combining the right typography, and putting in many hours of work into developing the best yet most simple logo design, specially tailored for the client. Great quality content made the whole process of designing the website from start to finish much smoother. The site was live in less than a month, optimised to the extent that its score is 99/100 for the desktop version and 85/100 for mobile phones, fully SEO friendly.</p>
                            </div>
                         </div>
                         <div class="text-left-img-right__image">

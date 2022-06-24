@@ -48,7 +48,7 @@ get_header(); ?>
                         <h3 class="section-head__title">Pellentesque sit leo ornare hendrerit donec ligula adipiscing.</h3>
                         <p class="section-head__subtitle">Vitae, phasellus et pretium commodo. Odio sapien mauris viverra fames sollicitudin cursus egestas orci. Quis posuere pellentesque turpis amet quis cursus ultrices malesuada tristique. Vel vestibulum sagittis, at condimentum. Lacus, duis ultrices tempus, dolor. Tellus nisi elit rutrum venenatis ut pellentesque neque, vitae quis. Mauris egestas nulla et mattis proin viverra sed lorem. Est pulvinar eleifend lorem nunc. Eget volutpat interdum ullamcorper tincidunt. Iaculis faucibus nunc, et bibendum dui. Amet amet aenean leo nunc. Porta viverra dui libero quam.</p>
                         <div class="content-full__img">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Mihano-Momosa-Print.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Mihano-Momosa-Print.png" alt="">
                         </div>
                         
                     </div>
@@ -81,7 +81,7 @@ get_header(); ?>
                         <h3 class="section-head__title">Pellentesque sit leo ornare hendrerit donec ligula adipiscing.</h3>
                         <p class="section-head__subtitle">Vitae, phasellus et pretium commodo. Odio sapien mauris viverra fames sollicitudin cursus egestas orci. Quis posuere pellentesque turpis amet quis cursus ultrices malesuada tristique. Vel vestibulum sagittis, at condimentum. Lacus, duis ultrices tempus, dolor. Tellus nisi elit rutrum venenatis ut pellentesque neque, vitae quis. Mauris egestas nulla et mattis proin viverra sed lorem. Est pulvinar eleifend lorem nunc. Eget volutpat interdum ullamcorper tincidunt. Iaculis faucibus nunc, et bibendum dui. Amet amet aenean leo nunc. Porta viverra dui libero quam.</p>
                         <div class="content-full__img">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Mihano-Momosa-Print2.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Mihano-Momosa-Print2.png" alt="">
                         </div>
                         
                     </div>
@@ -114,7 +114,7 @@ get_header(); ?>
                         <h3 class="section-head__title">Pellentesque sit leo ornare hendrerit donec ligula adipiscing.</h3>
                         <p class="section-head__subtitle">Vitae, phasellus et pretium commodo. Odio sapien mauris viverra fames sollicitudin cursus egestas orci. Quis posuere pellentesque turpis amet quis cursus ultrices malesuada tristique. Vel vestibulum sagittis, at condimentum. Lacus, duis ultrices tempus, dolor. Tellus nisi elit rutrum venenatis ut pellentesque neque, vitae quis. Mauris egestas nulla et mattis proin viverra sed lorem. Est pulvinar eleifend lorem nunc. Eget volutpat interdum ullamcorper tincidunt. Iaculis faucibus nunc, et bibendum dui. Amet amet aenean leo nunc. Porta viverra dui libero quam.</p>
                         <div class="content-full__img">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Mihano-Momosa-Print-1.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Mihano-Momosa-Print-1.png" alt="">
                         </div>
                         
                     </div>
@@ -133,7 +133,7 @@ get_header(); ?>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-sl13.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-sl14.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-sl13.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@ get_header(); ?>
                         <h3 class="section-head__title">Pellentesque sit leo ornare hendrerit donec ligula adipiscing.</h3>
                         <p class="section-head__subtitle">Vitae, phasellus et pretium commodo. Odio sapien mauris viverra fames sollicitudin cursus egestas orci. Quis posuere pellentesque turpis amet quis cursus ultrices malesuada tristique. Vel vestibulum sagittis, at condimentum. Lacus, duis ultrices tempus, dolor. Tellus nisi elit rutrum venenatis ut pellentesque neque, vitae quis. Mauris egestas nulla et mattis proin viverra sed lorem. Est pulvinar eleifend lorem nunc. Eget volutpat interdum ullamcorper tincidunt. Iaculis faucibus nunc, et bibendum dui. Amet amet aenean leo nunc. Porta viverra dui libero quam.</p>
                         <div class="content-full__img">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Mihano-Momosa-Print-1-v4.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Mihano-Momosa-Print-1-v4.png" alt="">
                         </div>
                         
                     </div>
@@ -167,6 +167,24 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
+            <div class="cta">
+				<div class="wrapper wrapper--sm">
+					<div class="cta__container">
+						<div class="cta__wrap">
+							<div class="cta__left">
+								<h2 class="cta__title">Your brand’s evolution starts <a href="javascript:;">here.</a></h2>
+							</div>
+						</div>
+						<div class="cta__right">
+						<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.mp4" type="video/mp4">
+							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.ogg" type="video/ogg">
+							Your browser does not support the video tag.
+						</video>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php

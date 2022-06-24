@@ -122,26 +122,6 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-           
-            <div class="cta">
-				<div class="wrapper wrapper--sm">
-					<div class="cta__container">
-						<div class="cta__wrap">
-							<div class="cta__left">
-								<h2 class="cta__title">Your brand’s evolution starts <a href="javascript:;">here.</a></h2>
-							</div>
-						</div>
-						<div class="cta__right">
-						<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
-							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.mp4" type="video/mp4">
-							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/footervideo.ogg" type="video/ogg">
-							Your browser does not support the video tag.
-						</video>
-						</div>
-					</div>
-				</div>
-			</div>
-            
 		</main><!-- #main -->
 		<div class="cursor">
 			<div class="cursor-media">

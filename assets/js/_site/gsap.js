@@ -65,16 +65,6 @@ const Gsap = {
 			});
 		}
 
-		// const header = $(".header");
-		// if (header.length) {
-		// 	gsap.from(header, {
-		// 		opacity: 0,
-		// 		delay: 0.5,
-		// 		duration: 0.8,
-		// 		y: 15,
-		// 	});
-		// }
-
 		const pretitle = $(".section-head__pretitle");
 		if (pretitle.length) {
 			gsap.from(pretitle, {
@@ -202,7 +192,7 @@ const Gsap = {
 					start: "top 60%",
 					end: "bottom 60%",
 					toggleActions: "play none play reverse",
-					markers: true,
+					// markers: true,
 				},
 			});
 		}
@@ -224,6 +214,7 @@ const Gsap = {
 
 		const cardsItem = $(".card-item");
 		const cards = gsap.utils.toArray(".card-item");
+		// console.log(cards);
 
 		if (cardsItem.length) {
 			gsap.set(".card-item", { y: 100 });
@@ -326,6 +317,7 @@ const Gsap = {
 			let trigger = ScrollTrigger.create({
 				trigger: videoElem1,
 				start: 'top center',
+				markers: true,
 				onEnter: () => {
 					if (!videoPlayed) {
 						videoElem1.play();
@@ -335,21 +327,64 @@ const Gsap = {
 			});
 		}
 
-		// let videoHacker = document.querySelector('.video-hacker');
-		// let videoPlayed2 = false;
+		let count = 0;
+		let videoHecker = gsap.utils.toArray('.video-hecker');
+		let videoPlayed2 = false;
+		let interval;
 
-		// if(videoHacker) {
-		// 	let trigger = ScrollTrigger.create({
-		// 		trigger: videoHacker,
-		// 		start: 'top center',
-		// 		onEnter: () => {
-		// 			if (!videoPlayed) {
-		// 				videoHacker.play();
-		// 				videoPlayed2 = true;
-		// 			}
+		gsap.from(videoHecker, {
+			opacity: 0,
+			
+			stagger: {
+				amount: 1,
+			},
+			scrollTrigger: {
+				trigger: videoHecker,
+				start: 'top 90%',
+				end: 'bottom 90%',
+				markers: true,
+				onEnter: () => {
+					if (!videoPlayed2) {
+						
+						 interval = setInterval(() => {
+							videoHecker[count].play();
+							console.log(videoHecker);
+							// videoPlayed2 = true;
+							count++
+							if(count > 3) {
+								videoPlayed2 = true;
+							}
+						}, 300)
+					} else {
+						clearInterval(interval)
+					}
+				},
+			}
+
+		})
+
+		// videoHecker.forEach((video, i) => {
+		// 	gsap.to(video, {
+		// 		opacity: 1,
+		// 		delay: 1 * i,
+		// 		scrollTrigger: {
+		// 			trigger: video,
+		// 			start: 'top 90%',
+		// 			end: 'bottom 90%',
+		// 			markers: true,
+		// 			onSnapComplete: () => {
+		// 				console.log();
+		// 				if (!videoPlayed2) {
+		// 					video.play();
+		// 					// count++
+		// 					// if(count > 3) {
+		// 					// 	videoPlayed2 = true;
+		// 					// }
+		// 				}
+		// 			},
 		// 		}
-		// 	});
-		// }
+		// 	})
+		// })
 
 		let bannerAnimation = document.querySelector('.banner-head__animation-right');
 		console.log(bannerAnimation);

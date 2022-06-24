@@ -1,7 +1,7 @@
 .brands__slider-wrapper {
-	transition-delay: 600ms;
-	// opacity: 0;
-	transition: $dur $ease;
+	// transition-delay: 600ms;
+	padding-bottom: 150px;
+	// transition: $dur $ease;
 }
 
 .brands__slider-row {
@@ -18,7 +18,7 @@
 	transform: translate3d(0, 0, 0);
 	will-change: transform;
 	padding-bottom: 70px;
-	transition: 1s ease;
+	// transition: 1s ease;
 	
 	.brands__slider-row:nth-of-type(2n) & {
 		animation: infinite-slide-revert 50000ms linear infinite;
@@ -55,8 +55,6 @@
 
 
 .brands__slider-img {
-	padding: 0 5px;
-
 	img {
 		opacity: 0.4;
 	}

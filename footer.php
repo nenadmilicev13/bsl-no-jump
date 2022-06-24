@@ -10,20 +10,24 @@
  */
 
 ?>
-
-	</div><!-- #content -->
-	
 	<footer class="footer">
 		<div class="wrapper">
 			<div class="footer__container">
 				<div class="footer__container-left">
 					<ul class="footer__container-list">
-						<li><a href="javascript:;">Work</a></li>
+
+					<?php if ( have_rows('navigation', 'option') ) : ?>
+						<?php while ( have_rows('navigation', 'option') ) : the_row(); ?>
+
+							<li><a href="<?php echo get_sub_field('link'); ?>"><?php echo get_sub_field('label'); ?></a></li>
+
+						<?php endwhile; ?>
+					<?php endif; ?>
+						<!-- <li><a href="javascript:;">Work</a></li>
 						<li><a href="javascript:;">Services</a></li>
 						<li><a href="javascript:;">Studio</a></li>
 						<li><a href="javascript:;">Resources</a></li>
-						<li><a href="javascript:;">Contact</a></li>
-						<li><a href="javascript:;">Start Here</a></li>
+						<li><a href="javascript:;">Start Here</a></li> -->
 					</ul>
 				</div>
 
@@ -48,7 +52,7 @@
 				</div>
 			</div>
 			<div class="footer__bottom">
-				<span class="copyright">2022 © Baseline</span>
+				<span class="copyright"><?php echo get_field('copyright', 'option'); ?></span>
 			</div>
 		</div>
 	</footer>
