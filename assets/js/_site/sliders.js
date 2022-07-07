@@ -41,7 +41,7 @@ const Sliders = {
 						slidesToShow: 1.5,
 						centerPadding: '80px',
 						centerMode: false,
-						variableWidth: false,
+						// variableWidth: false,
 					}
 				}
 			]
