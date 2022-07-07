@@ -8,10 +8,10 @@ import Video from "./_site/video";
 import NavBtn from "./_site/navBtn";
 import Masonry from "./_site/masonry";
 import Gsap from "./_site/gsap";
+import modal from "./_site/modal";
 
 jQuery(function () {
-	
-	console.log('test');
+	console.log("test");
 
 	// // Cursor
 	Cursor.init();
@@ -31,6 +31,10 @@ jQuery(function () {
 	// Header
 	Header.init();
 
+	// Modal
+
+	modal.init();
+
 	// Video
 	Video.init();
 
@@ -39,9 +43,6 @@ jQuery(function () {
 
 	// Masonry
 	Masonry.init();
-
-
-
 
 	// console.log(document.querySelector('main').classList);
 
@@ -63,7 +64,7 @@ jQuery(function () {
 	} else if (document.querySelector("main").classList.contains("nestle")) {
 		const color = "#2b7681";
 		Gsap.init(color);
-	} else  {
+	} else {
 		Gsap.init();
 	}
 });

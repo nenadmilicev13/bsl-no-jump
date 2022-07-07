@@ -8,9 +8,7 @@ const Gsap = {
 		# Initialize
 	-------------------------------------------------------------------------------*/
 
-	
 	init: function (color) {
-		
 		gsap.registerPlugin(ScrollTrigger);
 
 		let load;
@@ -24,25 +22,24 @@ const Gsap = {
 
 		ScrollTrigger.matchMedia({
 			"(min-width: 768px)": function () {
-				const fadeInTexts = gsap.utils.toArray('.fadeIn-text');
+				const fadeInTexts = gsap.utils.toArray(".fadeIn-text");
 				fadeInTexts.forEach((text) => {
 					gsap.from(text, {
 						opacity: 0,
 						translateY: 100,
 						duration: 1.3,
 						stagger: {
-						amount: 1,
+							amount: 1,
 						},
 						scrollTrigger: {
-						trigger: text,
-						start: 'top bottom',
-						end: 'bottom bottom',
+							trigger: text,
+							start: "top bottom",
+							end: "bottom bottom",
 						},
 					});
 				});
-			}
-		})
-		
+			},
+		});
 
 		const body = $(".site-main");
 		if (body.length) {
@@ -75,7 +72,6 @@ const Gsap = {
 			});
 		}
 
-		
 		const bannerDesc = $(".banner-desc");
 		if (bannerDesc.length) {
 			gsap.from(bannerDesc, {
@@ -307,63 +303,62 @@ const Gsap = {
 			});
 		}
 
-		let videoElem1 = document.querySelector('.video-mihano');
+		let videoElem1 = document.querySelector(".video-mihano");
 		let videoPlayed = false;
 
 		if (videoElem1) {
 			let trigger = ScrollTrigger.create({
 				trigger: videoElem1,
-				start: 'top center',
+				start: "top center",
 				// markers: true,
 				onEnter: () => {
 					if (!videoPlayed) {
 						videoElem1.play();
 						videoPlayed = true;
 					}
-				}
+				},
 			});
 		}
 
-		let videoHecker = gsap.utils.toArray('.video-hecker');
+		let videoHecker = gsap.utils.toArray(".video-hecker");
 		let videoPlayed2 = false;
 		let count = 0;
 
-		if(videoHecker) {
+		if (videoHecker) {
 			videoHecker.forEach((hecker) => {
 				let triger = ScrollTrigger.create({
 					trigger: videoHecker,
-					start: 'top center',
-					end: 'bottom center',
+					start: "top center",
+					end: "bottom center",
 					// markers: true,
 
 					onEnter: () => {
 						if (count < videoHecker.length) {
 							videoHecker[count].play();
-							count++
+							count++;
 							// console.log(videoHecker[count]);
 							videoPlayed2 = true;
 						}
-					}
-					
-				})
-			})
+					},
+				});
+			});
 		}
 
-		let finsource = document.querySelector('.video-finsource');
+		let finsource = document.querySelector(".video-finsource");
 		let videoPlayed3 = false;
 
-		if(finsource) {
+		if (finsource) {
 			let triger = ScrollTrigger.create({
 				trigger: finsource,
-				start: 'top 40%',
+				start: "top 40%",
 				// markers: true,
 				onEnter: () => {
 					if (!videoPlayed3) {
 						finsource.play();
 						videoPlayed3 = true;
 					}
-				}
-			})
+				},
+			});
 		}
 
 		// let count = 0;
@@ -399,10 +394,12 @@ const Gsap = {
 		// 	});
 		// }
 
-		let bannerAnimation = document.querySelector('.banner-head__animation-right');
+		let bannerAnimation = document.querySelector(
+			".banner-head__animation-right"
+		);
 		console.log(bannerAnimation);
 
-		if(bannerAnimation) {
+		if (bannerAnimation) {
 			gsap.to(bannerAnimation, {
 				opacity: 1,
 				y: 0,
@@ -411,8 +408,8 @@ const Gsap = {
 			});
 		}
 
-		let contactForm = document.querySelector('.contact-form__wrap');
-		if(contactForm) {
+		let contactForm = document.querySelector(".contact-form__wrap");
+		if (contactForm) {
 			gsap.to(contactForm, {
 				opacity: 1,
 				y: 0,
@@ -430,16 +427,14 @@ const Gsap = {
 		// 	  tl.to(targets, {opacity: 1, duration: config.duration});
 		// 	  return tl;
 		// 	},
-		// 	defaults: {duration: 1}, 
+		// 	defaults: {duration: 1},
 		// 	extendTimeline: true
 		// });
-		
-		
+
 		// var tl = gsap.timeline({repeat: -1});
 		// tl.swapText(".banner-head__title-change", {text: "If you want to boost your business, sales or self esteem", delay: 2})
 		//   .swapText(".banner-head__title-change", {text: "If your branding is anything but consistent and -on brand-", delay: 2})
 		//   .swapText(".banner-head__title-change", {text: "If your website is in desperate need of a polish.", delay: 2}); // back to the start
-		
 	},
 };
 

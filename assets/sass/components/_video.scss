@@ -1,95 +1,93 @@
 .video-sec {
-    position: relative;
-    z-index: 999;
-    margin-top: 200px;
+	position: relative;
+	z-index: 999;
+	margin-top: 200px;
 
-    @include mq($tablet-l) {
-        margin-bottom: 0;
-    }
+	@include mq($tablet-l) {
+		margin-bottom: 0;
+	}
 
-    @include mq($phone) {
-        padding-bottom: 10px;
-        margin: -1px;
-        padding: 19px 0 23px;
-    }
+	@include mq($phone) {
+		padding-bottom: 10px;
+		margin: -1px;
+		padding: 19px 0 23px;
+	}
 }
 
 .video-sec__play {
-    @include center;
-    z-index: 1000;
+	@include center;
+	z-index: 1000;
 
-    img {
-        width: 100px;
-        height: 100px;
-        cursor: pointer;
-        margin: 0 auto;
-    }
+	img {
+		width: 100px;
+		height: 100px;
+		cursor: pointer;
+		margin: 0 auto;
+	}
 }
 
 .video-sec__hidden {
-    @include center;
-    z-index: 9999;
-    display: none;
+	@include center;
+	z-index: 9999;
+	display: none;
 }
 
 .vimeo-wrapper {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    pointer-events: none;
-    overflow: hidden;
-    display: block;
-    border: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	pointer-events: none;
+	overflow: hidden;
+	display: block;
+	border: none;
 }
 
 .vimeo-wrapper iframe {
-    width: 90vw;
-    height: 36.25vw;
-    min-width: 177.77vh;
-    @include center;
+	width: 90vw;
+	height: 36.25vw;
+	min-width: 177.77vh;
+	@include center;
 }
 
 .video-sec__hero {
-    video {
-        @include mq($phone) {
-            height: 260px;
-            padding-top: 50px;
-        }
-    }
+	video {
+		@include mq($phone) {
+			height: 260px;
+			padding-top: 50px;
+		}
+	}
 }
 
 .video-finsource {
-    width: 100%;
-    padding-top: 0;
+	width: 100%;
+	padding-top: 0;
 }
 
 .video-hecker {
-    margin: 0 20px;
-    // opacity: 0;
+	margin: 0 20px;
+	opacity: 0;
 
-    @include mq($phone) {
-        margin: 0;
-        flex: 50%;
-        max-width: 50%;
+	@include mq($phone) {
+		margin: 0;
+		flex: 50%;
+		max-width: 50%;
 
-        video {
-            height: auto;
-            padding-top: 0;
-        }
-
-        
-    }
+		video {
+			height: auto;
+			padding-top: 0;
+		}
+	}
 }
 
 //Get started animation
 
 .video-getStarted {
-    @include mq($phone) {
-        width: 100%;
-        height: 400px;
-    }
+	@include mq($phone) {
+		width: 100%;
+		height: 400px;
+	}
 }
 
 // .video-p {
@@ -98,3 +96,53 @@
 //         height: 400px;
 //     }
 // }
+
+.modal {
+	position: fixed;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+	width: 100%;
+	height: 100vh;
+
+	> div {
+		flex: 1 1 auto;
+		position: relative;
+		max-width: calc(177.778vh);
+		height: calc(40vw);
+		@include mq($tablet-l) {
+			max-width: calc(95vw);
+			height: calc(45vw);
+		}
+
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	img {
+		position: absolute;
+		top: 50px;
+		right: 50px;
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+		@include mq($phone) {
+			width: 30px;
+			height: 30px;
+		}
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+
+.hidden {
+	display: none;
+}
