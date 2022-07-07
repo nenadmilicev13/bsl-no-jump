@@ -8,9 +8,7 @@ const Gsap = {
 		# Initialize
 	-------------------------------------------------------------------------------*/
 
-	
 	init: function (color) {
-		
 		gsap.registerPlugin(ScrollTrigger);
 
 		let load;
@@ -24,25 +22,24 @@ const Gsap = {
 
 		ScrollTrigger.matchMedia({
 			"(min-width: 768px)": function () {
-				const fadeInTexts = gsap.utils.toArray('.fadeIn-text');
+				const fadeInTexts = gsap.utils.toArray(".fadeIn-text");
 				fadeInTexts.forEach((text) => {
 					gsap.from(text, {
 						opacity: 0,
 						translateY: 100,
 						duration: 1.3,
 						stagger: {
-						amount: 1,
+							amount: 1,
 						},
 						scrollTrigger: {
-						trigger: text,
-						start: 'top bottom',
-						end: 'bottom bottom',
+							trigger: text,
+							start: "top bottom",
+							end: "bottom bottom",
 						},
 					});
 				});
-			}
-		})
-		
+			},
+		});
 
 		const body = $(".site-main");
 		if (body.length) {
@@ -65,16 +62,6 @@ const Gsap = {
 			});
 		}
 
-		// const header = $(".header");
-		// if (header.length) {
-		// 	gsap.from(header, {
-		// 		opacity: 0,
-		// 		delay: 0.5,
-		// 		duration: 0.8,
-		// 		y: 15,
-		// 	});
-		// }
-
 		const pretitle = $(".section-head__pretitle");
 		if (pretitle.length) {
 			gsap.from(pretitle, {
@@ -85,7 +72,6 @@ const Gsap = {
 			});
 		}
 
-		
 		const bannerDesc = $(".banner-desc");
 		if (bannerDesc.length) {
 			gsap.from(bannerDesc, {
@@ -202,7 +188,7 @@ const Gsap = {
 					start: "top 60%",
 					end: "bottom 60%",
 					toggleActions: "play none play reverse",
-					markers: true,
+					// markers: true,
 				},
 			});
 		}
@@ -224,6 +210,7 @@ const Gsap = {
 
 		const cardsItem = $(".card-item");
 		const cards = gsap.utils.toArray(".card-item");
+		// console.log(cards);
 
 		if (cardsItem.length) {
 			gsap.set(".card-item", { y: 100 });
@@ -243,7 +230,6 @@ const Gsap = {
 				});
 			});
 		}
-
 
 		const servicesSingleContainer = $(".services-single__container");
 		if (servicesSingleContainer.length) {
@@ -319,42 +305,83 @@ const Gsap = {
 			});
 		}
 
-		let videoElem1 = document.querySelector('.video-mihano');
+		let videoElem1 = document.querySelector(".video-mihano");
 		let videoPlayed = false;
 
 		if (videoElem1) {
 			let trigger = ScrollTrigger.create({
 				trigger: videoElem1,
-				start: 'top center',
+				start: "top center",
+				markers: true,
 				onEnter: () => {
 					if (!videoPlayed) {
 						videoElem1.play();
 						videoPlayed = true;
 					}
-				}
+				},
 			});
 		}
 
-		// let videoHacker = document.querySelector('.video-hacker');
-		// let videoPlayed2 = false;
+		let count = 0;
+		let videoHecker = gsap.utils.toArray(".video-hecker");
+		let videoPlayed2 = false;
 
-		// if(videoHacker) {
-		// 	let trigger = ScrollTrigger.create({
-		// 		trigger: videoHacker,
-		// 		start: 'top center',
-		// 		onEnter: () => {
-		// 			if (!videoPlayed) {
-		// 				videoHacker.play();
-		// 				videoPlayed2 = true;
-		// 			}
+		const tl = gsap.timeline({
+			scrollTrigger: {
+				trigger: ".video-hecker",
+				start: "top bottom",
+				end: "bottom bottom",
+				markers: true,
+				onEnter: () => {
+					gsap.to(videoHecker, {
+						opacity: 1,
+						duration: 1,
+						stagger: 1.2,
+						onStart: () => {
+							const playVideo = setInterval(() => {
+								if (count < videoHecker.length) {
+									videoHecker[count].play();
+									count++;
+								} else {
+									videoPlayed2 = true;
+									clearInterval(playVideo);
+								}
+							}, 1200);
+						},
+					});
+				},
+			},
+		});
+
+		// videoHecker.forEach((video, i) => {
+		// 	gsap.to(video, {
+		// 		opacity: 1,
+		// 		delay: 1 * i,
+		// 		scrollTrigger: {
+		// 			trigger: video,
+		// 			start: 'top 90%',
+		// 			end: 'bottom 90%',
+		// 			markers: true,
+		// 			onSnapComplete: () => {
+		// 				console.log();
+		// 				if (!videoPlayed2) {
+		// 					video.play();
+		// 					// count++
+		// 					// if(count > 3) {
+		// 					// 	videoPlayed2 = true;
+		// 					// }
+		// 				}
+		// 			},
 		// 		}
-		// 	});
-		// }
+		// 	})
+		// })
 
-		let bannerAnimation = document.querySelector('.banner-head__animation-right');
+		let bannerAnimation = document.querySelector(
+			".banner-head__animation-right"
+		);
 		console.log(bannerAnimation);
 
-		if(bannerAnimation) {
+		if (bannerAnimation) {
 			gsap.to(bannerAnimation, {
 				opacity: 1,
 				y: 0,
@@ -363,8 +390,8 @@ const Gsap = {
 			});
 		}
 
-		let contactForm = document.querySelector('.contact-form__wrap');
-		if(contactForm) {
+		let contactForm = document.querySelector(".contact-form__wrap");
+		if (contactForm) {
 			gsap.to(contactForm, {
 				opacity: 1,
 				y: 0,

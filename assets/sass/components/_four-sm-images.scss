@@ -9,6 +9,10 @@
 .four-sm-images__container {
     display: flex;
     justify-content: space-between;
+
+    @include mq($phone) {
+        flex-wrap: wrap;
+    }
 }
 
 .four-sm-item {

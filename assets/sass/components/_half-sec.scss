@@ -66,6 +66,7 @@
     font-weight: 500;
     color: $black2;
     margin-bottom: 40px;
+    max-width: 486px;
 
     @include mq($tablet-l) {
         font-size: 28px;

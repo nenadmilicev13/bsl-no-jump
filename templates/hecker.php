@@ -21,7 +21,7 @@ get_header(); ?>
             <div class="single-work single-work--blue">
                 <div class="wrapper wrapper--sm">
                     <div class="single-work__intro">
-                        <p class="fadeIn-text">Hecker Construction company (Tampa, Florida) specialises in all phases of marine construction and renovation since 1973.</p>
+                        <p class="fadeIn-text">Hecker Construction Company (Tampa, Florida) specialises in all phases of marine construction and renovation since 1973.</p>
                         <div class="single-work__intro-flex">
                             <div class="single-work__intro-flex-item-left">
                                 <ul class="fadeIn-text">
@@ -92,32 +92,32 @@ get_header(); ?>
                 </div>
             </div>
 
-            <!-- <div class="small-video">
+            <div class="small-video">
                 <div class="wrapper">
                     <div class="small-video__container">
-                        <video class="video-hecker" muted width="171px" height="171px" autoplay playsinline style="pointer-events: none;">
+                        <video class="video-hecker" muted width="171px" height="171px" playsinline style="pointer-events: none;">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/1.mp4" type="video/mp4">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/1.ogg" type="video/ogg">
                             Your browser does not support the video tag.
                         </video>
-                        <video class="video-hecker" muted width="171px" height="171px" autoplay playsinline style="pointer-events: none;">
+                        <video class="video-hecker" muted width="171px" height="171px" playsinline style="pointer-events: none;">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/2.mp4" type="video/mp4">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/2.ogg" type="video/ogg">
                             Your browser does not support the video tag.
                         </video>
-                        <video class="video-hecker" muted width="171px" height="171px" autoplay playsinline style="pointer-events: none;">
+                        <video class="video-hecker" muted width="171px" height="171px" playsinline style="pointer-events: none;">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/3.mp4" type="video/mp4">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/3.ogg" type="video/ogg">
                             Your browser does not support the video tag.
                         </video>
-                        <video class="video-hecker" muted width="171px" height="171px" autoplay playsinline style="pointer-events: none;">
+                        <video class="video-hecker" muted width="171px" height="171px" playsinline style="pointer-events: none;">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/4.mp4" type="video/mp4">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/4.ogg" type="video/ogg">
                             Your browser does not support the video tag.
                         </video>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
             <div class="image-sec__full-img">
                 <div class="wrapper">
@@ -190,13 +190,6 @@ get_header(); ?>
             </div>
             
 		</main><!-- #main -->
-		<!-- <div class="cursor">
-			<div class="cursor-media">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
-			</div>	
-		</div> -->
-        <!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

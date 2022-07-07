@@ -31,7 +31,7 @@ get_header(); ?>
             </div>
             <div class="team">
                 <div class="wrapper">
-                    <h2 class="section-head__title section-head__title--white">We are a bunch of highly organized, embarrassingly geeky, hyper creative, digital freaks, who take pikado playing at the office very seriously.</h2>
+                    <h2 class="section-head__title section-head__title--white">We are a bunch of highly organized, embarrassingly geeky, hyper creative, digital freaks, who take darts playing at the office very seriously.</h2>
                     <div class="team__container">
                         <div class="team-item">
                             <div class="team-item__img">
@@ -118,7 +118,8 @@ get_header(); ?>
                         </div>
                         <div class="half-sec__right">
                             <h3 class="half-sec__right-title">We believe that brands are similar to humans. 
-                            Each has a personality.</h3>
+                            </h3>
+                            <h3 class="half-sec__right-title half-sec__right-title2">Each has a personality.</h3>
                             <h3 class="half-sec__right-title half-sec__right-title2">A set of values.</h3>
                             <h3 class="half-sec__right-title half-sec__right-title2">A goal.</h3>
                             <h3 class="half-sec__right-title half-sec__right-title2">A vision (for the future).</h3>
@@ -300,31 +301,6 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-            <!-- <div class="services__bottom">
-				<div class="wrapper">
-					<div class="services__bottom-container">
-						<div class="services__bottom-item">
-							<div class="services__bottom-item-left">
-								<p>B2C</p>
-							</div>
-							<div class="services__bottom-item-right">
-								<span>Are you the client that needs our services?</span>
-								<span class="color">We’d love to help!</span>
-							</div>
-						</div>
-						<div class="services__bottom-item">
-							<div class="services__bottom-item-left">
-								<p>B2B</p>
-							</div>
-							<div class="services__bottom-item-right">
-								<span>Do you have clients that need our services? </span>
-								<span class="color">Let’s partner up!</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-
             <div class="brands-all">
                 <div class="wrapper">
                     <h2 class="section-head__title section-head__title--white">Let us brag a little about the brands we’ve worked for.</h2>
@@ -350,8 +326,9 @@ get_header(); ?>
                         <div class="brand-all__item">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/tyto_care.svg" alt="">
                         </div>
+                       
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mhk.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/swiss_pro.svg" alt="">
                         </div>
                         <div class="brand-all__item">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/precog_security.svg" alt="">
@@ -369,8 +346,9 @@ get_header(); ?>
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/unops.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/swiss_pro.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/undp.svg" alt="">
                         </div>
+                        
                         <div class="brand-all__item">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/un_fao.svg" alt="">
                         </div>
@@ -447,7 +425,7 @@ get_header(); ?>
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/roar.svg" alt="">
                         </div>
                         <div class="brand-all__item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/vulic_law.svg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mhk.svg" alt="">
                         </div>
                         <div class="brand-all__item">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/lasercap.svg" alt="">
