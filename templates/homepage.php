@@ -11,6 +11,10 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+			<dialog class="modal hidden">
+			<img class="closeModal" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/closemodal.svg" alt="close modal" srcset="">
+			<div><iframe class="videoAutoplay" src="https://player.vimeo.com/video/727366630?h=65a6924758&title=0" frameborder="0"allow="autoplay" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+			</dialog>
 			
 
 			<div class="banner-head">
@@ -26,15 +30,13 @@ get_header(); ?>
 				
 				<div class="wrapper">
 					<div class="video-sec video-sec__hero hover-js"data-image-src="play-button">
-						<a data-fancybox href="https://vimeo.com/305547899" loop=1 autoplay=1 mute=1>
-							<div id="video" class="video-sec js-video-sec">
+							<div id="video" class="video-sec js-video-sec modalTrigger">
 								<video class="video-p" muted width="100%" height="auto" autoplay loop playsinline style="pointer-events: none;">
 									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/bsl.mp4" type="video/mp4">
 									<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/bsl.ogg" type="video/ogg">
 									Your browser does not support the video tag.
 								</video>
 							</div>
-						</a>
 					</div>
 				 </div>
 			</div>
