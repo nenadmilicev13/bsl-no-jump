@@ -26,13 +26,6 @@ body {
 }
 
 
-// .home {
-// 	background: $snow;
-// 	.main-content {
-// 		opacity: 0;
-// 	}
-// }
-
 .site-main {
 	opacity: 0;
 	transition: 350ms ease;
@@ -57,10 +50,11 @@ body {
     text-align: center;
 
 	@include mq($phone) {
-		margin: 100px 0;
+		margin: 75px 0;
 	}
 }
 
-.page-template-mihanoPatterns {
+.page-template-mihanoPatterns,
+.page-id-19 {
 	background-color: $snow;
 }

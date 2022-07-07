@@ -1,9 +1,9 @@
 .single-work {
     background-color: $dark-green;
-    padding: 160px 0 250px;
+    padding: 260px 0 250px;
 
     @include mq($phone) {
-        padding: 40px 0 50px;
+        padding: 130px 0 50px;
     }
 }
 
@@ -61,6 +61,13 @@
 }
 
 .single-work__intro-flex-item-left {
+    display: flex;
+    position: relative;
+
+    ul:first-child  {
+        padding-right: 50px;
+    }
+
     li {
         font-size: 20px;
         line-height: 1.5;

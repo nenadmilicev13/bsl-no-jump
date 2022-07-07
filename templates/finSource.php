@@ -47,7 +47,7 @@ get_header(); ?>
                                 <h3 class="text-left-img-right__content-title ">We were asked to design a simple but memorable logo that will differentiate them from competitors and a user-friendly website that their future customers can easily navigate.</h3>
                             </div> 
                         </div>
-                        <video class="video-finsource" muted width="583px" height="508px" autoplay playsinline style="pointer-events: none;">
+                        <video class="video-finsource" muted width="583px" height="508px" playsinline style="pointer-events: none;">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/FSL.mp4" type="video/mp4">
                             <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/FSL.ogg" type="video/ogg">
                             Your browser does not support the video tag.
@@ -96,8 +96,12 @@ get_header(); ?>
             </div>
 
             <div class="project-name">
-                <h5>FinSource Accounting</h5>
-                <span>2021</span>
+                <div class="project-name__item">
+                    <a href="http://localhost/baseline/fe-work/"><h5>Back to work</h5></a>
+                </div>
+                <div class="project-name__item">
+                    <h5>FinSource Accounting / 2021</h5>
+                </div>
             </div>
 
             <div class="related-works">

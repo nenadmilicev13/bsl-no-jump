@@ -2,7 +2,7 @@ import Cursor from "./_site/cursor";
 import Sliders from "./_site/sliders";
 import Type from "./_site/type";
 import ScrollingText from "./_site/scrollingText";
-// import Header from "./_site/header";
+import Header from "./_site/header";
 import Split from "./_site/split";
 import Video from "./_site/video";
 import NavBtn from "./_site/navBtn";
@@ -28,8 +28,8 @@ jQuery(function () {
 	// Split
 	Split.init();
 
-	// Gsap
-	// Gsap.init();
+	// Header
+	Header.init();
 
 	// Video
 	Video.init();
@@ -63,7 +63,7 @@ jQuery(function () {
 	} else if (document.querySelector("main").classList.contains("nestle")) {
 		const color = "#2b7681";
 		Gsap.init(color);
-	} else {
+	} else  {
 		Gsap.init();
 	}
 });

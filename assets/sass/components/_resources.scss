@@ -15,7 +15,7 @@
 .resource-item {
     flex: 0 0 25%;
     max-width: 25%;
-    padding-right: 40px;
+    margin-right: 40px;
     margin-bottom: 100px;
 
     @include mq($tablet) {
@@ -26,15 +26,17 @@
     @include mq($phone) {
         flex: 0 0 100%;
         max-width: 100%;
-        padding-right: 0;
+        margin-right: 0;
         margin-bottom: 40px;
 	}
 }
 
 .resource-item__img {
     margin-bottom: 10px;
+
     img {
         width: 100%;
+        border-radius: 10px;
     }
 }
 
@@ -60,11 +62,21 @@
 }
 
 .single-post__content {
-    padding: 100px 0 0;
+    padding: 30px 0 0;
 
     p {
         font-size: 20px;
         line-height: 1.5;
+    }
+
+    a {
+        color: $blue-stone;
+        text-decoration: underline;
+        transition: $dur $ease;
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
 
     @include mq($phone) {
@@ -76,48 +88,39 @@
     }
 }
 
+.single__content-half-sec__img-item {
+    position: relative;
 
-.single__content-half-sec__item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    span {
+        position: absolute;
+        top: 2%;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        font-size: 42px;
+        line-height: 1.14;
+        letter-spacing: -0.01em;
+        color: $black2;
+    }
 
     @include mq($phone) {
-        display: block;
-    }                                                                                                                                                                                                                                    
-}
-
-
-.single__content-half-sec__item--reverse {
-    flex-direction: row-reverse;
-
-    .single__content-half-sec__item-right {
-        img {
-            margin-left: 0;
+        span {
+            font-size: 20px;
+            max-width: 176px;
         }
     }
 }
 
-.single__content-half-sec__item-left,
-.single__content-half-sec__item-right {
-    flex: 0 0 50%;
-    max-width: 50%;
-
-    @include mq($phone) {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }      
-}
-
-.single__content-half-sec__item-right {
-    img {
-        margin: 0 auto;
-    }
+.single__content-half-sec__img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 .single-post__content-bottom {
     background-color: $black;
-    padding: 40px 60px 100px;
+    padding: 40px 60px;
     margin-top: 100px;
     border-radius: 30px;
 
@@ -149,4 +152,19 @@
             font-size: 16px;
         }
     }      
+}
+
+.single__content-image-text {
+    margin-top: 70px;
+}
+
+.single__content-image-text__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.single__content-image-text__item {
+    flex: 50%;
+    max-width: 50%;
 }

@@ -86,7 +86,7 @@ get_header(); ?>
 					</div>
 
                     <div class="cards__bottom-text">
-						<h3>Because all brands are unique, our solutions tell a different story each time.</h3>
+						<h3>Each brand has a story to tell. By finding the authenticity that's already there, we use design to enhance the heck out of it.</h3>
 						<div class="card__bottom-text__btn">
 							<a class="btn" href="javascript">See more projects</a>
 						</div>

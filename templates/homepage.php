@@ -54,7 +54,7 @@ get_header(); ?>
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Hecker Construction</h5>
-									<p class="card-item__info-text">Magna ultrices dictum odio morbi sagittis quis at orci.</p>
+									<p class="card-item__info-text">Bringing construction up to date - reconstructing a modern brand identity</p>
 								</div>
 							</a>
 						</div>
@@ -63,7 +63,7 @@ get_header(); ?>
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Nestlé</h5>
-									<p class="card-item__info-text">Cursus id volutpat eleifend id quis in natoque velit. Integer risus adipiscing sed platea quis platea a purus consectetur.</p>
+									<p class="card-item__info-text">Health meets fun - illustrations and graphic concepts for app campaing</p>
 								</div>
 							</a>
 						</div>
@@ -72,7 +72,7 @@ get_header(); ?>
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Mihano Momosa</h5>
-									<p class="card-item__info-text">Nisl diam sed porttitor amet ullamcorper velit enim, faucibus sed.</p>
+									<p class="card-item__info-text">At the forefront of uniqueness and individuality - creating a logo for success</p>
 								</div>
 							</a>
 						</div>
@@ -81,7 +81,7 @@ get_header(); ?>
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-work.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">QANYA</h5>
-									<p class="card-item__info-text">Vitae, massa rhoncus ac velit in ac cras. Suspendisse facilisis eget arcu vestibulum lacus, faucibus.</p>
+									<p class="card-item__info-text">A drinkable rainforest - designing the logo and packaging that links this juice to its origin</p>
 								</div>
 							</a>
 						</div>

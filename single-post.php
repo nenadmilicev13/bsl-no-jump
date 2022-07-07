@@ -19,14 +19,10 @@ get_header(); ?>
 						<h1 class="banner-head__title"><?php the_title(); ?></h1>
 					</div>
 				</div>
-				<div class="banner-head--text__single-post-img">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/steva0.png" alt="">
-				</div>
-			</div>
-            
+			</div>                                                                                                                                                     
 
 			<div class="main-content">
-				<div class="wrapper wrapper--s">
+				<div class="wrapper wrapper--xs">
 					<?php
 					while ( have_posts() ) : the_post(); ?>
 						<!-- flex content -->
@@ -59,13 +55,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-	<!-- <div class="cursor">
-		<div class="cursor-media">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
-		</div>	
-	</div> -->
 
 <?php
 get_footer();
