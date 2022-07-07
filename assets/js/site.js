@@ -2,16 +2,16 @@ import Cursor from "./_site/cursor";
 import Sliders from "./_site/sliders";
 import Type from "./_site/type";
 import ScrollingText from "./_site/scrollingText";
-// import Header from "./_site/header";
+import Header from "./_site/header";
 import Split from "./_site/split";
 import Video from "./_site/video";
 import NavBtn from "./_site/navBtn";
 import Masonry from "./_site/masonry";
 import Gsap from "./_site/gsap";
+import modal from "./_site/modal";
 
 jQuery(function () {
-	
-	console.log('test');
+	console.log("test");
 
 	// // Cursor
 	Cursor.init();
@@ -28,8 +28,12 @@ jQuery(function () {
 	// Split
 	Split.init();
 
-	// Gsap
-	// Gsap.init();
+	// Header
+	Header.init();
+
+	// Modal
+
+	modal.init();
 
 	// Video
 	Video.init();
@@ -39,9 +43,6 @@ jQuery(function () {
 
 	// Masonry
 	Masonry.init();
-
-
-
 
 	// console.log(document.querySelector('main').classList);
 

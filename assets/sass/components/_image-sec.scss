@@ -53,6 +53,6 @@
     }
 
     @include mq($phone) {
-        margin: 100px 0;
+        margin: 100px 0 32px;
     }
 }

@@ -60,10 +60,6 @@
 	}
 }
 
-// video {
-
-// }
-
 .video-finsource {
 	width: 100%;
 	padding-top: 0;
@@ -75,10 +71,78 @@
 
 	@include mq($phone) {
 		margin: 0;
+		flex: 50%;
+		max-width: 50%;
 
 		video {
 			height: auto;
 			padding-top: 0;
 		}
 	}
+}
+
+//Get started animation
+
+.video-getStarted {
+	@include mq($phone) {
+		width: 100%;
+		height: 400px;
+	}
+}
+
+// .video-p {
+//     @include mq($phone) {
+//         width: 100%;
+//         height: 400px;
+//     }
+// }
+
+.modal {
+	position: fixed;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+	width: 100%;
+	height: 100vh;
+
+	> div {
+		flex: 1 1 auto;
+		position: relative;
+		max-width: calc(177.778vh);
+		height: calc(40vw);
+		@include mq($tablet-l) {
+			max-width: calc(95vw);
+			height: calc(45vw);
+		}
+
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	img {
+		position: absolute;
+		top: 50px;
+		right: 50px;
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+		@include mq($phone) {
+			width: 30px;
+			height: 30px;
+		}
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+
+.hidden {
+	display: none;
 }

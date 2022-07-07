@@ -1,11 +1,19 @@
 .logo-carousel {
-    padding: 150px 0 250px;
+    // padding: 150px 0 250px;
+    margin: 150px 0 250px;
+    background-image: url('assets/images/demo/many-logos.svg');
+    background-position: center;
+    background-repeat: repeat-x;
+    height: 26vw;
+    min-height: 26vw;
+    background-size: contain;
+
 
     img {
         width: 100%;
     }
 
     @include mq($phone) {
-        padding: 50px 0;
+        margin: 50px 0;
     }
 }

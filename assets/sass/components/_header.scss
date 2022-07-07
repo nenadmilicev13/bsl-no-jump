@@ -1,13 +1,17 @@
 .header {
     // height: 83px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
-    position: relative;
+   
+    position: fixed;
+    top: 0;
+    left: 0;
     padding: 20px 0;
     z-index: 9999;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: transparent;
+    transition: $dur $ease;
     // padding-bottom: 40px;
 
     .footer__mail,
@@ -17,13 +21,30 @@
 
     @include mq($phone) {
         display: block;
-        padding: 33px 0;
+        padding: 20px 0;
+        transition: none;
 
         .footer__mail,
         .footer__container-right {
             display: block;
         }
     }
+}
+
+.scroll-down {
+	header {
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.scroll-up {
+	.header {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), $snow;
+	}
+}
+
+.menu-is-open {
+	overflow: hidden;
 }
 
 .header-scroll {
@@ -33,7 +54,7 @@
 .js-header-open {
     background-color: $black2;
     height: 100vh;
-    transition: 300ms ease-in-out;
+    // transition: 300ms ease-in-out;
 }
 
 .header__container {
@@ -145,10 +166,6 @@
         display: block;
         overflow: hidden;
 
-        .star-here {
-            display: none;
-        }
-
         li {
             padding-right: 0;
             a {
@@ -172,12 +189,19 @@
             content: none;
         }
     }
+
+    @include mq($phone) {
+        a {
+            background-color: transparent;
+            padding: 10px 0;
+        }
+    }
 }
 
 .current-menu-item {
-	a {
-		color: $grey;
-	}
+	// a {
+	// 	color: $grey;
+	// }
 
     &.star-here {
         a {

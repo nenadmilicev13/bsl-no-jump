@@ -224,8 +224,6 @@ const Gsap = {
 						trigger: card,
 						start: "top 80%",
 						end: "bottom 80%",
-						// toggleActions: "play none play none",
-						// markers: true,
 					},
 				});
 			});
@@ -312,7 +310,7 @@ const Gsap = {
 			let trigger = ScrollTrigger.create({
 				trigger: videoElem1,
 				start: "top center",
-				markers: true,
+				// markers: true,
 				onEnter: () => {
 					if (!videoPlayed) {
 						videoElem1.play();
@@ -322,59 +320,79 @@ const Gsap = {
 			});
 		}
 
-		let count = 0;
 		let videoHecker = gsap.utils.toArray(".video-hecker");
 		let videoPlayed2 = false;
+		let count = 0;
 
-		const tl = gsap.timeline({
-			scrollTrigger: {
-				trigger: ".video-hecker",
-				start: "top bottom",
-				end: "bottom bottom",
-				markers: true,
+		if (videoHecker) {
+			videoHecker.forEach((hecker) => {
+				let triger = ScrollTrigger.create({
+					trigger: videoHecker,
+					start: "top center",
+					end: "bottom center",
+					// markers: true,
+
+					onEnter: () => {
+						if (count < videoHecker.length) {
+							videoHecker[count].play();
+							count++;
+							// console.log(videoHecker[count]);
+							videoPlayed2 = true;
+						}
+					},
+				});
+			});
+		}
+
+		let finsource = document.querySelector(".video-finsource");
+		let videoPlayed3 = false;
+
+		if (finsource) {
+			let triger = ScrollTrigger.create({
+				trigger: finsource,
+				start: "top 40%",
+				// markers: true,
 				onEnter: () => {
-					gsap.to(videoHecker, {
-						opacity: 1,
-						duration: 1,
-						stagger: 1.2,
-						onStart: () => {
-							const playVideo = setInterval(() => {
-								if (count < videoHecker.length) {
-									videoHecker[count].play();
-									count++;
-								} else {
-									videoPlayed2 = true;
-									clearInterval(playVideo);
-								}
-							}, 1200);
-						},
-					});
+					if (!videoPlayed3) {
+						finsource.play();
+						videoPlayed3 = true;
+					}
 				},
-			},
-		});
+			});
+		}
 
-		// videoHecker.forEach((video, i) => {
-		// 	gsap.to(video, {
-		// 		opacity: 1,
-		// 		delay: 1 * i,
+		// let count = 0;
+		// let videoHecker = gsap.utils.toArray(".video-hecker");
+		// let videoPlayed2 = false;
+
+		// if(videoHecker.length) {
+		// 	const tl = gsap.timeline({
 		// 		scrollTrigger: {
-		// 			trigger: video,
-		// 			start: 'top 90%',
-		// 			end: 'bottom 90%',
+		// 			trigger: videoHecker,
+		// 			start: "top 70%",
+		// 			end: "bottom 70%",
 		// 			markers: true,
-		// 			onSnapComplete: () => {
-		// 				console.log();
-		// 				if (!videoPlayed2) {
-		// 					video.play();
-		// 					// count++
-		// 					// if(count > 3) {
-		// 					// 	videoPlayed2 = true;
-		// 					// }
-		// 				}
+		// 			onEnter: () => {
+		// 				gsap.to(videoHecker, {
+		// 					opacity: 1,
+		// 					duration: 1,
+		// 					stagger: 0.6,
+		// 					onStart: () => {
+		// 						const playVideo = setInterval(() => {
+		// 							if (count < videoHecker.length) {
+		// 								videoHecker[count].play();
+		// 								count++;
+		// 							} else {
+		// 								videoPlayed2 = true;
+		// 								clearInterval(playVideo);
+		// 							}
+		// 						}, 400);
+		// 					},
+		// 				});
 		// 			},
-		// 		}
-		// 	})
-		// })
+		// 		},
+		// 	});
+		// }
 
 		let bannerAnimation = document.querySelector(
 			".banner-head__animation-right"
@@ -399,6 +417,24 @@ const Gsap = {
 				duration: 1,
 			});
 		}
+
+		// gsap.registerEffect({
+		// 	name: "swapText",
+		// 	effect: (targets, config) => {
+		// 	  let tl = gsap.timeline({delay: config.delay});
+		// 	  tl.to(targets, {opacity: 0, duration: config.duration / 2});
+		// 	  tl.add(() => targets[0].innerText = config.text);
+		// 	  tl.to(targets, {opacity: 1, duration: config.duration});
+		// 	  return tl;
+		// 	},
+		// 	defaults: {duration: 1},
+		// 	extendTimeline: true
+		// });
+
+		// var tl = gsap.timeline({repeat: -1});
+		// tl.swapText(".banner-head__title-change", {text: "If you want to boost your business, sales or self esteem", delay: 2})
+		//   .swapText(".banner-head__title-change", {text: "If your branding is anything but consistent and -on brand-", delay: 2})
+		//   .swapText(".banner-head__title-change", {text: "If your website is in desperate need of a polish.", delay: 2}); // back to the start
 	},
 };
 

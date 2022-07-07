@@ -2,6 +2,9 @@
 	// transition-delay: 600ms;
 	padding-bottom: 150px;
 	// transition: $dur $ease;
+	@include mq($phone) {
+		padding-bottom: 50px;
+	}
 }
 
 .brands__slider-row {
@@ -54,9 +57,9 @@
 }
 
 .brands__slider-img {
-	img {
-		opacity: 0.4;
-	}
+	// img {
+	// 	opacity: 0.4;
+	// }
 
 	@include mq($phone-s) {
 		img {

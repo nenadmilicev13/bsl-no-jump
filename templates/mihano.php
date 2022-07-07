@@ -26,6 +26,7 @@ get_header(); ?>
                             <div class="single-work__intro-flex-item-left">
                                 <ul>
                                     <li>Logo Design</li>
+                                    <li>Branding</li>
                                 </ul>
                             </div>
                             <div class="single-work__intro-flex-item-right">
@@ -39,7 +40,7 @@ get_header(); ?>
             <div class="image-sec image-sec--white">
                 <div class="wrapper">
                     <div class="image-sec__logo">
-                        <video class="video-mihano" muted width="400px" height="200px" playsinline style="pointer-events: none;" autoplay>
+                        <video class="video-mihano" muted width="400px" height="200px" playsinline style="pointer-events: none;">
 							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/MM1.mp4" type="video/mp4">
 							<source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/MM1.ogg" type="video/ogg">
 							Your browser does not support the video tag.
@@ -51,25 +52,46 @@ get_header(); ?>
             <div class="carousel-sec">
                 <div class="carousel">
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano1.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano2.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano3.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano4.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano5.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano6.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano7.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano8.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano9.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano10.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano11.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano12.jpg" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="logo-carousel">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/many-logos.png" alt="many-logos" id=""></img>   
+                <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/many-logos.png" alt="many-logos" id=""></img>    -->
             </div>
 
             <div class="text-left-img-right triger-start">
@@ -112,8 +134,12 @@ get_header(); ?>
             </div>
             
             <div class="project-name">
-                <h5>FinSource Accounting</h5>
-                <span>2021</span>
+                <div class="project-name__item">
+                    <a href="http://localhost/baseline/fe-work/"><h5>Back to work</h5></a>
+                </div>
+                <div class="project-name__item">
+                    <h5>FinSource Accounting / 2021</h5>
+                </div>
             </div>
 
             <div class="related-works">

@@ -25,6 +25,8 @@ get_header(); ?>
                         <div class="single-work__intro-flex">
                             <div class="single-work__intro-flex-item-left">
                                 <ul class="fadeIn-text">
+                                    <li>Illustrations</li>
+                                    <li>Content Writing</li>
                                     <li>Monograph Design</li>
                                 </ul>
                             </div>
@@ -51,7 +53,7 @@ get_header(); ?>
                            </div>
                         </div>
                         <div class="text-left-img-right__image">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo2.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-book.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -60,19 +62,25 @@ get_header(); ?>
             <div class="carousel-sec">
                 <div class="carousel">
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-slick1.png" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo3.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-slick1.png" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo2.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-slick1.png" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo1.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-slick1.png" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo4.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-slick1.png" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo5.jpg" alt="">
+                    </div> -->
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo6.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo7.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -106,8 +114,12 @@ get_header(); ?>
             </div>
 
             <div class="project-name">
-                <h5>FC Jedinstvo Gospodjinci</h5>
-                <span>2019</span>
+                <div class="project-name__item">
+                    <a href="http://localhost/baseline/fe-work/"><h5>Back to work</h5></a>
+                </div>
+                <div class="project-name__item">
+                    <h5>FC Jedinstvo Gospodjinci / 2019</h5>
+                </div>
             </div>
 
             <div class="related-works">

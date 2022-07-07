@@ -17,11 +17,11 @@ get_header(); ?>
                     <div class="banner-head__animation">
                         <div class="banner-head__animation-left">
                                 <span class="section-head__pretitle">Get Started</span>
-                                <h1 class="banner-head__title">If your website is in desperate need of a polish.</h1>
+                                <h1 class="banner-head__title banner-head__title-change">If your website is in desperate need of a polish.</h1>
                                 <span class="banner-head__subtitle banner-head__subtitle--sm">Whatever the reason, we’re here to help.</span>
                         </div>
                         <div class="banner-head__animation-right">
-                            <video class="video-p" muted width="309px" height="539px" autoplay loop playsinline style="pointer-events: none;">
+                            <video class="video-getStarted" muted width="309px" height="539px" autoplay loop playsinline style="pointer-events: none;">
                                 <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/contact2.mp4" type="video/mp4">
                                 <source src="http://localhost/baseline/wp-content/themes/baseline/assets/video/contact2.ogg" type="video/ogg">
                                 Your browser does not support the video tag.

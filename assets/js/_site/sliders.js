@@ -12,6 +12,7 @@ const Sliders = {
 		// slider
 		slider.slick({
 			slidesToShow: 1,
+			useTransform: false, // fix za blicanje na kraju slajda//
 			responsive: [
 				{
 					breakpoint: 1024,
@@ -32,6 +33,7 @@ const Sliders = {
 			arrows: false,
 			swipeToSlide: true,
 			touchThreshold: 100,
+			useTransform: false, // fix za blicanje na kraju slajda//
 			responsive: [
 				{
 					breakpoint: 767,

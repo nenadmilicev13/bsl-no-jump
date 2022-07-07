@@ -14,7 +14,7 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--atoll">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-hero.png" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-hero.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -178,8 +178,12 @@ get_header(); ?>
             </div>
             
             <div class="project-name">
-                <h5>FinSource Accounting</h5>
-                <span>2021</span>
+                <div class="project-name__item">
+                    <a href="http://localhost/baseline/fe-work/"><h5>Back to work</h5></a>
+                </div>
+                <div class="project-name__item">
+                    <h5>Nestlé Copes / 2019</h5>
+                </div>
             </div>
 
             <div class="related-works">

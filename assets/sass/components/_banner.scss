@@ -67,22 +67,33 @@
   }
 }
 
-.banner-head--text__single-post-img {
-  position: absolute;
-  right: 16%;
-  top: 57%;
-  z-index: 1;
-}
+// .banner-head--text__single-post-img {
+//   position: absolute;
+//   right: 16%;
+//   top: 57%;
+//   z-index: 1;
+// }
 
 .banner-head__animation {
   display: flex;
   align-items: center;
+  padding-top: 200px;
+
+  @include mq($phone) {
+    display: block;
+    padding-top: 150px;
+  }
 }
 
 .banner-head__animation-left,
 .banner-head__animation-right {
   flex: 50%;
   max-width: 50%;
+
+  @include mq($phone) {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .banner-head__animation-right {
@@ -112,7 +123,7 @@
 
     &::before {
       content: '';
-      height: 104px;
+      height: 0;
     }
   }
 }
@@ -166,12 +177,12 @@
     height: auto;
     border-radius: 10px;
     z-index: 1;
-    padding-top: 40px;
+    margin-top: 120px;
   }
 
   @include mq($phone) {
     img {
-      padding-top: 0;
+      margin-top: 90px;
     }
   }
 }
@@ -194,7 +205,7 @@
 
 .banner-head__content {
   max-width: 890px;
-  padding-top: 100px;
+  padding-top: 200px;
 
   @include mq($tablet-l) {
     max-width: 835px;
@@ -206,7 +217,7 @@
 
   @include mq($phone) {
     max-width: 596px;
-    padding-top: 50px;
+    padding-top: 150px;
   }
 }
 
@@ -228,11 +239,6 @@
   align-items: end;
 }
 
-// .banner-head__content-left {
-//   flex: 0 0 100%;
-//   max-width: 100%;
-// }
-
 .banner-head__title {
   font-size: 70px;
   font-weight: 400;
@@ -251,7 +257,15 @@
   }
 
   @include mq($phone) {
-    font-size: 40px;
+    font-size: 50px;
+  }
+}
+
+.single {
+  @include mq($phone) {
+    .banner-head__title {
+      padding-bottom: 40px;
+    }
   }
 }
 
@@ -271,7 +285,7 @@
   }
 
   @include mq($phone) {
-    font-size: 23px;
+    font-size: 21px;
   }
 }
 
