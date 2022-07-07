@@ -151,8 +151,13 @@ get_header(); ?>
             </div>
 
             <div class="project-name">
-                <h5>Hecker Construction Inc.</h5>
-                <span>2018</span>
+                <div class="project-name__item">
+                    <a href="http://localhost/baseline/fe-work/"><h5>Back to work</h5></a>
+                </div>
+                <div class="project-name__item">
+                    <h5>Hecker Construction Inc. / 2018</h5>
+                </div>
+                
             </div>
 
             <div class="related-works">

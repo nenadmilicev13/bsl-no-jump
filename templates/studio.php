@@ -31,7 +31,7 @@ get_header(); ?>
             </div>
             <div class="team">
                 <div class="wrapper">
-                    <h2 class="section-head__title section-head__title--white">We are a bunch of highly organized, embarrassingly geeky, hyper creative, digital freaks, who take darts playing at the office very seriously.</h2>
+                    <h2 class="section-head__title section-head__title--white">We are a bunch of highly organized, embarrassingly geeky, hyper creative, digital freaks, who take playing darts at the office very seriously.</h2>
                     <div class="team__container">
                         <div class="team-item">
                             <div class="team-item__img">
@@ -98,11 +98,20 @@ get_header(); ?>
                         </div>
                         <div class="team-item">
                             <div class="team-item__img">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/team-new.png" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/ognjen.jpg" alt="">
                             </div>
                             <div class="team-item__info">
                                 <span class="time-item__name">Ognjen Djurasinovic</span>
-                                <span class="time-item-position">Position</span>
+                                <span class="time-item-position">SEO Expert</span>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-item__img">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/petar.jpg" alt="">
+                            </div>
+                            <div class="team-item__info">
+                                <span class="time-item__name">Petar Radjenovic</span>
+                                <span class="time-item-position">Graphic Designer</span>
                             </div>
                         </div>
                     </div>
@@ -122,7 +131,7 @@ get_header(); ?>
                             <h3 class="half-sec__right-title half-sec__right-title2">Each has a personality.</h3>
                             <h3 class="half-sec__right-title half-sec__right-title2">A set of values.</h3>
                             <h3 class="half-sec__right-title half-sec__right-title2">A goal.</h3>
-                            <h3 class="half-sec__right-title half-sec__right-title2">A vision (for the future).</h3>
+                            <h3 class="half-sec__right-title half-sec__right-title2">A vision.</h3>
                             <p class="half-sec__right-desc">Through creating unique digital experiences, 
                             we can help your brand come to life.</p>
                             <div class="half-sec__right-btn">
@@ -130,9 +139,6 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="half-sec__change-text">
-                        <p>We create digital experiences for analogue humans.</p>
-                    </div> -->
                 </div>
             </div>
             <section class="philosophie">
@@ -481,14 +487,6 @@ get_header(); ?>
 			</div>
 
 		</main><!-- #main -->
-        <!-- <div class="cursor">
-			<div class="cursor-media">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="apps"></img>
-			</div>	
-		</div> -->
-        
-  		<!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

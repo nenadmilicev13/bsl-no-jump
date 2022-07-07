@@ -27,7 +27,14 @@ get_header(); ?>
                             <div class="single-work__intro-flex-item-left">
                                 <ul class="fadeIn-text">
                                     <li>Logo Design</li>
-                                    <li>Packaging Design</li>
+                                    <li>Illustrations</li>
+                                    <li>Packaging</li>
+                                    <li>Brochure</li>
+                                </ul>
+                                <ul class="fadeIn-text">
+                                    <li>Posters</li>
+                                    <li>Social Posts</li>
+                                    <li>Swag</li>
                                 </ul>
                             </div>
                             <div class="single-work__intro-flex-item-right fadeIn-text">
@@ -90,9 +97,59 @@ get_header(); ?>
                 </div>
             </div>
 
+            
+
+            <div class="small-image small-image--fallow">
+                <div class="wrapper">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-landscape-brochure.jpg" alt="">
+                </div>
+            </div>
+
+            
+
+            <div class="carousel-sec">
+                <div class="carousel">
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post2.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post3.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post4.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post5.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post6.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post7.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post8.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post9.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-sec">
+                <div class="wrapper">
+                    <div class="image-sec__full-img">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-mockup.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
             <div class="small-image small-image--fallow triger-end">
                 <div class="wrapper">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-tetrapack-design.png" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Grass-Power.jpg" alt="">
                 </div>
             </div>
 
@@ -109,12 +166,6 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="small-image small-image--fallow">
-                <div class="wrapper">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-landscape-brochure.jpg" alt="">
-                </div>
-            </div>
-
             <div class="image-sec">
                 <div class="wrapper">
                     <div class="image-sec__full-img">
@@ -123,37 +174,13 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="carousel-sec">
-                <div class="carousel">
-                    <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
-                    </div>
-                    <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
-                    </div>
-                    <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
-                    </div>
-                    <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
-                    </div>
-                    <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-car.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <div class="image-sec">
-                <div class="wrapper">
-                    <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-mockup.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-
             <div class="project-name">
-                <h5>QANYA</h5>
-                <span>2019</span>
+                <div class="project-name__item">
+                    <a href="http://localhost/baseline/fe-work/"><h5>Back to work</h5></a>
+                </div>
+                <div class="project-name__item">
+                    <h5>QANYA / 2019</h5>
+                </div>
             </div>
 
             <div class="related-works">
