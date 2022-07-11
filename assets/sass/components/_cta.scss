@@ -73,14 +73,14 @@
 
     @include mq($tablet) {
         img {
-            width: 60%;
+            // width: 60%;
             margin: 100px auto;
         }
     }
 
     @include mq($phone) {
         img {
-            width: 70%;
+            // width: 70%;
             margin: 50px auto 0;
         }
     }

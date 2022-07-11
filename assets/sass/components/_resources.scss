@@ -162,9 +162,22 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
+    @include mq($phone) {
+        display: block;
+
+        img {
+            margin-bottom: 30px;
+        }
+    }
 }
 
 .single__content-image-text__item {
     flex: 50%;
     max-width: 50%;
+
+    @include mq($phone) {
+        flex: 100%;
+        max-width: 100%;
+    }
 }

@@ -14,7 +14,7 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--fallow">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-banner.jpg" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hands-holding-open-book.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ get_header(); ?>
             </div>
             <div class="image-sec__full-img">
                 <div class="wrapper">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-mockup.jpg" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/book-about-soccer-covers-and-spread.jpg" alt="">
                 </div>
             </div>
 
@@ -53,7 +53,7 @@ get_header(); ?>
                            </div>
                         </div>
                         <div class="text-left-img-right__image">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-book.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/male-hands-holding-book.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -62,22 +62,22 @@ get_header(); ?>
             <div class="carousel-sec">
                 <div class="carousel">
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo3.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/illustration-of-senior-male.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo2.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/old-photo-three-soccer-players.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo1.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/old-photo-men-sitting-on-soccer-bench.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo4.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/old-photo-four-players-on-soccer-field.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo5.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/old-photo-soccer-team-group-photo.jpg" alt="">
                     </div> -->
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo6.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/old-photo-soccer-player-with-fan.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo7.jpg" alt="">
@@ -88,7 +88,7 @@ get_header(); ?>
 
             <div class="small-image small-image--fallow triger-start">
                 <div class="wrapper">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/fk-jedinstvo-monografija3.png" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/open-book-about-soccer.jpg" alt="">
                 </div>
             </div>
 
@@ -96,12 +96,12 @@ get_header(); ?>
                 <div class="wrapper">
                     <div class="three-fold-img__wrap">
                         <div class="three-fold-img__item-left">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-3.png" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/book-covers-jubilee.jpg" alt="">
                         </div>
 
                         <div class="three-fold-img__item-right">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-4.png" alt="" id=""></img>
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/jedinstvo-5.png" alt="" id=""></img>      
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hands-turning-pages-of-book-about-soccer.jpg" alt="" id=""></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/open-book-with-illustration-inside.jpg" alt="" id=""></img>      
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ get_header(); ?>
 
             <div class="small-image small-image--fallow triger-end">
                 <div class="wrapper">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/FK-jedinstvo-monografija.png" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/open-book-about-soccer-with-photos-and-text.jpg" alt="">
                 </div>
             </div>
 

@@ -53,7 +53,7 @@ get_header(); ?>
 					<div class="cards__container">
 						<div class="card-item card-item__one hover-js"data-image-src="view">
 							<a href="/baseline/fe-hecker/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-construction-logo.svg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Hecker Construction</h5>
 									<p class="card-item__info-text">Bringing construction up to date - reconstructing a modern brand identity</p>
@@ -62,7 +62,7 @@ get_header(); ?>
 						</div>
 						<div class="card-item card-item__two hover-js"data-image-src="view">
 							<a href="/baseline/fe-nestle/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-copes-poster.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Nestlé</h5>
 									<p class="card-item__info-text">Health meets fun - illustrations and graphic concepts for app campaing</p>
@@ -71,7 +71,7 @@ get_header(); ?>
 						</div>
 						<div class="card-item card-item__three hover-js"data-image-src="view">
 							<a href="/baseline/fe-mihano/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-momosa-female-model.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Mihano Momosa</h5>
 									<p class="card-item__info-text">At the forefront of uniqueness and individuality - creating a logo for success</p>
@@ -80,7 +80,7 @@ get_header(); ?>
 						</div>
 						<div class="card-item  card-item__four hover-js"data-image-src="view">
 							<a href="/baseline/fe-qanya/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-work.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-mint-leaf-background.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">QANYA</h5>
 									<p class="card-item__info-text">A drinkable rainforest - designing the logo and packaging that links this juice to its origin</p>
@@ -672,7 +672,7 @@ get_header(); ?>
 						<div class="services__container">
 							<div class="services__item-left">
 								<span class="section-head__pretitle">Services</span>
-								<h3 id="section-head__title--sm" class="section-head__title ">Helping businesses grow and brands evolve since 2008</h3>
+								<h2 id="section-head__title--sm" class="section-head__title ">Check out our services to see how we can help your business grow.</h2>
 							</div>
 							<div class="services__item-right">
 								<div class="services__item-right-item">
@@ -834,7 +834,7 @@ get_header(); ?>
 			</div>
 
 			<div class="cta cta--home">
-				<div class="wrapper wrapper--sm">
+				<div class="wrapper">
 					<div class="cta__container">
 						<div class="cta__wrap">
 							<div class="cta__left">

@@ -110,7 +110,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="cta">
-				<div class="wrapper wrapper--sm">
+				<div class="wrapper">
 					<div class="cta__container">
 					<div class="cta__wrap">
 						<div class="cta__left">

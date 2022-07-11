@@ -26,7 +26,7 @@ get_header(); ?>
 					<div class="cards__container cards__container-work">
 						<div class="card-item hover-js"data-image-src="view">
 						<a href="/baseline/fe-finsource/">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/finsource-business-card.jpg" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/green-business-cards.jpg" alt="">
 							<div class="card-item__info">
 								<h5 class="card-item__info-title">FinSource Accounting</h5>
 								<p class="card-item__info-text">Laoreet amet nec et varius leo, sollicitudin aliquet suspendisse tristique. Faucibus lobortis potenti et tortor sed in magnis velit ac.</p>
@@ -35,7 +35,7 @@ get_header(); ?>
 						</div>
 						<div class="card-item card-item__two hover-js"data-image-src="view">
 							<a href="/baseline/fe-nestle/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-copes-poster.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Nestlé</h5>
 									<p class="card-item__info-text">Cursus id volutpat eleifend id quis in natoque velit. Integer risus adipiscing sed platea quis platea a purus consectetur.</p>
@@ -45,7 +45,7 @@ get_header(); ?>
 						
 						<div class="card-item card-item__three hover-js" data-image-src="view">
 							<a href="/baseline/fe-mihano/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-momosa-girl-model.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Mihano Momosa</h5>
 									<p class="card-item__info-text">Nisl diam sed porttitor amet ullamcorper velit enim, faucibus sed.</p>
@@ -56,7 +56,7 @@ get_header(); ?>
 						
 						<div class="card-item card-item__four hover-js" data-image-src="view">
 							<a href="/baseline/fe-fc-jedinstvo-gospodjinci/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/fc-jedinstvo.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/open-book-cover.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">FC Jedinstvo Gospodjinci</h5>
 									<p class="card-item__info-text">Laoreet amet nec et varius leo, sollicitudin aliquet suspendisse tristique.</p>
@@ -66,7 +66,7 @@ get_header(); ?>
 						<div class="break-line"></div>
 						<div class="card-item card-item__five hover-js"data-image-src="view">
 							<a href="/baseline/fe-hecker/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-construction-logo.svg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Hecker</br> Construction</h5>
 									<p class="card-item__info-text">Magna ultrices dictum odio morbi sagittis quis at orci.</p>
@@ -76,7 +76,7 @@ get_header(); ?>
 						<div class="break-line"></div>
 						<div class="card-item card-item__six hover-js"data-image-src="view">
 							<a href="/baseline/fe-qanya/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-work.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-mint-leaf-background.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">QANYA</h5>
 									<p class="card-item__info-text">Laoreet amet nec et varius leo, sollicitudin aliquet suspendisse tristique. Faucibus lobortis potenti et tortor sed in magnis velit ac.</p>
@@ -95,7 +95,7 @@ get_header(); ?>
 			</div>
 
             <div class="cta">
-				<div class="wrapper wrapper--sm">
+				<div class="wrapper">
 					<div class="cta__container">
 					<div class="cta__wrap">
 						<div class="cta__left">

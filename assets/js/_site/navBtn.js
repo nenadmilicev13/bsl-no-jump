@@ -31,9 +31,7 @@ const NavBtn = {
                     opacity: isHidden ? 0 : 1,
                     height: isHidden ? '0' : '100%',
                     display: isHidden ? 'none' : 'block',
-                    // duration: .7,
                     y: -25,
-                    // ease: "back.out(1.7)",
                     overwrite: true, // kill other tweens of this element (don't stack up or conflict)
                     onComplete: () => isHidden && mainNav.classList.add("hidden"),
                 });
