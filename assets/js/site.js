@@ -11,7 +11,6 @@ import Gsap from "./_site/gsap";
 import modal from "./_site/modal";
 
 jQuery(function () {
-	console.log("test");
 
 	// // Cursor
 	Cursor.init();
@@ -26,14 +25,18 @@ jQuery(function () {
 	ScrollingText.init();
 
 	// Split
-	Split.init();
-
+	if(document.querySelector('.banner-head__title' || '.banner-head__subtitle')) {
+		Split.init();
+	}
+	
 	// Header
 	Header.init();
 
 	// Modal
 
-	modal.init();
+	if(document.querySelector('.modal')) {
+		modal.init();
+	}
 
 	// Video
 	Video.init();

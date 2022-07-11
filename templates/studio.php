@@ -24,7 +24,7 @@ get_header(); ?>
                 <div class="banner__image">
                     <div class="wrapper">
                         <div class="banner__img">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/studio2.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/designers-working-and-talking.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ get_header(); ?>
                     <div class="half-sec__container">
                         <div class="half-sec__left">
                             <div class="half-sec__left-img">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/studio3.jpg" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/designer-working.jpg" alt="">
                             </div>
                         </div>
                         <div class="half-sec__right">
@@ -468,7 +468,7 @@ get_header(); ?>
             </div>
 
             <div class="cta">
-				<div class="wrapper wrapper--sm">
+				<div class="wrapper">
 					<div class="cta__container">
 						<div class="cta__wrap">
 							<div class="cta__left">

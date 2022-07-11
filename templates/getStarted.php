@@ -39,18 +39,14 @@ get_header(); ?>
                             <p> You usually go by</p>
                         </div>
                         <input class="name-field" placeholder="(name)" type="text">
-                        <!-- <sup>(name)</sup> -->
                         <span> and you're not mad when</span>
                         <span>someone emails you at</span>
                         <div class="contact-text2">
                             <p> and you're not mad when someone emails you at</p>
-                            <!-- <p></p> -->
                         </div>
                         <input class="email-field" placeholder="(email)" type="text">
-                        <!-- <sup>(e-mail)</sup> -->
                         <div class="contact-text3">
                             <p>Your business is awesome but you need a bit of help with</p>
-                            <!-- <p></p> -->
                         </div>
                         <span>Your business is</span>
                         <span>awesome but you need a bit of help with</span>
@@ -89,17 +85,8 @@ get_header(); ?>
                 </div>
             </div>
 
-            <!-- <div class="contact-cta-bottom">
-                <div class="wrapper">
-                    <div class="section-head">
-                        <h2 class="section-head__title">Thanks for trusting us with your project! We’ll get back to you ASAP.</h2>
-                        <p>Or you can email us directly at <a href="mailto:contact@wearebaselinecom">contact@wearebaseline.com</a></p>
-                    </div>
-                </div>
-            </div> -->
-
             <div class="cta">
-				<div class="wrapper wrapper--sm">
+				<div class="wrapper">
 					<div class="cta__container">
 						<div class="cta__wrap">
 							<div class="cta__left">
@@ -118,13 +105,6 @@ get_header(); ?>
 			</div>
             
 		</main><!-- #main -->
-		<!-- <div class="cursor">
-			<div class="cursor-media">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
-			</div>	
-		</div> -->
-        <!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

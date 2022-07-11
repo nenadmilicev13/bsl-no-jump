@@ -11,8 +11,6 @@ const modal = {
 		const openModal = document.querySelector(".modalTrigger");
 		const videoAutoplay = document.querySelector(".videoAutoplay");
 
-		console.log(openModal);
-
 		openModal.addEventListener("click", () => {
 			modal.classList.remove("hidden");
 			videoAutoplay.src += "&autoplay=1";

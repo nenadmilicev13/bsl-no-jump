@@ -210,7 +210,6 @@ const Gsap = {
 
 		const cardsItem = $(".card-item");
 		const cards = gsap.utils.toArray(".card-item");
-		// console.log(cards);
 
 		if (cardsItem.length) {
 			gsap.set(".card-item", { y: 100 });
@@ -336,7 +335,6 @@ const Gsap = {
 						if (count < videoHecker.length) {
 							videoHecker[count].play();
 							count++;
-							// console.log(videoHecker[count]);
 							videoPlayed2 = true;
 						}
 					},
@@ -361,43 +359,9 @@ const Gsap = {
 			});
 		}
 
-		// let count = 0;
-		// let videoHecker = gsap.utils.toArray(".video-hecker");
-		// let videoPlayed2 = false;
-
-		// if(videoHecker.length) {
-		// 	const tl = gsap.timeline({
-		// 		scrollTrigger: {
-		// 			trigger: videoHecker,
-		// 			start: "top 70%",
-		// 			end: "bottom 70%",
-		// 			markers: true,
-		// 			onEnter: () => {
-		// 				gsap.to(videoHecker, {
-		// 					opacity: 1,
-		// 					duration: 1,
-		// 					stagger: 0.6,
-		// 					onStart: () => {
-		// 						const playVideo = setInterval(() => {
-		// 							if (count < videoHecker.length) {
-		// 								videoHecker[count].play();
-		// 								count++;
-		// 							} else {
-		// 								videoPlayed2 = true;
-		// 								clearInterval(playVideo);
-		// 							}
-		// 						}, 400);
-		// 					},
-		// 				});
-		// 			},
-		// 		},
-		// 	});
-		// }
-
 		let bannerAnimation = document.querySelector(
 			".banner-head__animation-right"
 		);
-		console.log(bannerAnimation);
 
 		if (bannerAnimation) {
 			gsap.to(bannerAnimation, {

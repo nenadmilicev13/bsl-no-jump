@@ -289,6 +289,10 @@
     display: flex;
     justify-content: space-between;
 
+    @include mq($tablet) {
+        padding: 0 10px;
+    }
+
     @include mq($tablet-xs) {
         padding: 0;
         flex-direction: column;
@@ -358,6 +362,12 @@
                 width: 100%;
                 // transform: translateX(-100%);
             }
+        }
+    }
+
+    @include mq($tablet) {
+        span {
+            max-width: 291px;
         }
     }
 

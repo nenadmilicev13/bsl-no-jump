@@ -39,7 +39,7 @@ const Sliders = {
 					breakpoint: 767,
 					settings: {
 						slidesToShow: 1.5,
-						centerPadding: '80px',
+						centerPadding: '40px',
 						centerMode: false,
 						variableWidth: false,
 					}

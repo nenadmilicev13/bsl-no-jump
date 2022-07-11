@@ -83,7 +83,7 @@ get_header(); ?>
                            </div>
                         </div>
                         <div class="text-left-img-right__image">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-frog.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/rain-forest-frog-on-leaf.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ get_header(); ?>
             <div class="image-sec">
                 <div class="wrapper">
                     <div class="image-sec__logo image-sec__logo--sm">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-frog-design.png" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-2019-Cane-Juice.png" alt="">
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@ get_header(); ?>
 
             <div class="small-image small-image--fallow">
                 <div class="wrapper">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-landscape-brochure.jpg" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-open-brochure.jpg" alt="">
                 </div>
             </div>
 
@@ -110,31 +110,34 @@ get_header(); ?>
             <div class="carousel-sec">
                 <div class="carousel">
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-by-the-pool-holding-qanya-cane-water.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post2.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-drinking-qanya-lime-ginger-mint.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post3.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-holding-salad-and-qanya-tetra-pak.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post4.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-lime-background.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post5.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-mint-background.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post6.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-passion-fruit-background.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post7.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-packaging-mustard-background-with-lime-ginger-mint.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post8.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-packaging-purple-background-with-passion-fruit-basil.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Instagram-Post9.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-passion-fruit-basil-with-illustraded-pattern.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-passion-fruit-packaging-with-illustraded-pattern.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -142,14 +145,14 @@ get_header(); ?>
             <div class="image-sec">
                 <div class="wrapper">
                     <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-mockup.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-holding-iphone.jpg" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="small-image small-image--fallow triger-end">
                 <div class="wrapper">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Qanya-Grass-Power.jpg" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-grass-power-logo.jpg" alt="">
                 </div>
             </div>
 
@@ -157,11 +160,58 @@ get_header(); ?>
                 <div class="wrapper">
                     <div class="half-image__container">
                         <div class="half-image-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-T-shirt-mockup.jpg" alt=""></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-grass-power-logo-on-t-shirt.jpg" alt=""></img>
                         </div>
                         <div class="half-image-item">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-cap-mockup.jpg" alt=""></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-grass-power-logo-on-baseball-cap.jpg" alt=""></img>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-sec">
+                <div class="carousel">
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-black-friday-sale.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-female-and-couple-kayaking.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-female-holding-male.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-female-holding-scarf.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-female-kayaking.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-female-mountain-climbing.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-female-spreading-hands.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-female-yoga-by-the-sea.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-hand-holding-balloons.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-happy-female-jumping-on-the-dock.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-male-in-front-the-lake-and-mountains.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-on-us-flag.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-rio-de-janeiro-landscape.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-line-art-bottle-women-sitting-on-stairs.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -169,7 +219,7 @@ get_header(); ?>
             <div class="image-sec">
                 <div class="wrapper">
                     <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-poster.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/qanya-is-here-poster-on-wall.jpg" alt="">
                     </div>
                 </div>
             </div>

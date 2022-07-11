@@ -164,13 +164,15 @@
 .card-item {
     flex: 0 0 30%;
     max-width: 30%;
-    margin: 0 20px;
+    // margin: 0 20px;
+    margin-right: 20px;
     max-height: 705px;
     opacity: 0;
 
     img {
         width: 100%;
         margin-top: 50px;
+        border-radius: 20px;
     }
 
     @include mq($lap-small) {

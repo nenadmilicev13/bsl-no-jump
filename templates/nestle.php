@@ -14,7 +14,7 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--atoll">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-hero.jpg" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/posters-on-the-wall-with-female-in-front.jpg" alt="posters-on-the-wall-with-female-in-front">
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ get_header(); ?>
                 <div class="wrapper">
                     <p class="concept">CONCEPT 01</p>
                     <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-mockup.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/humanity-street-billboard.jpg" alt="humanity-street-billboard">
                     </div>
                 </div>
             </div>
@@ -72,12 +72,12 @@ get_header(); ?>
                 <div class="wrapper">
                     <div class="three-fold-img__wrap three-fold-img__wrap--reverse">
                         <div class="three-fold-img__item-left">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-mobile1.png" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-mobile1.png" alt="estle-mobile1">
                         </div>
 
                         <div class="three-fold-img__item-right">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-newspapers.jpg" alt="many-logos" id=""></img>
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle3.jpg" alt="many-logos" id=""></img>      
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/humanity-newspaper-ad.jpg" alt="humanity-newspaper-ad"></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/humanity-couple-on-purple-background.jpg" alt="humanity-couple-on-purple-background"></img>      
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ get_header(); ?>
                 <div class="wrapper">
                     <p class="concept">CONCEPT 02</p>
                     <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle_billboard.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/fertiliti-bus-stop-billboards.jpg" alt="fertiliti-bus-stop-billboards">
                     </div>
                 </div>
             </div>
@@ -96,11 +96,11 @@ get_header(); ?>
                 <div class="wrapper">
                     <div class="three-fold-img__wrap ">
                         <div class="three-fold-img__item-left">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Nestle-PosterMockup.jpg" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/fertiliti-wall-posters.jpg" alt="fertiliti-wall-posters">
                         </div>
 
                         <div class="three-fold-img__item-right">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/NestleNewspaper Mock.jpg" alt="many-logos" id=""></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/fertiliti-newspaper-ad.jpg" alt="fertiliti-newspaper-ad"></img>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ get_header(); ?>
                 <div class="wrapper">
                     <p class="concept">CONCEPT 03</p>
                     <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestleeBil.png" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/billboard-gay-couple-holding-dog-illustration.jpg" alt="billboard-gay-couple-holding-dog-illustration">
                     </div>
                 </div>
             </div>
@@ -119,11 +119,11 @@ get_header(); ?>
                 <div class="wrapper">
                     <div class="three-fold-img__wrap ">
                         <div class="three-fold-img__item-left">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Nestle-PosterMockup.jpg" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/newspaper-ad-couple-illustration.jpg" alt="newspaper-ad-couple-illustration">
                         </div>
 
                         <div class="three-fold-img__item-right">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/NestleNewspaper Mock.jpg" alt="many-logos" id=""></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/posters-in-subway-illustration-art-with-female-in-front.jpg" alt="posters-in-subway-illustration-art-with-female-in-front"></img>
                         </div>
                     </div>
                 </div>
@@ -134,12 +134,12 @@ get_header(); ?>
                     <p class="concept">CONCEPT 04</p>
                     <div class="three-fold-img__wrap">
                         <div class="three-fold-img__item-left">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-mobile2.png" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-mobile2.png" alt="nestle-mobile2">
                         </div>
 
                         <div class="three-fold-img__item-right">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle-stopWaiting.png" alt="" id=""></img>
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle_billboard_urban_poster_mockup.png" alt="" id=""></img>      
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/wellbeing-couple-on-peach-background-looking-at-crib.jpg" alt="wellbeing-couple-on-peach-background-looking-at-crib"></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/nestle_billboard_urban_poster_mockup.png" alt="nestle_billboard_urban_poster_mockup"></img>      
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@ get_header(); ?>
             <div class="image-sec">
                 <div class="wrapper">
                     <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Nestle_Mockup.png" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/wellbeing-posters-on-wall-with-male-in-front.jpg" alt="wellbeing-posters-on-wall-with-male-in-front">
                     </div>
                 </div>
             </div>
@@ -159,11 +159,11 @@ get_header(); ?>
                 <p class="concept">CONCEPT 05</p>
                     <div class="three-fold-img__wrap">
                         <div class="three-fold-img__item-left">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Nestle_Time_Now.png" alt="" id=""></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/expecting-female-typing-macbook-holding-package.jpg" alt="expecting-female-typing-macbook-holding-package"></img>
                         </div>
 
                         <div class="three-fold-img__item-right">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Nestle_Time_Now_2.png" alt="" id=""></img>      
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/expecting-female-looking-ahead.jpg" alt="expecting-female-looking-ahead"></img>      
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@ get_header(); ?>
             <div class="image-sec">
                 <div class="wrapper">
                     <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/NestleTimeAd.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/expecting-newspaper-ad-female-typing-macbook-holding-package.jpg" alt="expecting-newspaper-ad-female-typing-macbook-holding-package">
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@ get_header(); ?>
                     <div class="related-works__container">
                         <div class="related-work__item">
                             <div class="related-work__item-img">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/related-works-1.jpg" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/related-works-1.jpg" alt="related-works-1">
                             </div>
                             <div class="entry-content related-work__item-info">
                                 <h5>Nestlé</h5>
@@ -200,7 +200,7 @@ get_header(); ?>
                         </div>
                         <div class="related-work__item">
                             <div class="related-work__item-img">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/related-works-2.jpg" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/related-works-2.jpg" alt="related-works-2">
                             </div>
                             <div class="entry-content related-work__item-info">
                                 <h5>luv Michael</h5>
@@ -209,7 +209,7 @@ get_header(); ?>
                         </div>
                         <div class="related-work__item">
                             <div class="related-work__item-img">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/related-works-3.jpg" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/related-works-3.jpg" alt="elated-works-3">
                             </div>
                             <div class="entry-content related-work__item-info">
                                 <h5>Mihano Momosa</h5>
