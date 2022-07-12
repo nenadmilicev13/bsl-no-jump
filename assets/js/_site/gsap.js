@@ -45,7 +45,7 @@ const Gsap = {
 		if (body.length) {
 			gsap.to(body, {
 				opacity: 1,
-				delay: 0.3,
+				delay: 0.4,
 				duration: 1,
 				ease: "power3.out",
 			});

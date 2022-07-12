@@ -146,14 +146,14 @@
         }
     }
 
-    @include mq($tablet-l) {
-        flex: 0 0 50%;
-        max-width: 50%;
-        li {
-            font-size: 15px;
-            line-height: 1.4;
-        }
-    }
+    // @include mq($tablet-l) {
+    //     flex: 0 0 50%;
+    //     max-width: 50%;
+    //     li {
+    //         font-size: 15px;
+    //         line-height: 1.4;
+    //     }
+    // }
 
     @include mq($tablet-s) {
         flex: 0 0 33.3%;

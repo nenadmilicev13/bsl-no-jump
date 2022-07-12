@@ -14,7 +14,7 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--black">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihanoo.jpg" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-green-pink-mihano-momosa-spring-summer-2020-collection.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -52,40 +52,46 @@ get_header(); ?>
             <div class="carousel-sec">
                 <div class="carousel">
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano1.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-pink-mihano-momosa-spring-summer-2020-collection-in-front-of-building-facade.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano2.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-pink-mihano-momosa-web-celebration-2020-collection-standing-on-box.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano3.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-green-mihano-momosa-web-celebration-2020-collection-sitting-on-box.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano4.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/awakeing-2021-collection-mihano-momosa-white-dress-with-feathers.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano5.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-purple-mihano-momosa-autumn-winter-2020-collection-with-cardboard-boxes.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano6.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-white-mihano-momosa-dress-with-feathers.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano7.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-pink-mihano-momosa-autumn-winter-2020-collection-pushing-cloth-stand-hanger.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano8.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-yellow-mihano-momosa-dress-with-shopping-bags.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano9.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-white-mihano-momosa-spring-summer-2020-collection-eating-croissant.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano10.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-white-mihano-momosa-web-celebration-2020-collection-standing-on-box.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano11.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-white-mihano-momosa-decennium-2022-collection-standing-behind-piano.jpg" alt="">
                     </div>
                     <div class="carousel__item hover-js"data-image-src="drag">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano12.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-mihano-momosa-white-dress-sitting-in-front-of-yellow-background.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-white-mihano-momosa-dive-into-love-2021-collection-on-surfboard.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-momosa-stylist-working-on-spring-summer-2020-collection.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -104,7 +110,7 @@ get_header(); ?>
                            </div>
                         </div>
                         <div class="text-left-img-right__image">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-wedding-dress.jpg" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/female-model-in-mihano-momosa-beige-dress-with-feathers-holding-handbag.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -114,12 +120,12 @@ get_header(); ?>
                 <div class="wrapper">
                     <div class="three-fold-img__wrap">
                         <div class="three-fold-img__item-left">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-bag.jpg" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hand-holding-mihano-momosa-pink-handbag.jpg" alt="">
                         </div>
 
                         <div class="three-fold-img__item-right">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-bags.jpg" alt="many-logos" id=""></img>
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-shirt.jpg" alt="many-logos" id=""></img>      
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-momosa-shopping-bags-on-cloth-stand-hanger.jpg" alt="mihano-momosa-shopping-bags-on-cloth-stand-hanger"></img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-momosa-shirts-with-pattern-design-on-cloth-stand-hanger.jpg" alt="mihano-momosa-shirts-with-pattern-design-on-cloth-stand-hanger"></img>      
                         </div>
                     </div>
                 </div>
@@ -128,7 +134,7 @@ get_header(); ?>
             <div class="image-sec">
                 <div class="wrapper">
                     <div class="image-sec__full-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihanooo.jpg" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/designer-mihano-momosa-sitting-on-white-chairs-with-female-model-in-bridal-collection.jpg" alt="designer-mihano-momosa-sitting-on-white-chairs-with-female-model-in-bridal-collection">
                     </div>
                 </div>
             </div>
@@ -177,13 +183,6 @@ get_header(); ?>
             </div>
             
 		</main><!-- #main -->
-		<!-- <div class="cursor">
-			<div class="cursor-media">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/view.svg" alt="" id="view"></img>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/drag.svg" alt=""id="drag"></img>
-			</div>	
-		</div> -->
-        <!-- <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script> -->
 	</div><!-- #primary -->
 <?php
 get_footer();

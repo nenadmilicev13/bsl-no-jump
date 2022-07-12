@@ -14,7 +14,7 @@ get_header(); ?>
             <div class="banner-head__image banner-head__image--blue">
                 <div class="wrapper">
                     <div class="banner-head__image-wrap">
-                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Hecker-flag.jpg" alt="">
+                        <img width="1600px" height="760px" loading="eager" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-construction-blue-flag-hanging-from-the-ceiling.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="text-top-img-bottom__image fadeIn-text">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/Hecker-logo-skica.png" alt=""> </img>
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/letter-h-logo-for-construction-company-sketches.jpg" alt=""> </img>
                     </div>
                 </div>
             </div>
@@ -81,14 +81,35 @@ get_header(); ?>
                            </div>
                         </div>
                         <div class="text-left-img-right__image">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerHelmet.jpg" alt=""> </img>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/blue-hecker-construction-helmet.jpg" alt=""> </img>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <div class="carousel-sec">
+                <div class="carousel">
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/blue-hecker-construction-button-badges.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/blue-hecker-construction-caution-tape.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/blue-hecker-construction-flag-illustration-design.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/blue-hecker-construction-signboard-in-yard.jpg" alt="">
+                    </div>
+                    <div class="carousel__item hover-js"data-image-src="drag">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/hecker-construction-blue-pocket-folder-illustration-design.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
             <div class="image-sec__full-img triger-end">
                 <div class="wrapper">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerMockup.jpg" alt=""> </img>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/blue-hecker-construction-business-cards-floating.jpg" alt=""> </img>
                 </div>
             </div>
 
@@ -146,7 +167,7 @@ get_header(); ?>
 
             <div class="image-sec__full-img">
                 <div class="wrapper">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/HeckerTshirt.jpg" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/blue-hecker-construction-t-shirt.jpg" alt="">
                 </div>
             </div>
 

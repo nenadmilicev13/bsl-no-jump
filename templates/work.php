@@ -45,7 +45,7 @@ get_header(); ?>
 						
 						<div class="card-item card-item__three hover-js" data-image-src="view">
 							<a href="/baseline/fe-mihano/">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-momosa-girl-model.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/mihano-momosa-female-model.jpg" alt="">
 								<div class="card-item__info">
 									<h5 class="card-item__info-title">Mihano Momosa</h5>
 									<p class="card-item__info-text">Nisl diam sed porttitor amet ullamcorper velit enim, faucibus sed.</p>
